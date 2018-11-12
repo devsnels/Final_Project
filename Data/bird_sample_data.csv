@@ -1,0 +1,630 @@
+Scripps ID,SDCVC ID,Species,Sample type,% Coverage,Average Coverage,Collection date,Country,State,County,Latitude,Longitude,Sequencing Status,Consensus Name
+W001,208-0677,American Crow,Tissue,100,888.138,2007-10-02,USA,CA,San Diego,32.846,-116.93,coding-complete,W001_2007-10-02_USA_CA_SanDiego_-116.930_32.846.fasta
+W002,208-0953,American Crow,Tissue,100,4697.12,2007-10-02,USA,CA,San Diego,32.786,-116.95,coding-complete,W002_2007-10-02_USA_CA_SanDiego_-116.950_32.786.fasta
+W003,209-0632,American Crow,Tissue,100,2672.04,2008-08-18,USA,CA,San Diego,32.784,-116.97,coding-complete,W003_2008-08-18_USA_CA_SanDiego_-116.970_32.784.fasta
+W004,209-2652,American Crow,Tissue,100,804.511,2009-05-13,USA,CA,San Diego,32.904,-117.243,coding-complete,W004_2009-05-13_USA_CA_SanDiego_-117.243_32.904.fasta
+W005,W12-0618,American Crow,Tissue,100,2785.81,2012-10-29,USA,CA,San Diego,32.828,-117.258,coding-complete,W005_2012-10-29_USA_CA_SanDiego_-117.258_32.828.fasta
+W006,W13-0060,American Crow,Tissue,100,472.995,2013-07-10,USA,CA,San Diego,32.885,-116.946,coding-complete,W006_2013-07-10_USA_CA_SanDiego_-116.946_32.885.fasta
+W007,W13-0064,American Crow,Tissue,100,606.326,2013-07-23,USA,CA,San Diego,33.081,-117.247,coding-complete,W007_2013-07-23_USA_CA_SanDiego_-117.247_33.081.fasta
+W008,W14-0111,American Crow,Tissue,100,3281.47,2014-10-07,USA,CA,San Diego,32.677,-117.071,coding-complete,W008_2014-10-07_USA_CA_SanDiego_-117.071_32.677.fasta
+W009,15-B-0414-B,American Crow,Tissue,100,4176.46,2015-10-02,USA,CA,San Diego,32.827,-117.142,coding-complete,W009_2015-10-02_USA_CA_SanDiego_-117.142_32.827.fasta
+W010,16-B-0935-B,American Crow,Tissue,100,587.186,2016-08-15,USA,CA,San Diego,32.631,-117.073,coding-complete,W010_2016-08-15_USA_CA_SanDiego_-117.073_32.631.fasta
+W011,209-1616 T,Sharp-shinned hawk,Tissue,100,292.286,2008-12-08,USA,CA,San Diego,33.016,-116.802,coding-complete,W011_2008-12-08_USA_CA_SanDiego_-116.802_33.016.fasta
+W012,W14-0125 T,Hawk,Tissue,100,4789.33,2014-10-28,USA,CA,San Diego,33.016,-117.07,coding-complete,W012_2014-10-28_USA_CA_SanDiego_-117.070_33.016.fasta
+W013,16-B-0830-B,Hawk,Tissue,100,874.683,2016-06-30,USA,CA,San Diego,33.015,-117.053,coding-complete,W013_2016-06-30_USA_CA_SanDiego_-117.053_33.015.fasta
+W014,M14-0148,Culex quinquefasciatus,Pooled mosquitos,100,4494.08,2014-10-31,USA,CA,San Diego,32.839,-117.129,coding-complete,W014_2014-10-31_USA_CA_SanDiego_-117.129_32.839.fasta
+W015,15-Q-0217,Culex quinquefasciatus,Pooled mosquitos,100,4729.51,2015-08-21,USA,CA,San Diego,32.652,-117.107,coding-complete,W015_2015-08-21_USA_CA_SanDiego_-117.107_32.652.fasta
+W016,16-Q-0503,Culex tarsalis,Pooled mosquitos,100,2959.68,2016-05-16,USA,CA,San Diego,x,x,coding-complete,W016_2016-05-16_USA_CA_SanDiego__.fasta
+W017,208-0907,Jaybird,Tissue,100,4590.66,2007-03-19,USA,CA,San Diego,32.757,-117.072,coding-complete,W017_2007-03-19_USA_CA_SanDiego_-117.072_32.757.fasta
+W018,208-0945,American Crow,Tissue,100,2666.62,2007-03-19,USA,CA,San Diego,33.239,-117.335,coding-complete,W018_2007-03-19_USA_CA_SanDiego_-117.335_33.239.fasta
+W019,208-0953,American Crow,Tissue,100,2044.84,2007-10-02,USA,CA,San Diego,32.786,-116.95,coding-complete,W019_2007-10-02_USA_CA_SanDiego_-116.950_32.786.fasta
+W020,208-0943,American Crow,Tissue,100,3965.89,2007-10-02,USA,CA,San Diego,33.246,-117.328,coding-complete,W020_2007-10-02_USA_CA_SanDiego_-117.328_33.246.fasta
+W021,208-1201,Hawk,Tissue,100,4219.38,2007-10-25,USA,CA,San Diego,x,x,coding-complete,W021_2007-10-25_USA_CA_SanDiego__.fasta
+W022,208-2252,American Crow,Tissue,100,2079.04,2008-02-06,USA,CA,San Diego,32.855,-117.004,coding-complete,W022_2008-02-06_USA_CA_SanDiego_-117.004_32.855.fasta
+W026,208-2824,American Crow,Tissue,100,0.586091,2008-05-14,USA,CA,San Diego,32.901,-117.158,coding-complete,W026_2008-05-14_USA_CA_SanDiego_-117.158_32.901.fasta
+W028,208-3179,American Crow,Tissue,100,1.89818,2008-06-11,USA,CA,San Diego,32.958,-117.241,coding-complete,W028_2008-06-11_USA_CA_SanDiego_-117.241_32.958.fasta
+W029,208-3183,American Crow,Tissue,100,8.11479,2008-06-11,USA,CA,San Diego,32.999,-117.255,coding-complete,W029_2008-06-11_USA_CA_SanDiego_-117.255_32.999.fasta
+W030,208-3351b,Sharp-shinned hawk,Tissue,100,2721.32,2008-06-25,USA,CA,San Diego,32.73,-117.032,coding-complete,W030_2008-06-25_USA_CA_SanDiego_-117.032_32.730.fasta
+W031,208-0941,American Crow,Tissue,100,133.676,2008-09-15,USA,CA,San Diego,32.958,-117.14,coding-complete,W031_2008-09-15_USA_CA_SanDiego_-117.140_32.958.fasta
+W032,208-3343,Coopers Hawk,Tissue,100,1171.03,2008-06-25,USA,CA,San Diego,32.763,-117.251,coding-complete,W032_2008-06-25_USA_CA_SanDiego_-117.251_32.763.fasta
+W033,209-0513b,American Crow,Tissue,100,2091.93,2008-08-07,USA,CA,San Diego,32.844,-116.969,coding-complete,W033_2008-08-07_USA_CA_SanDiego_-116.969_32.844.fasta
+W034,209-0526b,Western Scrub Jay,Tissue,100,1319.07,2008-08-07,USA,CA,San Diego,33.091,-117.07,coding-complete,W034_2008-08-07_USA_CA_SanDiego_-117.070_33.091.fasta
+W035,209-0945b,American Crow,Tissue,100,145.04,2008-09-18,USA,CA,San Diego,33.032,-117.289,coding-complete,W035_2008-09-18_USA_CA_SanDiego_-117.289_33.032.fasta
+W036,209-0946b,American Crow,Tissue,100,1423.67,2008-09-18,USA,CA,San Diego,33.03,-116.886,coding-complete,W036_2008-09-18_USA_CA_SanDiego_-116.886_33.030.fasta
+W037,209-0947b,American Crow,Tissue,100,581.301,2008-09-18,USA,CA,San Diego,33.228,-117.01,coding-complete,W037_2008-09-18_USA_CA_SanDiego_-117.010_33.228.fasta
+W038,209-1603b,American Crow,Tissue,100,618.923,2008-12-01,USA,CA,San Diego,32.928,-117.139,coding-complete,W038_2008-12-01_USA_CA_SanDiego_-117.139_32.928.fasta
+W039,209-1619b,American Crow,Tissue,100,309.287,2008-12-08,USA,CA,San Diego,32.951,-117.058,coding-complete,W039_2008-12-08_USA_CA_SanDiego_-117.058_32.951.fasta
+W040,209-0917b,American Crow,Tissue,100,110.956,2008-09-15,USA,CA,San Diego,32.81,-116.649,coding-complete,W040_2008-09-15_USA_CA_SanDiego_-116.649_32.810.fasta
+W041,209-0987b,American Crow,Tissue,100,2737.55,2008-09-18,USA,CA,San Diego,32.837,-116.766,coding-complete,W041_2008-09-18_USA_CA_SanDiego_-116.766_32.837.fasta
+W042,209-1880,Red-shouldered Hawk,Tissue,100,1780.15,2009-01-20,USA,CA,San Diego,33.005,-117.042,coding-complete,W042_2009-01-20_USA_CA_SanDiego_-117.042_33.005.fasta
+W043,209-1616b,Sharp-shinned hawk,Tissue,100,1614.7,2008-12-08,USA,CA,San Diego,33.016,-116.802,coding-complete,W043_2008-12-08_USA_CA_SanDiego_-116.802_33.016.fasta
+W044,209-1582b,Sharp-shinned hawk,Tissue,100,1657.34,2008-12-01,USA,CA,San Diego,33.33,-117.227,coding-complete,W044_2008-12-01_USA_CA_SanDiego_-117.227_33.330.fasta
+W046,209-2472b,Red-shouldered Hawk,Tissue,100,2191.13,2009-04-08,USA,CA,San Diego,32.754,-116.958,coding-complete,W046_2009-04-08_USA_CA_SanDiego_-116.958_32.754.fasta
+W047,209-2710b,American Crow,Tissue,100,1163.65,2009-05-21,USA,CA,San Diego,32.972,-117.261,coding-complete,W047_2009-05-21_USA_CA_SanDiego_-117.261_32.972.fasta
+W048,209-1755b,Sharp-shinned hawk,Tissue,100,1619.68,2008-12-22,USA,CA,San Diego,32.78,-116.924,coding-complete,W048_2008-12-22_USA_CA_SanDiego_-116.924_32.780.fasta
+W049,209-2895b,American Crow,Tissue,100,231.117,2009-06-18,USA,CA,San Diego,33.256,-116.983,coding-complete,W049_2009-06-18_USA_CA_SanDiego_-116.983_33.256.fasta
+W050,210-0371b,American Crow,Tissue,100,1370.12,2009-09-15,USA,CA,San Diego,32.828,-116.518,coding-complete,W050_2009-09-15_USA_CA_SanDiego_-116.518_32.828.fasta
+W051,210-0453,American Crow,Tissue,100,1169.73,2009-09-30,USA,CA,San Diego,33.26,-117.072,coding-complete,W051_2009-09-30_USA_CA_SanDiego_-117.072_33.260.fasta
+W055,W13-0070,American Crow,Tissue,100,4528.94,2013-08-01,USA,CA,San Diego,32.792,-116.958,coding-complete,W055_2013-08-01_USA_CA_SanDiego_-116.958_32.792.fasta
+W057,W13-0076,American Crow,Tissue,100,1652.66,2013-09-09,USA,CA,San Diego,32.84,-116.998,coding-complete,W057_2013-09-09_USA_CA_SanDiego_-116.998_32.840.fasta
+W058,W13-0095,American Crow,Tissue,100,1140.27,2013-11-01,USA,CA,San Diego,32.736,-117.149,coding-complete,W058_2013-11-01_USA_CA_SanDiego_-117.149_32.736.fasta
+W059,W13-0098,American Crow,Tissue,100,293.525,2013-11-07,USA,CA,San Diego,32.84,-116.998,coding-complete,W059_2013-11-07_USA_CA_SanDiego_-116.998_32.840.fasta
+W060,W13-0096b,Hawk,Tissue,100,4329.7,2013-11-07,USA,CA,San Diego,32.674,-117.24,coding-complete,W060_2013-11-07_USA_CA_SanDiego_-117.240_32.674.fasta
+W061,W14-0064b,Hawk,Tissue,99.96,2784.46,2014-08-06,USA,CA,San Diego,32.838,-116.894,coding-complete,W061_2014-08-06_USA_CA_SanDiego_-116.894_32.838.fasta
+W062,W14-0051,American Crow,Tissue,100,2027.22,2014-07-17,USA,CA,San Diego,32.741,-117.125,coding-complete,W062_2014-07-17_USA_CA_SanDiego_-117.125_32.741.fasta
+W063,W14-0065,American Crow,Tissue,100,332.399,2014-08-13,USA,CA,San Diego,32.797,-117.02,coding-complete,W063_2014-08-13_USA_CA_SanDiego_-117.020_32.797.fasta
+W064,W14-0068,Jay,Tissue,100,225.439,2014-08-13,USA,CA,San Diego,32.776,-116.996,coding-complete,W064_2014-08-13_USA_CA_SanDiego_-116.996_32.776.fasta
+W065,W14-0098,American Crow,Tissue,100,1354.72,2014-09-25,USA,CA,San Diego,32.852,-116.937,coding-complete,W065_2014-09-25_USA_CA_SanDiego_-116.937_32.852.fasta
+W066,W14-0101,American Crow,Tissue,100,3216.7,2014-10-03,USA,CA,San Diego,32.84,-116.997,coding-complete,W066_2014-10-03_USA_CA_SanDiego_-116.997_32.840.fasta
+W067,W14-0102,American Crow,Tissue,100,3971.82,2014-10-03,USA,CA,San Diego,32.775,-117.205,coding-complete,W067_2014-10-03_USA_CA_SanDiego_-117.205_32.775.fasta
+W068,W14-0125b,Hawk,Tissue,100,1122.56,2014-10-28,USA,CA,San Diego,33.016,-117.07,coding-complete,W068_2014-10-28_USA_CA_SanDiego_-117.070_33.016.fasta
+W070,M14-0160,Culex quinquefasciatus,Pooled mosquitos,100,400.176,2014-11-07,USA,CA,San Diego,32.629,-116.966,coding-complete,W070_2014-11-07_USA_CA_SanDiego_-116.966_32.629.fasta
+W071,W14-0138b,Hawk,Tissue,100,143.739,2014-11-10,USA,CA,San Diego,32.932,-117.244,coding-complete,W071_2014-11-10_USA_CA_SanDiego_-117.244_32.932.fasta
+W072,W14-0142,American Crow,Tissue,100,2740.68,2014-11-17,USA,CA,San Diego,33.029,-117.084,coding-complete,W072_2014-11-17_USA_CA_SanDiego_-117.084_33.029.fasta
+W073,W14-0143,American Crow,Tissue,100,3995.8,2014-11-17,USA,CA,San Diego,33.018,-116.884,coding-complete,W073_2014-11-17_USA_CA_SanDiego_-116.884_33.018.fasta
+W074,W14-0154,Raven,Tissue,100,4916.23,2014-12-18,USA,CA,San Diego,32.797,-117.018,coding-complete,W074_2014-12-18_USA_CA_SanDiego_-117.018_32.797.fasta
+W075,W14-0155,Raven,Tissue,100,1489.88,2014-12-18,USA,CA,San Diego,32.736,-117.081,coding-complete,W075_2014-12-18_USA_CA_SanDiego_-117.081_32.736.fasta
+W076,15-B-00055-B,American Crow,Tissue,100,4475.31,2015-04-16,USA,CA,San Diego,32.835,-117.153,coding-complete,W076_2015-04-16_USA_CA_SanDiego_-117.153_32.835.fasta
+W077,15-B-00071-B,American Crow,Tissue,100,5350.44,2015-05-13,USA,CA,San Diego,32.852,-117.004,coding-complete,W077_2015-05-13_USA_CA_SanDiego_-117.004_32.852.fasta
+W078,15Q-00114,Culex quinquefasciatus ,Pooled mosquitos,100,2094.35,2015-07-10,USA,CA,San Diego,32.727,-117.045,coding-complete,W078_2015-07-10_USA_CA_SanDiego_-117.045_32.727.fasta
+W079,15Q-00115,Culex quinquefasciatus ,Pooled mosquitos,100,4996.8,2015-07-10,USA,CA,San Diego,32.733,-117.034,coding-complete,W079_2015-07-10_USA_CA_SanDiego_-117.034_32.733.fasta
+W080,15Q-00117,Culex quinquefasciatus ,Pooled mosquitos,100,4274.51,2015-07-10,USA,CA,San Diego,32.737,-117.029,coding-complete,W080_2015-07-10_USA_CA_SanDiego_-117.029_32.737.fasta
+W081,15Q-00147,Culex stigmatosoma,Pooled mosquitos,100,3269.36,2015-07-28,USA,CA,San Diego,32.849,-116.86,coding-complete,W081_2015-07-28_USA_CA_SanDiego_-116.860_32.849.fasta
+W082,15Q-00194,Culex quinquefasciatus,Pooled mosquitos,100,4652.47,2015-08-14,USA,CA,San Diego,33.18,-117.332,coding-complete,W082_2015-08-14_USA_CA_SanDiego_-117.332_33.180.fasta
+W083,15-B-00226-T,Cooper's hawk,Tissue,100,4580.94,2015-08-14,USA,CA,San Diego,33.137,-117.199,coding-complete,W083_2015-08-14_USA_CA_SanDiego_-117.199_33.137.fasta
+W084,15-B-00234-B,Sharp-shinned hawk,Tissue,100,2223.81,2015-08-18,USA,CA,San Diego,32.673,-117.053,coding-complete,W084_2015-08-18_USA_CA_SanDiego_-117.053_32.673.fasta
+W085,15Q-00217,Culex quinquefasciatus,Pooled mosquitos,100,4497.88,2015-08-21,USA,CA,San Diego,32.652,-117.107,coding-complete,W085_2015-08-21_USA_CA_SanDiego_-117.107_32.652.fasta
+W086,15Q-00222,Culex quinquefasciatus,Pooled mosquitos,100,4404.26,2015-08-28,USA,CA,San Diego,32.984,-117.227,coding-complete,W086_2015-08-28_USA_CA_SanDiego_-117.227_32.984.fasta
+W087,15Q-00229,Culex quinquefasciatus,Pooled mosquitos,100,5066.7,2015-08-28,USA,CA,San Diego,32.961,-117.254,coding-complete,W087_2015-08-28_USA_CA_SanDiego_-117.254_32.961.fasta
+W088,15Q-00232,Culex quinquefasciatus,Pooled mosquitos,100,4103.59,2015-08-28,USA,CA,San Diego,33.038,-117.249,coding-complete,W088_2015-08-28_USA_CA_SanDiego_-117.249_33.038.fasta
+W089,15Q-00275,Culex quinquefasciatus,Pooled mosquitos,100,3836.81,2015-09-29,USA,CA,San Diego,33.193,-117.121,coding-complete,W089_2015-09-29_USA_CA_SanDiego_-117.121_33.193.fasta
+W090,15Q-00285,Culex tarsalis,Pooled mosquitos,100,4553.66,2015-10-02,USA,CA,San Diego,32.812,-116.996,coding-complete,W090_2015-10-02_USA_CA_SanDiego_-116.996_32.812.fasta
+W093,16-Q-0803,Culex quinquefasciatus,Pooled mosquitos,100,3437.98,2016-08-11,USA,CA,San Diego,32.811,-117.164,coding-complete,W093_2016-08-11_USA_CA_SanDiego_-117.164_32.811.fasta
+W094,16-Q-0808,Culex quinquefasciatus,Pooled mosquitos,100,3658.54,2016-08-18,USA,CA,San Diego,32.697,-117.168,coding-complete,W094_2016-08-18_USA_CA_SanDiego_-117.168_32.697.fasta
+W095,17-B-1112-B,American Crow,Tissue,100,5148.45,2017-10-05,USA,CA,San Diego,32.857,-116.626,coding-complete,W095_2017-10-05_USA_CA_SanDiego_-116.626_32.857.fasta
+W096,17-B-1115-B,Western Scrub Jay,Tissue,100,3068.31,2017-10-16,USA,CA,San Diego,33.214,-116.692,coding-complete,W096_2017-10-16_USA_CA_SanDiego_-116.692_33.214.fasta
+W097,17-B-1117-B,American Crow,Tissue,100,3286.4,2017-10-19,USA,CA,San Diego,32.575,-117.125,coding-complete,W097_2017-10-19_USA_CA_SanDiego_-117.125_32.575.fasta
+W098,17-Q-1571,Culex stigmatosoma,Pooled mosquitos,100,3903.21,2017-08-28,USA,CA,San Diego,32.801,-116.876,coding-complete,W098_2017-08-28_USA_CA_SanDiego_-116.876_32.801.fasta
+W099,17-Q-1572,Culex quinquefasciatus,Pooled mosquitos,100,4258.28,2017-08-28,USA,CA,San Diego,32.913,-117.081,coding-complete,W099_2017-08-28_USA_CA_SanDiego_-117.081_32.913.fasta
+W100,17-Q-1690,Culex quinquefasciatus,Pooled mosquitos,100,2999.33,2017-10-05,USA,CA,San Diego,32.737,-117.098,coding-complete,W100_2017-10-05_USA_CA_SanDiego_-117.098_32.737.fasta
+W101,15B-272b,American Crow,Tissue,100,4769.94,2015-08-31,USA,CA,San Diego,32.643,-117.073,coding-complete,W101_2015-08-31_USA_CA_SanDiego_-117.073_32.643.fasta
+W102,15B-273b,American Crow,Tissue,100,4269.27,2015-08-31,USA,CA,San Diego,33.155,-117.324,coding-complete,W102_2015-08-31_USA_CA_SanDiego_-117.324_33.155.fasta
+W103,15B-274b,Western Scrub Jay,Tissue,100,3079.17,2015-08-31,USA,CA,San Diego,33.062,-117.253,coding-complete,W103_2015-08-31_USA_CA_SanDiego_-117.253_33.062.fasta
+W104,15B-407b,American Crow,Tissue,100,2520.23,2015-10-02,USA,CA,San Diego,33.025,-116.879,coding-complete,W104_2015-10-02_USA_CA_SanDiego_-116.879_33.025.fasta
+W105,15B-408b,American Crow,Tissue,100,343.949,2015-10-02,USA,CA,San Diego,33.075,-116.867,coding-complete,W105_2015-10-02_USA_CA_SanDiego_-116.867_33.075.fasta
+W107,15B-536b,Western Scrub Jay,Tissue,100,1681.52,2015-11-10,USA,CA,San Diego,33.167,-117.34,coding-complete,W107_2015-11-10_USA_CA_SanDiego_-117.340_33.167.fasta
+W108,15B-537b,American Crow,Tissue,100,279.559,2015-11-10,USA,CA,San Diego,33.013,-117.141,coding-complete,W108_2015-11-10_USA_CA_SanDiego_-117.141_33.013.fasta
+W109,15B-538b,American Crow,Tissue,100,441.21,2015-11-10,USA,CA,San Diego,32.837,-116.981,coding-complete,W109_2015-11-10_USA_CA_SanDiego_-116.981_32.837.fasta
+W110,16B-619T,American Crow,Tissue,100,1251.84,2016-01-27,USA,CA,San Diego,33.099,-117.003,coding-complete,W110_2016-01-27_USA_CA_SanDiego_-117.003_33.099.fasta
+W111,16B-622b,American Crow,Tissue,100,2742.5,2016-02-03,USA,CA,San Diego,32.748,-117.228,coding-complete,W111_2016-02-03_USA_CA_SanDiego_-117.228_32.748.fasta
+W112,16B-639b,American Crow,Tissue,100,3786.65,2016-02-18,USA,CA,San Diego,32.63,-117.024,coding-complete,W112_2016-02-18_USA_CA_SanDiego_-117.024_32.630.fasta
+W113,04-1247,American Crow,Tissue,100,3654.4,2004-05-25,USA,CA,Los Angeles,33.913,-118.033,coding-complete,W113_2004-05-25_USA_CA_Los Angeles_-118.033_33.913.fasta
+W114,04-1481,American Crow,Tissue,100,4383.31,2004-05-28,USA,CA,San Bernardino,34.111,-117.322,coding-complete,W114_2004-05-28_USA_CA_San Bernardino_-117.322_34.111.fasta
+W115,04-2895,American Crow,Tissue,100,3709.02,2004-07-09,USA,CA,Los Angeles,34.21,-118.506,coding-complete,W115_2004-07-09_USA_CA_Los Angeles_-118.506_34.210.fasta
+W116,04-3520,Yellow-billed Magpie,Tissue,100,3080.23,2004-07-23,USA,CA,Butte,39.526,-121.569,coding-complete,W116_2004-07-23_USA_CA_Butte_-121.569_39.526.fasta
+W117,05-3833,Western Scrub Jay,Tissue,100,4622.78,2005-06-13,USA,CA,Tulare,36.316,-119.33,coding-complete,W117_2005-06-13_USA_CA_Tulare_-119.330_36.316.fasta
+W119,05-6808,Yellow-billed Magpie,Tissue,100,2951.1,2005-08-03,USA,CA,Solano,38.39,-121.934,coding-complete,W119_2005-08-03_USA_CA_Solano_-121.934_38.390.fasta
+W121,06-5327,American Robin,Tissue,100,2623.63,2006-08-08,USA,CA,Lassen,40.018,-120.124,coding-complete,W121_2006-08-08_USA_CA_Lassen_-120.124_40.018.fasta
+W122,06-5870,California Scrub-Jay,Tissue,100,4600.32,2006-08-14,USA,CA,Butte,39.642,-121.53,coding-complete,W122_2006-08-14_USA_CA_Butte_-121.530_39.642.fasta
+W123,06-6901,Yellow-billed Magpie,Tissue,100,3701.71,2006-09-13,USA,CA,Stanislaus,37.651,-121.028,coding-complete,W123_2006-09-13_USA_CA_Stanislaus_-121.028_37.651.fasta
+W124,07-2820,California Scrub-Jay,Tissue,100,3665.62,2007-06-21,USA,CA,Butte,39.362,-121.66,coding-complete,W124_2007-06-21_USA_CA_Butte_-121.660_39.362.fasta
+W125,07-2921,California Scrub-Jay,Tissue,100,3960.56,2007-06-24,USA,CA,Stanislaus,37.641,-120.979,coding-complete,W125_2007-06-24_USA_CA_Stanislaus_-120.979_37.641.fasta
+W126,07-2975,California Scrub-Jay,Tissue,100,3381.47,2007-06-24,USA,CA,Fresno,36.821,-119.763,coding-complete,W126_2007-06-24_USA_CA_Fresno_-119.763_36.821.fasta
+W127,08-5102,Northern Mockingbird,Tissue,100,3309.64,2008-08-11,USA,CA,San Bernardino,34.033,-117.152,coding-complete,W127_2008-08-11_USA_CA_SanBernardino_-117.152_34.033.fasta
+W128,08-5151,Oak Titmouse,Tissue,100,2985.65,2008-08-12,USA,CA,Calaveras,38.235,-120.712,coding-complete,W128_2008-08-12_USA_CA_Calaveras_-120.712_38.235.fasta
+W129,08-5301,House Finch,Tissue,100,3723.91,2008-08-15,USA,CA,Los Angeles,34.107,-117.769,coding-complete,W129_2008-08-15_USA_CA_LosAngeles_-117.769_34.107.fasta
+W130,08-5363,California Scrub-Jay,Tissue,100,3882.46,2008-08-18,USA,CA,Contra Costa,38.015,-121.814,coding-complete,W130_2008-08-18_USA_CA_ContraCosta_-121.814_38.015.fasta
+W131,08-5568,California Scrub-Jay,Tissue,100,3275.71,2008-08-21,USA,CA,Stanislaus,37.537,-120.861,coding-complete,W131_2008-08-21_USA_CA_Stanislaus_-120.861_37.537.fasta
+W132,08-5779,American Crow,Tissue,100,4362.56,2008-08-25,USA,CA,Los Angeles,34.168,-118.752,coding-complete,W132_2008-08-25_USA_CA_LosAngeles_-118.752_34.168.fasta
+W133,09-1614,House Finch,Tissue,100,4646.85,2009-06-18,USA,CA,Kern,35.417,-119.073,coding-complete,W133_2009-06-18_USA_CA_Kern_-119.073_35.417.fasta
+W134,09-1753,California Scrub-Jay,Tissue,100,4158.18,2009-06-23,USA,CA,Kings,36.354,-119.622,coding-complete,W134_2009-06-23_USA_CA_Kings_-119.622_36.354.fasta
+W135,09-3142,Northern Mockingbird,Tissue,100,2854.43,2009-09-04,USA,CA,Stanislaus,37.51,-120.852,coding-complete,W135_2009-09-04_USA_CA_Stanislaus_-120.852_37.510.fasta
+W136,10-1660,California Scrub-Jay,Tissue,100,2012.78,2010-07-21,USA,CA,Stanislaus,37.547,-120.948,coding-complete,W136_2010-07-21_USA_CA_Stanislaus_-120.948_37.547.fasta
+W137,10-1803,California Scrub-Jay,Tissue,97.88,4012.25,2010-07-29,USA,CA,Placer,38.731,-121.357,coding-complete,W137_2010-07-29_USA_CA_Placer_-121.357_38.731.fasta
+W138,10-1833,House Sparrow,Tissue,100,4873.56,2010-07-30,USA,CA,Stanislaus,37.585,-120.952,coding-complete,W138_2010-07-30_USA_CA_Stanislaus_-120.952_37.585.fasta
+W139,10-1857,California Scrub-Jay,Tissue,100,2539.57,2010-08-02,USA,CA,Fresno,36.858,-119.756,coding-complete,W139_2010-08-02_USA_CA_Fresno_-119.756_36.858.fasta
+W140,11-1352,California Scrub-Jay,Tissue,100,3088.22,2011-07-11,USA,CA,San Joaquin,37.971,-121.302,coding-complete,W140_2011-07-11_USA_CA_SanJoaquin_-121.302_37.971.fasta
+W141,11-2058,Black-headed Grosbeak,Tissue,98.22,3459.63,2011-08-22,USA,CA,San Bernardino,34.135,-117.567,coding-complete,W141_2011-08-22_USA_CA_SanBernardino_-117.567_34.135.fasta
+W142,11-2646,Sparrow,Tissue,100,2692.38,2011-09-21,USA,CA,Placer,38.737,-121.229,coding-complete,W142_2011-09-21_USA_CA_Placer_-121.229_38.737.fasta
+W143,12-1341,American Crow,Tissue,100,3640.15,2012-06-06,USA,CA,Los Angeles,34.158,-118.043,coding-complete,W143_2012-06-06_USA_CA_LosAngeles_-118.043_34.158.fasta
+W144,12-1583,California Scrub-Jay,Tissue,100,1971.92,2012-06-12,USA,CA,Stanislaus,37.674,-120.981,coding-complete,W144_2012-06-12_USA_CA_Stanislaus_-120.981_37.674.fasta
+W145,12-1621,American Crow,Tissue,100,1948.88,2012-06-14,USA,CA,Riverside,34.002,-117.48,coding-complete,W145_2012-06-14_USA_CA_Riverside_-117.480_34.002.fasta
+W146,12-1897,American Crow,Tissue,100,3690.98,2012-06-21,USA,CA,Tulare,36.315,-119.29,coding-complete,W146_2012-06-21_USA_CA_Tulare_-119.290_36.315.fasta
+W147,12-2991,American Crow,Tissue,100,4607.05,2012-07-17,USA,CA,Los Angeles,34.249,-118.513,coding-complete,W147_2012-07-17_USA_CA_LosAngeles_-118.513_34.249.fasta
+W148,12-3004,American Crow,Tissue,100,2868.73,2012-07-17,USA,CA,Merced,37.347,-120.591,coding-complete,W148_2012-07-17_USA_CA_Merced_-120.591_37.347.fasta
+W149,12-3166,California Scrub-Jay,Tissue,100,4287.47,2012-07-22,USA,CA,Tulare,36.333,-119.329,coding-complete,W149_2012-07-22_USA_CA_Tulare_-119.329_36.333.fasta
+W150,12-3200,American Crow,Tissue,99.83,2844.62,2012-07-20,USA,CA,Los Angeles,34.061,-118.402,coding-complete,W150_2012-07-20_USA_CA_LosAngeles_-118.402_34.061.fasta
+W151,12-3725,Yellow-billed Magpie,Tissue,100,5458.77,2012-08-08,USA,CA,Merced,37.302,-120.6,coding-complete,W151_2012-08-08_USA_CA_Merced_-120.600_37.302.fasta
+W152,13-2824,American Robin,Tissue,100,3397.49,2013-08-02,USA,CA,Placer,38.808,-121.18,coding-complete,W152_2013-08-02_USA_CA_Placer_-121.180_38.808.fasta
+W153,13-3056,House Finch,Tissue,98.39,3033.86,2013-08-08,USA,CA,Shasta,40.57,-122.316,coding-complete,W153_2013-08-08_USA_CA_Shasta_-122.316_40.570.fasta
+W154,13-3073,California Scrub-Jay,Tissue,100,3655.53,2013-08-07,USA,CA,Butte,39.775,-121.596,coding-complete,W154_2013-08-07_USA_CA_Butte_-121.596_39.775.fasta
+W155,13-3100,California Scrub-Jay,Tissue,97.64,3256.19,2013-08-08,USA,CA,Los Angeles,33.859,-118.391,coding-complete,W155_2013-08-08_USA_CA_LosAngeles_-118.391_33.859.fasta
+W156,13-3102,Red-shouldered Hawk,Tissue,96.24,3011.87,2013-07-31,USA,CA,Los Angeles,34.098,-117.805,coding-complete,W156_2013-07-31_USA_CA_LosAngeles_-117.805_34.098.fasta
+W157,13-3197,House Finch,Tissue,99.4,3016.88,2013-08-12,USA,CA,Shasta,40.468,-122.277,coding-complete,W157_2013-08-12_USA_CA_Shasta_-122.277_40.468.fasta
+W158,13-3473,California Scrub-Jay,Tissue,100,4597.89,2013-08-20,USA,CA,Butte,39.732,-121.841,coding-complete,W158_2013-08-20_USA_CA_Butte_-121.841_39.732.fasta
+W159,13-3592,California Scrub-Jay,Tissue,100,2826.61,2013-08-25,USA,CA,Merced,37.338,-120.636,coding-complete,W159_2013-08-25_USA_CA_Merced_-120.636_37.338.fasta
+W160,13-3611,California Scrub-Jay,Tissue,99.67,1610.71,2013-08-26,USA,CA,Shasta,40.552,-122.406,coding-complete,W160_2013-08-26_USA_CA_Shasta_-122.406_40.552.fasta
+W161,17-824,American Crow,Tissue,100,3831.99,2017-06-17,USA,CA,Riverside,33.947,-117.542,coding-complete,W161_2017-06-17_USA_CA_Riverside_-117.542_33.947.fasta
+W162,17-907,Black-headed Grosbeak,Tissue,95.37,3119.27,2017-06-23,USA,CA,Lake,38.95,-122.618,coding-complete,W162_2017-06-23_USA_CA_Lake_-122.618_38.950.fasta
+W163,17-916,American Crow,Tissue,100,4211.15,2017-06-23,USA,CA,Los Angeles,34.116,-118.071,coding-complete,W163_2017-06-23_USA_CA_LosAngeles_-118.071_34.116.fasta
+W164,17-931,American Crow,Tissue,100,3458.05,2017-06-23,USA,CA,Los Angeles,34.197,-118.623,coding-complete,W164_2017-06-23_USA_CA_LosAngeles_-118.623_34.197.fasta
+W165,17-1011,California Scrub-Jay,Tissue,100,3772.95,2017-06-30,USA,CA,San Bernardino,34.105,-117.431,coding-complete,W165_2017-06-30_USA_CA_SanBernardino_-117.431_34.105.fasta
+W166,17-1031,American Crow,Tissue,100,3363.75,2017-07-03,USA,CA,Riverside,33.756,-117.469,coding-complete,W166_2017-07-03_USA_CA_Riverside_-117.469_33.756.fasta
+W167,17-1153,American Crow,Tissue,100,4309.62,2017-07-11,USA,CA,Riverside,33.927,-117.583,coding-complete,W167_2017-07-11_USA_CA_Riverside_-117.583_33.927.fasta
+W168,17-1174,American Crow,Tissue,100,3985.51,2017-07-13,USA,CA,Los Angeles,34.205,-118.847,coding-complete,W168_2017-07-13_USA_CA_LosAngeles_-118.847_34.205.fasta
+W169,17-1319,American Crow,Tissue,100,3633.3,2017-07-26,USA,CA,Contra Costa,37.921,-122.024,coding-complete,W169_2017-07-26_USA_CA_ContraCosta_-122.024_37.921.fasta
+W170,17-1373,California Scrub-Jay,Tissue,89.92,205.938,2017-07-31,USA,CA,Butte,39.505,-121.586,coding-complete,W170_2017-07-31_USA_CA_Butte_-121.586_39.505.fasta
+W171,17-1428,American Crow,Tissue,99.75,2090.35,2017-08-03,USA,CA,Contra Costa,37.797,-121.98,coding-complete,W171_2017-08-03_USA_CA_ContraCosta_-121.980_37.797.fasta
+W172,17-1746,Yellow-billed Magpie,Tissue,100,4448.47,2017-08-30,USA,CA,Butte,39.859,-122.001,coding-complete,W172_2017-08-30_USA_CA_Butte_-122.001_39.859.fasta
+W173,17-1715,American Crow,Tissue,100,4532.54,2017-08-28,USA,CA,Ventura,34.273,-118.668,coding-complete,W173_2017-08-28_USA_CA_Ventura_-118.668_34.273.fasta
+W174,17-1758,Yellow-billed Magpie,Tissue,100,3924.72,2017-08-31,USA,CA,Butte,39.859,-122.001,coding-complete,W174_2017-08-31_USA_CA_Butte_-122.001_39.859.fasta
+W175,04-GRLA 3152,Culex quinquefasciatus,Pooled mosquitos,100,2743.67,2004-09-02,USA,CA,Los Angeles,33.853,-118.102,coding-complete,W175_2004-09-02_USA_CA_LosAngeles_-118.102_33.853.fasta
+W176,04-GRLA 3155,Culex quinquefasciatus,Pooled mosquitos,100,3409.76,2004-09-02,USA,CA,Los Angeles,34.015,-118.13,coding-complete,W176_2004-09-02_USA_CA_LosAngeles_-118.130_34.015.fasta
+W177,05-GRLA 648,Culex quinquefasciatus,Pooled mosquitos,100,4878.27,2005-06-13,USA,CA,Los Angeles,33.842,-118.098,coding-complete,W177_2005-06-13_USA_CA_LosAngeles_-118.098_33.842.fasta
+W178,05-LONG 151,Culex tarsalis,Pooled mosquitos,95.91,1365.17,2005-06-21,USA,CA,Los Angeles,33.768,-118.119,coding-complete,W178_2005-06-21_USA_CA_LosAngeles_-118.119_33.768.fasta
+W179,06-GRLA 563,Culex quinquefasciatus,Pooled mosquitos,100,4471.24,2006-08-07,USA,CA,Los Angeles,34.181,-118.481,coding-complete,W179_2006-08-07_USA_CA_LosAngeles_-118.481_34.181.fasta
+W180,06-GRLA 559,Culex quinquefasciatus,Pooled mosquitos,100,4496.82,2006-08-05,USA,CA,Los Angeles,34.183,-118.485,coding-complete,W180_2006-08-05_USA_CA_LosAngeles_-118.485_34.183.fasta
+W181,07-CNSL 93,Culex quinquefasciatus,Pooled mosquitos,100,660.951,2007-07-20,USA,CA,Fresno,36.751,-119.616,coding-complete,W181_2007-07-20_USA_CA_Fresno_-119.616_36.751.fasta
+W182,07-KNGS 91,Culex quinquefasciatus,Pooled mosquitos,100,1913.08,2007-07-20,USA,CA,Kings,36.342,-119.624,coding-complete,W182_2007-07-20_USA_CA_Kings_-119.624_36.342.fasta
+W183,08-DLTA 557,Culex stigmatosoma,Pooled mosquitos,100,1548.16,2008-09-09,USA,CA,Tulare,36.567,-119.35,coding-complete,W183_2008-09-09_USA_CA_Tulare_-119.350_36.567.fasta
+W184,08-TRLK 1565,Culex pipiens,Pooled mosquitos,100,2529.92,2008-09-09,USA,CA,Stanislaus,37.522,-120.786,coding-complete,W184_2008-09-09_USA_CA_Stanislaus_-120.786_37.522.fasta
+W185,09-KNGS 170,Culex quinquefasciatus,Pooled mosquitos,100,2771.66,2009-07-28,USA,CA,Kings,36.423,-119.673,coding-complete,W185_2009-07-28_USA_CA_Kings_-119.673_36.423.fasta
+W186,09-CNSL 329,Culex quinquefasciatus,Pooled mosquitos,100,2705.55,2009-07-28,USA,CA,Fresno,36.66,-119.535,coding-complete,W186_2009-07-28_USA_CA_Fresno_-119.535_36.660.fasta
+W187,11-GRLA 6123,Culex quinquefasciatus,Pooled mosquitos,100,1226.02,2011-08-11,USA,CA,Los Angeles,34.193,-118.568,coding-complete,W187_2011-08-11_USA_CA_LosAngeles_-118.568_34.193.fasta
+W188,10-CNSL 536,Culex tarsalis,Pooled mosquitos,100,1176.47,2010-08-12,USA,CA,Fresno,36.653,-119.531,coding-complete,W188_2010-08-12_USA_CA_Fresno_-119.531_36.653.fasta
+W189,10-KNGS 446,Culex tarsalis,Pooled mosquitos,100,484.464,2010-08-12,USA,CA,Kings,36.226,-119.727,coding-complete,W189_2010-08-12_USA_CA_Kings_-119.727_36.226.fasta
+W190,11-GRLA 6122,Culex quinquefasciatus,Pooled mosquitos,100,3277.8,2011-08-11,USA,CA,Los Angeles,34.258,-118.529,coding-complete,W190_2011-08-11_USA_CA_LosAngeles_-118.529_34.258.fasta
+W191,12-TLRE 78,Culex tarsalis,Pooled mosquitos,100,251.171,2012-09-18,USA,CA,Tulare,36.094,-119.195,coding-complete,W191_2012-09-18_USA_CA_Tulare_-119.195_36.094.fasta
+W192,12-KNGS 474,Culex pipiens,Pooled mosquitos,100,2312.67,2012-09-04,USA,CA,Kings,36.319,-119.794,coding-complete,W192_2012-09-04_USA_CA_Kings_-119.794_36.319.fasta
+W193,12-SUYA 326,Culex tarsalis,Pooled mosquitos,100,2526.15,2012-08-27,USA,CA,Yuba,39.19,-121.589,coding-complete,W193_2012-08-27_USA_CA_Yuba_-121.589_39.190.fasta
+W194,12-TLRE 50,Culex tarsalis,Pooled mosquitos,100,323.454,2012-08-28,USA,CA,Tulare,36.144,-119.217,coding-complete,W194_2012-08-28_USA_CA_Tulare_-119.217_36.144.fasta
+W195,12-COAV 2195,Culex tarsalis,Pooled mosquitos,100,1343.22,2012-08-23,USA,CA,Riverside,33.462,-116.061,coding-complete,W195_2012-08-23_USA_CA_Riverside_-116.061_33.462.fasta
+W196,12-GRLA 826,Culex quinquefasciatus,Pooled mosquitos,100,697.658,2012-08-07,USA,CA,Los Angeles,33.937,-118.039,coding-complete,W196_2012-08-07_USA_CA_LosAngeles_-118.039_33.937.fasta
+W197,12-GRLA 5958,Culex quinquefasciatus,Pooled mosquitos,100,703.208,2012-08-29,USA,CA,Los Angeles,34.189,-118.469,coding-complete,W197_2012-08-29_USA_CA_LosAngeles_-118.469_34.189.fasta
+W198,12-CNSL 467,Culex stigmatosoma,Pooled mosquitos,100,2399.07,2012-08-10,USA,CA,Fresno,36.667,-119.534,coding-complete,W198_2012-08-10_USA_CA_Fresno_-119.534_36.667.fasta
+W199,12-FRWS 141,Culex tarsalis,Pooled mosquitos,100,3958.97,2012-08-14,USA,CA,Fresno,36.953,-120.59,coding-complete,W199_2012-08-14_USA_CA_Fresno_-120.590_36.953.fasta
+W200,12-FRWS 142,Culex tarsalis,Pooled mosquitos,100,696.513,2012-08-14,USA,CA,Fresno,36.953,-120.59,coding-complete,W200_2012-08-14_USA_CA_Fresno_-120.590_36.953.fasta
+W201,13-LAKE 305,Culex stigmatosoma,Pooled mosquitos,100,2676.88,2013-08-21,USA,CA,Lake,38.993,-122.875,coding-complete,W201_2013-08-21_USA_CA_Lake_-122.875_38.993.fasta
+W202,13-BUCO 89,Culex erythrothorax,Pooled mosquitos,100,1298.89,2013-08-14,USA,CA,Butte,39.65,-121.642,coding-complete,W202_2013-08-14_USA_CA_Butte_-121.642_39.650.fasta
+W203,13-GRLA 5984,Culex quinquefasciatus,Pooled mosquitos,100,404.599,2013-09-10,USA,CA,Los Angeles,34.293,-118.436,coding-complete,W203_2013-09-10_USA_CA_LosAngeles_-118.436_34.293.fasta
+W204,13-LAKE 395,Culex erythrothorax,Pooled mosquitos,100,3298.58,2013-09-11,USA,CA,Lake,39.077,-122.938,coding-complete,W204_2013-09-11_USA_CA_Lake_-122.938_39.077.fasta
+W205,13-WEST 123,Culex tarsalis,Pooled mosquitos,99.14,453.657,2013-08-28,USA,CA,Kern,35.093,-119.276,coding-complete,W205_2013-08-28_USA_CA_Kern_-119.276_35.093.fasta
+W206,13-WEST 126,Culex tarsalis,Pooled mosquitos,99.99,253.436,2013-08-28,USA,CA,Kern,35.093,-119.276,coding-complete,W206_2013-08-28_USA_CA_Kern_-119.276_35.093.fasta
+W207,13-SUYA 404,Culex tarsalis,Pooled mosquitos,100,200.511,2013-08-26,USA,CA,Sutter,39.16,-121.641,coding-complete,W207_2013-08-26_USA_CA_Sutter_-121.641_39.160.fasta
+W208,13-GRLA 5910,Culex quinquefasciatus,Pooled mosquitos,100,1715.2,2013-08-22,USA,CA,Los Angeles,34.222,-118.515,coding-complete,W208_2013-08-22_USA_CA_LosAngeles_-118.515_34.222.fasta
+W209,13-GRLA 5903,Culex quinquefasciatus,Pooled mosquitos,100,1479.4,2013-08-22,USA,CA,Los Angeles,34.19,-118.494,coding-complete,W209_2013-08-22_USA_CA_LosAngeles_-118.494_34.190.fasta
+W210,13-WVAL 888,Culex quinquefasciatus,Pooled mosquitos,100,470.489,2013-08-15,USA,CA,San Bernardino,34.071,-117.673,coding-complete,W210_2013-08-15_USA_CA_SanBernardino_-117.673_34.071.fasta
+W211,14-TRLK 154,Culex pipiens,Pooled mosquitos,100,2381.89,2014-06-17,USA,CA,Stanislaus,37.511,-120.826,coding-complete,W211_2014-06-17_USA_CA_Stanislaus_-120.826_37.511.fasta
+W212,14-CNSL 39,Culex quinquefasciatus,Pooled mosquitos,100,1813.77,2014-06-20,USA,CA,Fresno,36.866,-119.79,coding-complete,W212_2014-06-20_USA_CA_Fresno_-119.790_36.866.fasta
+W213,14-SUYA 110,Culex tarsalis,Pooled mosquitos,97.87,1731.3,2014-06-23,USA,CA,Yuba,39.165,-121.564,coding-complete,W213_2014-06-23_USA_CA_Yuba_-121.564_39.165.fasta
+W214,14-MADR 43,Culex tarsalis,Pooled mosquitos,100,1623.59,2014-06-24,USA,CA,Madera,37.026,-120.118,coding-complete,W214_2014-06-24_USA_CA_Madera_-120.118_37.026.fasta
+W215,14-TRLK 248,Culex pipiens,Pooled mosquitos,100,405.714,2014-07-03,USA,CA,Stanislaus,37.498,-120.852,coding-complete,W215_2014-07-03_USA_CA_Stanislaus_-120.852_37.498.fasta
+W216,14-WVAL 698,Culex quinquefasciatus,Pooled mosquitos,99.93,106.597,2014-07-08,USA,CA,San Bernardino,34.082,-117.664,coding-complete,W216_2014-07-08_USA_CA_SanBernardino_-117.664_34.082.fasta
+W217,14-CNTR 177,Culex tarsalis,Pooled mosquitos,100,1277.13,2014-07-07,USA,CA,Contra Costa,38.036,-122.117,coding-complete,W217_2014-07-07_USA_CA_ContraCosta_-122.117_38.036.fasta
+W218,14-ALCO 43,Culex tarsalis,Pooled mosquitos,100,779.069,2014-07-15,USA,CA,Alameda,37.669,-121.796,coding-complete,W218_2014-07-15_USA_CA_Alameda_-121.796_37.669.fasta
+W219,14-ANTV 16,Culex tarsalis,Pooled mosquitos,100,607.721,2014-07-22,USA,CA,Los Angeles,34.679,-118.065,coding-complete,W219_2014-07-22_USA_CA_LosAngeles_-118.065_34.679.fasta
+W220,14-CNSL 370,Culex quinquefasciatus,Pooled mosquitos,100,2880.81,2014-07-10,USA,CA,Fresno,36.503,-119.592,coding-complete,W220_2014-07-10_USA_CA_Fresno_-119.592_36.503.fasta
+W221,15-GRLA 160,Culex quinquefasciatus,Pooled mosquitos,100,4391.52,2015-05-14,USA,CA,Los Angeles,33.945,-118.197,coding-complete,W221_2015-05-14_USA_CA_LosAngeles_-118.197_33.945.fasta
+W222,15-CNSL 295,Culex quinquefasciatus,Pooled mosquitos,100,259.311,2015-06-09,USA,CA,Fresno,36.409,-119.842,coding-complete,W222_2015-06-09_USA_CA_Fresno_-119.842_36.409.fasta
+W223,15-SUYA 56,Culex tarsalis,Pooled mosquitos,100,2087.07,2015-06-15,USA,CA,Yuba,39.214,-121.534,coding-complete,W223_2015-06-15_USA_CA_Yuba_-121.534_39.214.fasta
+W224,15-CNTR 86,Culex tarsalis,Pooled mosquitos,100,4889.73,2015-06-15,USA,CA,Contra Costa,37.997,-121.702,coding-complete,W224_2015-06-15_USA_CA_ContraCosta_-121.702_37.997.fasta
+W225,15-DLNO 61,Culex quinquefasciatus,Pooled mosquitos,100,3365.14,2015-07-21,USA,CA,Tulare,35.884,-119.266,coding-complete,W225_2015-07-21_USA_CA_Tulare_-119.266_35.884.fasta
+W226,15-FRWS 63,Culex quinquefasciatus,Pooled mosquitos,100,3209.52,2015-07-14,USA,CA,Fresno,36.847,-120.445,coding-complete,W226_2015-07-14_USA_CA_Fresno_-120.445_36.847.fasta
+W227,15-GLEN 32,Culex tarsalis,Pooled mosquitos,100,1348.2,2015-07-21,USA,CA,Glenn,39.63,-122.007,coding-complete,W227_2015-07-21_USA_CA_Glenn_-122.007_39.630.fasta
+W228,15-ALCO 72,Culex tarsalis,Pooled mosquitos,100,4389.9,2015-07-22,USA,CA,Alameda,37.55,-122.022,coding-complete,W228_2015-07-22_USA_CA_Alameda_-122.022_37.550.fasta
+W229,15-BUCO 180,Culex tarsalis,Pooled mosquitos,100,2053.53,2015-07-15,USA,CA,Butte,39.743,-121.884,coding-complete,W229_2015-07-15_USA_CA_Butte_-121.884_39.743.fasta
+W230,15-LAKE 235,Culex tarsalis,Pooled mosquitos,100,2820.77,2015-07-21,USA,CA,Lake,38.937,-122.659,coding-complete,W230_2015-07-21_USA_CA_Lake_-122.659_38.937.fasta
+W231,16-SUYA 143,Culex tarsalis,Pooled mosquitos,99.92,3599.31,2016-07-05,USA,CA,Sutter,39.093,-121.676,coding-complete,W231_2016-07-05_USA_CA_Sutter_-121.676_39.093.fasta
+W232,16-SUYA 145,Culex tarsalis,Pooled mosquitos,100,266.892,2016-07-05,USA,CA,Sutter,38.824,-121.503,coding-complete,W232_2016-07-05_USA_CA_Sutter_-121.503_38.824.fasta
+W233,16-FRNO 79,Culex quinquefasciatus,Pooled mosquitos,100,760.466,2016-06-29,USA,CA,Fresno,36.839,-119.895,coding-complete,W233_2016-06-29_USA_CA_Fresno_-119.895_36.839.fasta
+W234,16-SUYA 146,Culex tarsalis,Pooled mosquitos,100,5072.53,2016-07-05,USA,CA,Yuba,39.214,-121.534,coding-complete,W234_2016-07-05_USA_CA_Yuba_-121.534_39.214.fasta
+W235,16-FRNO 85,Culex quinquefasciatus,Pooled mosquitos,100,3534.41,2016-07-01,USA,CA,Fresno,36.839,-119.891,coding-complete,W235_2016-07-01_USA_CA_Fresno_-119.891_36.839.fasta
+W236,16-FRNO 86,Culex quinquefasciatus,Pooled mosquitos,90.46,13.5193,2016-07-01,USA,CA,Fresno,36.839,-119.895,coding-complete,W236_2016-07-01_USA_CA_Fresno_-119.895_36.839.fasta
+W239,16-KNGS 167,Culex tarsalis,Pooled mosquitos,92.14,14.2982,2016-07-07,USA,CA,Kings,36.226,-119.727,coding-complete,W239_2016-07-07_USA_CA_Kings_-119.727_36.226.fasta
+W240,16-KNGS 172,Culex tarsalis,Pooled mosquitos,95.89,17.6254,2016-07-07,USA,CA,Kings,36.294,-119.696,coding-complete,W240_2016-07-07_USA_CA_Kings_-119.696_36.294.fasta
+W241,17-TRLK 424,Culex tarsalis,Pooled mosquitos,93.19,14.9015,2017-07-06,USA,CA,Stanislaus,37.573,-121.166,coding-complete,W241_2017-07-06_USA_CA_Stanislaus_-121.166_37.573.fasta
+W242,17-FRWS 170,Culex tarsalis,Pooled mosquitos,97.18,18.9461,2017-07-06,USA,CA,Fresno,36.748,-120.222,coding-complete,W242_2017-07-06_USA_CA_Fresno_-120.222_36.748.fasta
+W243,17-FRWS 158,Culex tarsalis,Pooled mosquitos,95.02,15.9827,2017-07-06,USA,CA,Fresno,36.951,-120.628,coding-complete,W243_2017-07-06_USA_CA_Fresno_-120.628_36.951.fasta
+W244,17-TLRE 120,Culex quinquefasciatus,Pooled mosquitos,100,4790.6,2017-07-04,USA,CA,Tulare,35.971,-119.297,coding-complete,W244_2017-07-04_USA_CA_Tulare_-119.297_35.971.fasta
+W245,17-KNGS 176,Culex tarsalis,Pooled mosquitos,100,4745.1,2017-06-30,USA,CA,Kings,36.388,-119.839,coding-complete,W245_2017-06-30_USA_CA_Kings_-119.839_36.388.fasta
+W246,17-KNGS 156,Culex tarsalis,Pooled mosquitos,100,4946.36,2017-06-29,USA,CA,Kings,36.344,-119.894,coding-complete,W246_2017-06-29_USA_CA_Kings_-119.894_36.344.fasta
+W247,17-GRLA 384,Culex quinquefasciatus,Pooled mosquitos,100,5050.72,2017-06-28,USA,CA,Los Angeles,33.98,-117.928,coding-complete,W247_2017-06-28_USA_CA_LosAngeles_-117.928_33.980.fasta
+W248,17-GRLA 400,Culex quinquefasciatus,Pooled mosquitos,100,4320.08,2017-06-29,USA,CA,Los Angeles,33.898,-118.11,coding-complete,W248_2017-06-29_USA_CA_LosAngeles_-118.110_33.898.fasta
+W249,17-MERC 167,Culex pipiens,Pooled mosquitos,100,5058.21,2017-08-02,USA,CA,Merced,37.363,-120.625,coding-complete,W249_2017-08-02_USA_CA_Merced_-120.625_37.363.fasta
+W250,17-TRLK 658,Culex pipiens,Pooled mosquitos,100,3759.14,2017-08-03,USA,CA,Stanislaus,37.517,-120.824,coding-complete,W250_2017-08-03_USA_CA_Stanislaus_-120.824_37.517.fasta
+W251,04-3390,American Crow,Tissue,87.38,9.75347,2004-07-20,USA,CA,Kern,35.329,-119.078,coding-complete,W251_2004-07-20_USA_CA_Kern_-119.078_35.329.fasta
+W252,04-4451,Western Scrub-Jay,Tissue,98.93,925.993,2004-08-05,USA,CA,Kern,35.302,-119.053,coding-complete,W252_2004-08-05_USA_CA_Kern_-119.053_35.302.fasta
+W253,04-4764,American Crow,Tissue,100,2542.09,2004-08-11,USA,CA,Kern,35.385,-119.121,coding-complete,W253_2004-08-11_USA_CA_Kern_-119.121_35.385.fasta
+W254,04-5150,American Crow,Tissue,99.94,168.072,2004-08-17,USA,CA,Kern,35.389,-119.053,coding-complete,W254_2004-08-17_USA_CA_Kern_-119.053_35.389.fasta
+W255,04-5510,Western Scrub-Jay,Tissue,100,5416.79,2004-08-23,USA,CA,Kern,35.406,-119.123,coding-complete,W255_2004-08-23_USA_CA_Kern_-119.123_35.406.fasta
+W256,04-6093,Brewer's Blackbird,Tissue,100,5485.57,2004-09-08,USA,CA,Kern,35.265,-119.052,coding-complete,W256_2004-09-08_USA_CA_Kern_-119.052_35.265.fasta
+W257,05-4008,American Robin,Tissue,100,4786.93,2005-06-16,USA,CA,Kern,35.33,-119.073,coding-complete,W257_2005-06-16_USA_CA_Kern_-119.073_35.330.fasta
+W258,05-4400,Western Scrub-Jay,Tissue,97.53,213.631,2005-06-24,USA,CA,Kern,35.36,-119.046,coding-complete,W258_2005-06-24_USA_CA_Kern_-119.046_35.360.fasta
+W259,05-4489,Sparrow,Tissue,100,1240.75,2005-06-27,USA,CA,Kern,35.285,-119.018,coding-complete,W259_2005-06-27_USA_CA_Kern_-119.018_35.285.fasta
+W260,05-4697,Western Scrub-Jay,Tissue,100,5235.15,2005-06-30,USA,CA,Kern,35.341,-119.067,coding-complete,W260_2005-06-30_USA_CA_Kern_-119.067_35.341.fasta
+W261,05-5222,Western Scrub-Jay,Tissue,100,611.195,2005-07-10,USA,CA,Kern,35.33,-119.061,coding-complete,W261_2005-07-10_USA_CA_Kern_-119.061_35.330.fasta
+W262,05-5486,Western Scrub-Jay,Tissue,99.95,242.223,2005-07-13,USA,CA,Kern,35.338,-119.11,coding-complete,W262_2005-07-13_USA_CA_Kern_-119.110_35.338.fasta
+W263,05-5607,Western Scrub-Jay,Tissue,100,5227.62,2005-07-15,USA,CA,Kern,35.405,-119.006,coding-complete,W263_2005-07-15_USA_CA_Kern_-119.006_35.405.fasta
+W264,05-6236,House Sparrow,Tissue,100,5593.43,2005-07-26,USA,CA,Kern,35.403,-118.957,coding-complete,W264_2005-07-26_USA_CA_Kern_-118.957_35.403.fasta
+W265,05-6449,Western Scrub-Jay,Tissue,100,5662.67,2005-07-28,USA,CA,Kern,35.374,-119.19,coding-complete,W265_2005-07-28_USA_CA_Kern_-119.190_35.374.fasta
+W266,05-6609,House Finch,Tissue,100,5526.56,2005-08-01,USA,CA,Kern,35.408,-119.016,coding-complete,W266_2005-08-01_USA_CA_Kern_-119.016_35.408.fasta
+W267,05-7234,Western Scrub-Jay,Tissue,100,602.02,2005-08-09,USA,CA,Kern,35.602,-119.385,coding-complete,W267_2005-08-09_USA_CA_Kern_-119.385_35.602.fasta
+W268,05-7568,Western Scrub-Jay,Tissue,100,4712.59,2005-08-15,USA,CA,Kern,35.398,-118.931,coding-complete,W268_2005-08-15_USA_CA_Kern_-118.931_35.398.fasta
+W269,05-8002,House Sparrow,Tissue,100,1130.74,2005-08-19,USA,CA,Kern,35.423,-119.076,coding-complete,W269_2005-08-19_USA_CA_Kern_-119.076_35.423.fasta
+W270,05-8567,Western Scrub-Jay,Tissue,100,4813.33,2005-08-29,USA,CA,Kern,35.352,-119.065,coding-complete,W270_2005-08-29_USA_CA_Kern_-119.065_35.352.fasta
+W271,05-8762,Western Scrub-Jay,Tissue,100,1796.97,2005-09-01,USA,CA,Kern,35.36,-119.041,coding-complete,W271_2005-09-01_USA_CA_Kern_-119.041_35.360.fasta
+W272,06-4047,American Robin,Tissue,100,5048.57,2006-07-13,USA,CA,Kern,35.323,-119.072,coding-complete,W272_2006-07-13_USA_CA_Kern_-119.072_35.323.fasta
+W273,06-4367,California Scrub-Jay,Tissue,100,195.031,2006-07-21,USA,CA,Kern,35.381,-118.941,coding-complete,W273_2006-07-21_USA_CA_Kern_-118.941_35.381.fasta
+W274,06-4844,California Scrub-Jay,Tissue,100,3834.53,2006-07-31,USA,CA,Kern,35.386,-119.203,coding-complete,W274_2006-07-31_USA_CA_Kern_-119.203_35.386.fasta
+W275,06-4909,California Scrub-Jay,Tissue,100,2324.47,2006-08-01,USA,CA,Kern,35.377,-119.122,coding-complete,W275_2006-08-01_USA_CA_Kern_-119.122_35.377.fasta
+W276,06-4996,California Scrub-Jay,Tissue,100,4819.39,2006-08-02,USA,CA,Kern,35.373,-119.144,coding-complete,W276_2006-08-02_USA_CA_Kern_-119.144_35.373.fasta
+W277,06-5046,Raven,Tissue,100,4522.87,2006-08-03,USA,CA,Kern,35.39,-118.967,coding-complete,W277_2006-08-03_USA_CA_Kern_-118.967_35.390.fasta
+W278,06-5340,California Scrub-Jay,Tissue,100,5058.47,2006-08-09,USA,CA,Kern,35.328,-119.019,coding-complete,W278_2006-08-09_USA_CA_Kern_-119.019_35.328.fasta
+W279,06-5848,House Sparrow,Tissue,100,3975.98,2006-08-14,USA,CA,Kern,35.4,-119.095,coding-complete,W279_2006-08-14_USA_CA_Kern_-119.095_35.400.fasta
+W280,06-5916,California Scrub-Jay,Tissue,100,5091.52,2006-08-15,USA,CA,Kern,35.42,-119.069,coding-complete,W280_2006-08-15_USA_CA_Kern_-119.069_35.420.fasta
+W281,06-6085,House Finch,Tissue,100,5166.07,2006-08-17,USA,CA,Kern,35.398,-119.016,coding-complete,W281_2006-08-17_USA_CA_Kern_-119.016_35.398.fasta
+W283,06-6521,California Scrub-Jay,Tissue,99.99,242.924,2006-08-30,USA,CA,Kern,35.371,-119.166,coding-complete,W283_2006-08-30_USA_CA_Kern_-119.166_35.371.fasta
+W284,07-2195,California Scrub-Jay,Tissue,100,2738.14,2007-06-07,USA,CA,Kern,35.341,-119.065,coding-complete,W284_2007-06-07_USA_CA_Kern_-119.065_35.341.fasta
+W285,07-2453,California Scrub-Jay,Tissue,100,3219.37,2007-06-13,USA,CA,Kern,35.362,-118.966,coding-complete,W285_2007-06-13_USA_CA_Kern_-118.966_35.362.fasta
+W286,07-2487,California Scrub-Jay,Tissue,99.99,4742,2007-06-14,USA,CA,Kern,35.354,-118.94,coding-complete,W286_2007-06-14_USA_CA_Kern_-118.940_35.354.fasta
+W287,07-2765,California Scrub-Jay,Tissue,100,5033.9,2007-06-20,USA,CA,Kern,35.377,-119.116,coding-complete,W287_2007-06-20_USA_CA_Kern_-119.116_35.377.fasta
+W288,07-2888,California Scrub-Jay,Tissue,100,4805.38,2007-06-22,USA,CA,Kern,35.346,-119.064,coding-complete,W288_2007-06-22_USA_CA_Kern_-119.064_35.346.fasta
+W289,07-2927,California Scrub-Jay,Tissue,100,5678.45,2007-06-25,USA,CA,Kern,35.288,-119.041,coding-complete,W289_2007-06-25_USA_CA_Kern_-119.041_35.288.fasta
+W290,07-2976,California Scrub-Jay,Tissue,100,1154.2,2007-06-25,USA,CA,Kern,35.34,-119.126,coding-complete,W290_2007-06-25_USA_CA_Kern_-119.126_35.340.fasta
+W291,07-3230,California Scrub-Jay,Tissue,100,1901.86,2007-06-29,USA,CA,Kern,35.389,-119.15,coding-complete,W291_2007-06-29_USA_CA_Kern_-119.150_35.389.fasta
+W292,07-3231,California Scrub-Jay,Tissue,100,4025.6,2007-06-29,USA,CA,Kern,35.389,-119.15,coding-complete,W292_2007-06-29_USA_CA_Kern_-119.150_35.389.fasta
+W293,07-3485,California Scrub-Jay,Tissue,100,4390.88,2007-07-05,USA,CA,Kern,35.35,-119.028,coding-complete,W293_2007-07-05_USA_CA_Kern_-119.028_35.350.fasta
+W294,07-3593,California Scrub-Jay,Tissue,100,5598.86,2007-07-09,USA,CA,Kern,35.35,-119.067,coding-complete,W294_2007-07-09_USA_CA_Kern_-119.067_35.350.fasta
+W295,07-3594,California Scrub-Jay,Tissue,100,3509.61,2007-07-09,USA,CA,Kern,35.346,-119.119,coding-complete,W295_2007-07-09_USA_CA_Kern_-119.119_35.346.fasta
+W296,07-3678,California Scrub-Jay,Tissue,97.75,4405.95,2007-07-09,USA,CA,Kern,35.358,-119.147,coding-complete,W296_2007-07-09_USA_CA_Kern_-119.147_35.358.fasta
+W297,07-3821,California Scrub-Jay,Tissue,99.98,3390.09,2007-07-12,USA,CA,Kern,35.373,-119.158,coding-complete,W297_2007-07-12_USA_CA_Kern_-119.158_35.373.fasta
+W298,07-3898,California Scrub-Jay,Tissue,100,1823.78,2007-07-13,USA,CA,Kern,35.346,-119.064,coding-complete,W298_2007-07-13_USA_CA_Kern_-119.064_35.346.fasta
+W299,08-3005,Costa's Hummingbird,Tissue,100,5783.05,2008-06-27,USA,CA,Kern,35.344,-119.051,coding-complete,W299_2008-06-27_USA_CA_Kern_-119.051_35.344.fasta
+W300,08-306,Mourning Dove,Tissue,97.94,1640.29,2008-03-13,USA,CA,Kern,35.347,-119.01,coding-complete,W300_2008-03-13_USA_CA_Kern_-119.010_35.347.fasta
+W301,08-3302,Lesser Goldfinch,Tissue,93.91,40.967,2008-07-07,USA,CA,Kern,35.364,-119.065,coding-complete,W301_2008-07-07_USA_CA_Kern_-119.065_35.364.fasta
+W302,08-4087,American Robin,Tissue,99.3,50.0022,2008-07-23,USA,CA,Kern,35.372,-119.164,coding-complete,W302_2008-07-23_USA_CA_Kern_-119.164_35.372.fasta
+W303,08-6915,House Sparrow,Tissue,97.53,145.468,2008-09-24,USA,CA,Kern,35.404,-119.123,coding-complete,W303_2008-09-24_USA_CA_Kern_-119.123_35.404.fasta
+W304,09-1477,House Finch,Tissue,100,3888.48,2009-06-14,USA,CA,Kern,35.282,-119.055,coding-complete,W304_2009-06-14_USA_CA_Kern_-119.055_35.282.fasta
+W305,09-1319,California Scrub-Jay,Tissue,100,5249.41,2009-06-08,USA,CA,Kern,35.402,-119.085,coding-complete,W305_2009-06-08_USA_CA_Kern_-119.085_35.402.fasta
+W306,09-1533,Sparrow,Tissue,100,5304.07,2009-06-16,USA,CA,Kern,35.406,-119.066,coding-complete,W306_2009-06-16_USA_CA_Kern_-119.066_35.406.fasta
+W307,09-1537,California Scrub-Jay,Tissue,100,5817.25,2009-06-15,USA,CA,Kern,35.36,-119.026,coding-complete,W307_2009-06-15_USA_CA_Kern_-119.026_35.360.fasta
+W308,09-1783,House Sparrow,Tissue,100,1827.84,2009-06-24,USA,CA,Kern,35.424,-119.122,coding-complete,W308_2009-06-24_USA_CA_Kern_-119.122_35.424.fasta
+W309,09-2107,Warbler,Tissue,100,147.845,2009-07-07,USA,CA,Kern,35.457,-119.189,coding-complete,W309_2009-07-07_USA_CA_Kern_-119.189_35.457.fasta
+W310,09-2223,House Sparrow,Tissue,100,5674.22,2009-07-13,USA,CA,Kern,35.395,-119.092,coding-complete,W310_2009-07-13_USA_CA_Kern_-119.092_35.395.fasta
+W311,09-2413,American Robin,Tissue,94.97,49.3416,2009-07-23,USA,CA,Kern,35.31,-119.124,coding-complete,W311_2009-07-23_USA_CA_Kern_-119.124_35.310.fasta
+W312,10-1311,House Sparrow,Tissue,100,4732.07,2010-07-06,USA,CA,Kern,35.327,-119.083,coding-complete,W312_2010-07-06_USA_CA_Kern_-119.083_35.327.fasta
+W313,10-1410,California Scrub-Jay,Tissue,100,1142.13,2010-07-12,USA,CA,Kern,35.347,-119.067,coding-complete,W313_2010-07-12_USA_CA_Kern_-119.067_35.347.fasta
+W314,10-1573,California Scrub-Jay,Tissue,100,3908.57,2010-07-19,USA,CA,Kern,35.347,-119.067,coding-complete,W314_2010-07-19_USA_CA_Kern_-119.067_35.347.fasta
+W315,10-1680,Unknown Bird,Tissue,97.27,209.395,2010-07-22,USA,CA,Kern,35.367,-119.152,coding-complete,W315_2010-07-22_USA_CA_Kern_-119.152_35.367.fasta
+W316,10-1704,House Sparrow,Tissue,100,1350.7,2010-07-22,USA,CA,Kern,35.33,-119.089,coding-complete,W316_2010-07-22_USA_CA_Kern_-119.089_35.330.fasta
+W317,10-1712,House Finch,Tissue,100,3516.85,2010-07-23,USA,CA,Kern,35.412,-119.103,coding-complete,W317_2010-07-23_USA_CA_Kern_-119.103_35.412.fasta
+W318,10-1736,House Sparrow,Tissue,100,5283.78,2010-07-26,USA,CA,Kern,35.407,-118.92,coding-complete,W318_2010-07-26_USA_CA_Kern_-118.920_35.407.fasta
+W319,10-1759,California Scrub-Jay,Tissue,100,6055.63,2010-07-26,USA,CA,Kern,35.366,-119.157,coding-complete,W319_2010-07-26_USA_CA_Kern_-119.157_35.366.fasta
+W320,10-1777,California Scrub-Jay,Tissue,100,391.958,2010-07-28,USA,CA,Kern,35.372,-118.965,coding-complete,W320_2010-07-28_USA_CA_Kern_-118.965_35.372.fasta
+W321,11-1046,House Sparrow,Tissue,95.75,68.7679,2011-06-17,USA,CA,Kern,35.378,-118.938,coding-complete,W321_2011-06-17_USA_CA_Kern_-118.938_35.378.fasta
+W322,11-1047,House Sparrow,Tissue,92.44,16.6803,2011-06-17,USA,CA,Kern,35.378,-118.938,coding-complete,W322_2011-06-17_USA_CA_Kern_-118.938_35.378.fasta
+W323,11-1734,California Scrub-Jay,Tissue,97.75,4539.7,2011-08-05,USA,CA,Kern,35.412,-119.095,coding-complete,W323_2011-08-05_USA_CA_Kern_-119.095_35.412.fasta
+W324,11-1758,California Scrub-Jay,Tissue,99.99,1145.11,2011-08-08,USA,CA,Kern,35.351,-119.068,coding-complete,W324_2011-08-08_USA_CA_Kern_-119.068_35.351.fasta
+W325,11-1760,California Scrub-Jay,Tissue,100,5175.91,2011-08-08,USA,CA,Kern,35.37,-119.142,coding-complete,W325_2011-08-08_USA_CA_Kern_-119.142_35.370.fasta
+W326,11-3159,California Scrub-Jay,Tissue,92.87,41.8924,2011-11-15,USA,CA,Kern,35.403,-119.033,coding-complete,W326_2011-11-15_USA_CA_Kern_-119.033_35.403.fasta
+W327,11-3173,House Sparrow,Tissue,96.61,473.271,2011-11-17,USA,CA,Kern,35.414,-119.114,coding-complete,W327_2011-11-17_USA_CA_Kern_-119.114_35.414.fasta
+W328,12-1421,California Scrub-Jay,Tissue,100,764.647,2012-06-08,USA,CA,Kern,35.356,-119.046,coding-complete,W328_2012-06-08_USA_CA_Kern_-119.046_35.356.fasta
+W329,12-1487,Brewer's Blackbird,Tissue,93.31,95.6658,2012-06-10,USA,CA,Kern,35.396,-119.151,coding-complete,W329_2012-06-10_USA_CA_Kern_-119.151_35.396.fasta
+W330,12-1525,Allen's Hummingbird,Tissue,78.11,248.633,2012-06-12,USA,CA,Kern,35.267,-119.016,coding-complete,W330_2012-06-12_USA_CA_Kern_-119.016_35.267.fasta
+W331,12-1599,American Kestrel,Tissue,100,4641.19,2012-06-13,USA,CA,Kern,35.362,-119.025,coding-complete,W331_2012-06-13_USA_CA_Kern_-119.025_35.362.fasta
+W332,12-1741,California Scrub-Jay,Tissue,100,209.044,2012-06-18,USA,CA,Kern,35.344,-119.051,coding-complete,W332_2012-06-18_USA_CA_Kern_-119.051_35.344.fasta
+W333,12-2034,American Crow,Tissue,100,212.819,2012-06-24,USA,CA,Kern,35.386,-119.031,coding-complete,W333_2012-06-24_USA_CA_Kern_-119.031_35.386.fasta
+W334,12-2672,House Finch,Tissue,98.21,335.338,2012-07-09,USA,CA,Kern,35.386,-119.031,coding-complete,W334_2012-07-09_USA_CA_Kern_-119.031_35.386.fasta
+W335,12-2718,American Crow,Tissue,99.88,678.948,2012-07-10,USA,CA,Kern,35.428,-119.03,coding-complete,W335_2012-07-10_USA_CA_Kern_-119.030_35.428.fasta
+W336,12-2797,American Crow,Tissue,84.86,5.05204,2012-07-11,USA,CA,Kern,35.383,-119.03,coding-complete,W336_2012-07-11_USA_CA_Kern_-119.030_35.383.fasta
+W337,12-3440,American Crow,Tissue,98.42,3819.4,2012-07-31,USA,CA,Kern,35.406,-118.984,coding-complete,W337_2012-07-31_USA_CA_Kern_-118.984_35.406.fasta
+W339,13-1274,California Scrub-Jay,Tissue,99.08,59.7207,2013-06-10,USA,CA,Kern,35.406,-119.032,coding-complete,W339_2013-06-10_USA_CA_Kern_-119.032_35.406.fasta
+W340,13-1894,California Scrub-Jay,Tissue,100,4513.29,2013-07-08,USA,CA,Kern,35.275,-119.041,coding-complete,W340_2013-07-08_USA_CA_Kern_-119.041_35.275.fasta
+W342,17-1059,American Crow,Tissue,100,2687.66,2017-07-04,USA,CA,Kern,35.389,-119.097,coding-complete,W342_2017-07-04_USA_CA_Kern_-119.097_35.389.fasta
+W343,17-1102,American Crow,Tissue,100,4859.42,2017-07-07,USA,CA,Kern,35.351,-119.091,coding-complete,W343_2017-07-07_USA_CA_Kern_-119.091_35.351.fasta
+W344,04-274,Culex quinquefasciatus,Pooled mosquitos,100,695.795,2004-08-05,USA,CA,Kern,35.352,-119.149,coding-complete,W344_2004-08-05_USA_CA_Kern_-119.149_35.352.fasta
+W345,04-277,Culex quinquefasciatus,Pooled mosquitos,99.64,578.355,2004-08-05,USA,CA,Kern,35.198,-118.833,coding-complete,W345_2004-08-05_USA_CA_Kern_-118.833_35.198.fasta
+W346,04-278,Culex quinquefasciatus,Pooled mosquitos,100,302.395,2004-08-05,USA,CA,Kern,35.198,-118.833,coding-complete,W346_2004-08-05_USA_CA_Kern_-118.833_35.198.fasta
+W347,04-284,Culex quinquefasciatus,Pooled mosquitos,100,533.137,2004-08-10,USA,CA,Kern,35.276,-119.099,coding-complete,W347_2004-08-10_USA_CA_Kern_-119.099_35.276.fasta
+W348,04-287,Culex quinquefasciatus,Pooled mosquitos,100,369.523,2004-08-11,USA,CA,Kern,35.198,-118.833,coding-complete,W348_2004-08-11_USA_CA_Kern_-118.833_35.198.fasta
+W349,04-291,Culex quinquefasciatus,Pooled mosquitos,100,2901.77,2004-08-11,USA,CA,Kern,35.283,-118.932,coding-complete,W349_2004-08-11_USA_CA_Kern_-118.932_35.283.fasta
+W350,04-293,Culex tarsalis,Pooled mosquitos,100,1470.17,2004-08-11,USA,CA,Kern,35.166,-118.825,coding-complete,W350_2004-08-11_USA_CA_Kern_-118.825_35.166.fasta
+W351,04-301,Culex quinquefasciatus,Pooled mosquitos,100,4624.52,2004-08-12,USA,CA,Kern,35.493,-119.272,coding-complete,W351_2004-08-12_USA_CA_Kern_-119.272_35.493.fasta
+W352,04-303,Culex quinquefasciatus,Pooled mosquitos,100,1172.45,2004-08-12,USA,CA,Kern,35.403,-119.395,coding-complete,W352_2004-08-12_USA_CA_Kern_-119.395_35.403.fasta
+W353,04-306,Culex quinquefasciatus,Pooled mosquitos,100,4294.38,2004-08-12,USA,CA,Kern,35.38,-119.111,coding-complete,W353_2004-08-12_USA_CA_Kern_-119.111_35.380.fasta
+W354,04-316,Culex quinquefasciatus,Pooled mosquitos,100,1753.21,2004-08-13,USA,CA,Kern,35.326,-119.075,coding-complete,W354_2004-08-13_USA_CA_Kern_-119.075_35.326.fasta
+W355,04-319,Culex quinquefasciatus,Pooled mosquitos,100,4851.49,2004-08-13,USA,CA,Kern,35.299,-119.004,coding-complete,W355_2004-08-13_USA_CA_Kern_-119.004_35.299.fasta
+W356,04-429,Culex quinquefasciatus,Pooled mosquitos,100,3911.5,2004-09-21,USA,CA,Kern,35.428,-119.115,coding-complete,W356_2004-09-21_USA_CA_Kern_-119.115_35.428.fasta
+W357,04-442,Culex quinquefasciatus,Pooled mosquitos,100,3491.05,2004-09-23,USA,CA,Kern,35.365,-118.998,coding-complete,W357_2004-09-23_USA_CA_Kern_-118.998_35.365.fasta
+W358,05-197,Culex tarsalis,Pooled mosquitos,100,3344.1,2005-06-21,USA,CA,Kern,35.351,-119.162,coding-complete,W358_2005-06-21_USA_CA_Kern_-119.162_35.351.fasta
+W359,05-242,Culex quinquefasciatus,Pooled mosquitos,100,3799.12,2005-07-01,USA,CA,Kern,35.317,-119.109,coding-complete,W359_2005-07-01_USA_CA_Kern_-119.109_35.317.fasta
+W360,05-246,Culex quinquefasciatus,Pooled mosquitos,99.99,268.566,2005-07-01,USA,CA,Kern,35.317,-119.06,coding-complete,W360_2005-07-01_USA_CA_Kern_-119.060_35.317.fasta
+W361,05-248,Culex quinquefasciatus,Pooled mosquitos,100,740.338,2005-07-01,USA,CA,Kern,35.326,-119.075,coding-complete,W361_2005-07-01_USA_CA_Kern_-119.075_35.326.fasta
+W362,05-254,Culex tarsalis,Pooled mosquitos,100,1016.97,2005-07-06,USA,CA,Kern,35.351,-119.162,coding-complete,W362_2005-07-06_USA_CA_Kern_-119.162_35.351.fasta
+W363,05-258,Culex tarsalis,Pooled mosquitos,100,1025.48,2005-07-06,USA,CA,Kern,35.428,-119.115,coding-complete,W363_2005-07-06_USA_CA_Kern_-119.115_35.428.fasta
+W364,05-283,Culex quinquefasciatus,Pooled mosquitos,100,2426.46,2005-07-07,USA,CA,Kern,35.507,-119.265,coding-complete,W364_2005-07-07_USA_CA_Kern_-119.265_35.507.fasta
+W365,05-292,Culex quinquefasciatus,Pooled mosquitos,100,1390.39,2005-07-14,USA,CA,Kern,35.299,-119.004,coding-complete,W365_2005-07-14_USA_CA_Kern_-119.004_35.299.fasta
+W366,05-297,Culex quinquefasciatus,Pooled mosquitos,100,1284.84,2005-07-14,USA,CA,Kern,35.378,-119.036,coding-complete,W366_2005-07-14_USA_CA_Kern_-119.036_35.378.fasta
+W367,05-298,Culex quinquefasciatus,Pooled mosquitos,100,5412.08,2005-07-14,USA,CA,Kern,35.378,-119.036,coding-complete,W367_2005-07-14_USA_CA_Kern_-119.036_35.378.fasta
+W368,05-306,Culex tarsalis,Pooled mosquitos,100,2004.35,2005-07-19,USA,CA,Kern,35.245,-119.236,coding-complete,W368_2005-07-19_USA_CA_Kern_-119.236_35.245.fasta
+W369,06-298,Culex tarsalis,Pooled mosquitos,98.78,627.983,2006-07-11,USA,CA,Kern,35.32,-119.129,coding-complete,W369_2006-07-11_USA_CA_Kern_-119.129_35.320.fasta
+W370,06-299*,Culex tarsalis,Pooled mosquitos,100,1368.79,2006-07-11,USA,CA,Kern,35.276,-119.099,coding-complete,W370_2006-07-11_USA_CA_Kern_-119.099_35.276.fasta
+W371,06-303,Culex tarsalis,Pooled mosquitos,100,451.014,2006-07-11,USA,CA,Kern,35.245,-119.236,coding-complete,W371_2006-07-11_USA_CA_Kern_-119.236_35.245.fasta
+W372,06-304,Culex tarsalis,Pooled mosquitos,100,2111.66,2006-07-11,USA,CA,Kern,35.245,-119.236,coding-complete,W372_2006-07-11_USA_CA_Kern_-119.236_35.245.fasta
+W373,06-331,Culex quinquefasciatus,Pooled mosquitos,100,442.929,2006-07-14,USA,CA,Kern,35.378,-119.036,coding-complete,W373_2006-07-14_USA_CA_Kern_-119.036_35.378.fasta
+W374,06-336,Culex quinquefasciatus,Pooled mosquitos,100,1746.73,2006-07-21,USA,CA,Kern,35.352,-119.149,coding-complete,W374_2006-07-21_USA_CA_Kern_-119.149_35.352.fasta
+W375,06-338,Culex quinquefasciatus,Pooled mosquitos,100,974.736,2006-07-21,USA,CA,Kern,35.349,-119.04,coding-complete,W375_2006-07-21_USA_CA_Kern_-119.040_35.349.fasta
+W376,06-340,Culex quinquefasciatus,Pooled mosquitos,100,2541.14,2006-07-21,USA,CA,Kern,35.317,-119.06,coding-complete,W376_2006-07-21_USA_CA_Kern_-119.060_35.317.fasta
+W377,06-342,Culex quinquefasciatus,Pooled mosquitos,100,1089.05,2006-07-21,USA,CA,Kern,35.299,-119.004,coding-complete,W377_2006-07-21_USA_CA_Kern_-119.004_35.299.fasta
+W378,06-343,Culex quinquefasciatus,Pooled mosquitos,100,1197.42,2006-07-21,USA,CA,Kern,35.36,-119.021,coding-complete,W378_2006-07-21_USA_CA_Kern_-119.021_35.360.fasta
+W379,06-345,Culex quinquefasciatus,Pooled mosquitos,98.13,142.473,2006-07-21,USA,CA,Kern,35.326,-119.075,coding-complete,W379_2006-07-21_USA_CA_Kern_-119.075_35.326.fasta
+W380,06-375,Culex quinquefasciatus,Pooled mosquitos,100,772.803,2006-08-04,USA,CA,Kern,35.352,-119.149,coding-complete,W380_2006-08-04_USA_CA_Kern_-119.149_35.352.fasta
+W381,06-376,Culex quinquefasciatus,Pooled mosquitos,100,461.699,2006-08-04,USA,CA,Kern,35.352,-119.149,coding-complete,W381_2006-08-04_USA_CA_Kern_-119.149_35.352.fasta
+W382,06-377,Culex quinquefasciatus,Pooled mosquitos,100,5141.57,2006-08-04,USA,CA,Kern,35.352,-119.149,coding-complete,W382_2006-08-04_USA_CA_Kern_-119.149_35.352.fasta
+W383,06-381,Culex quinquefasciatus,Pooled mosquitos,100,4199.51,2006-08-04,USA,CA,Kern,35.317,-119.06,coding-complete,W383_2006-08-04_USA_CA_Kern_-119.060_35.317.fasta
+W384,07-72,Culex tarsalis,Pooled mosquitos,100,5298.79,2007-06-05,USA,CA,Kern,35.252,-119.236,coding-complete,W384_2007-06-05_USA_CA_Kern_-119.236_35.252.fasta
+W385,07-78,Culex tarsalis,Pooled mosquitos,100,2138.71,2007-06-06,USA,CA,Kern,35.29,-118.979,coding-complete,W385_2007-06-06_USA_CA_Kern_-118.979_35.290.fasta
+W386,07-96,Culex quinquefasciatus,Pooled mosquitos,100,4858.81,2007-06-08,USA,CA,Kern,35.317,-119.06,coding-complete,W386_2007-06-08_USA_CA_Kern_-119.060_35.317.fasta
+W387,07-116,Culex quinquefasciatus,Pooled mosquitos,100,2230.95,2007-06-15,USA,CA,Kern,35.317,-119.06,coding-complete,W387_2007-06-15_USA_CA_Kern_-119.060_35.317.fasta
+W388,07-184,Culex quinquefasciatus,Pooled mosquitos,100,1471.56,2007-06-22,USA,CA,Kern,35.326,-119.075,coding-complete,W388_2007-06-22_USA_CA_Kern_-119.075_35.326.fasta
+W389,07-333,Culex quinquefasciatus,Pooled mosquitos,100,2208.81,2007-08-03,USA,CA,Kern,35.317,-119.06,coding-complete,W389_2007-08-03_USA_CA_Kern_-119.060_35.317.fasta
+W390,07-334,Culex quinquefasciatus,Pooled mosquitos,100,1203,2007-08-03,USA,CA,Kern,35.317,-119.06,coding-complete,W390_2007-08-03_USA_CA_Kern_-119.060_35.317.fasta
+W391,07-356,Culex quinquefasciatus,Pooled mosquitos,100,4018.69,2007-08-15,USA,CA,Kern,35.198,-118.833,coding-complete,W391_2007-08-15_USA_CA_Kern_-118.833_35.198.fasta
+W392,07-358,Culex quinquefasciatus,Pooled mosquitos,100,2412.69,2007-08-15,USA,CA,Kern,35.352,-119.149,coding-complete,W392_2007-08-15_USA_CA_Kern_-119.149_35.352.fasta
+W393,07-361,Culex quinquefasciatus,Pooled mosquitos,100,2763.7,2007-08-15,USA,CA,Kern,35.38,-119.111,coding-complete,W393_2007-08-15_USA_CA_Kern_-119.111_35.380.fasta
+W394,07-363,Culex quinquefasciatus,Pooled mosquitos,100,4668.74,2007-08-15,USA,CA,Kern,35.317,-119.06,coding-complete,W394_2007-08-15_USA_CA_Kern_-119.060_35.317.fasta
+W395,07-367,Culex quinquefasciatus,Pooled mosquitos,100,561.446,2007-08-15,USA,CA,Kern,35.36,-119.021,coding-complete,W395_2007-08-15_USA_CA_Kern_-119.021_35.360.fasta
+W396,07-369,Culex quinquefasciatus,Pooled mosquitos,100,1621.6,2007-08-15,USA,CA,Kern,35.326,-119.075,coding-complete,W396_2007-08-15_USA_CA_Kern_-119.075_35.326.fasta
+W397,07-370,Culex quinquefasciatus,Pooled mosquitos,100,4713.16,2007-08-17,USA,CA,Kern,35.352,-119.149,coding-complete,W397_2007-08-17_USA_CA_Kern_-119.149_35.352.fasta
+W398,09-176,Culex quinquefasciatus,Pooled mosquitos,100,5189.61,2009-06-17,USA,CA,Kern,35.392,-119.115,coding-complete,W398_2009-06-17_USA_CA_Kern_-119.115_35.392.fasta
+W399,09-179,Culex quinquefasciatus,Pooled mosquitos,100,5438.96,2009-06-17,USA,CA,Kern,35.38,-119.111,coding-complete,W399_2009-06-17_USA_CA_Kern_-119.111_35.380.fasta
+W400,09-234,Culex tarsalis,Pooled mosquitos,99.89,611.356,2009-06-30,USA,CA,Kern,35.346,-119.1,coding-complete,W400_2009-06-30_USA_CA_Kern_-119.100_35.346.fasta
+W401,09-251,Culex tarsalis,Pooled mosquitos,100,1300.3,2009-07-01,USA,CA,Kern,35.283,-118.932,coding-complete,W401_2009-07-01_USA_CA_Kern_-118.932_35.283.fasta
+W402,09-291,Culex tarsalis,Pooled mosquitos,100,1406.18,2009-07-14,USA,CA,Kern,35.276,-119.099,coding-complete,W402_2009-07-14_USA_CA_Kern_-119.099_35.276.fasta
+W403,09-293,Culex quinquefasciatus,Pooled mosquitos,100,2537.98,2009-07-14,USA,CA,Kern,35.342,-119.125,coding-complete,W403_2009-07-14_USA_CA_Kern_-119.125_35.342.fasta
+W404,09-306,Culex quinquefasciatus,Pooled mosquitos,100,4385.38,2009-07-15,USA,CA,Kern,35.36,-119.021,coding-complete,W404_2009-07-15_USA_CA_Kern_-119.021_35.360.fasta
+W405,09-309,Culex tarsalis,Pooled mosquitos,100,3625.84,2009-07-15,USA,CA,Kern,35.166,-118.825,coding-complete,W405_2009-07-15_USA_CA_Kern_-118.825_35.166.fasta
+W406,09-347,Culex quinquefasciatus,Pooled mosquitos,100,5459.9,2009-07-22,USA,CA,Kern,35.411,-119.143,coding-complete,W406_2009-07-22_USA_CA_Kern_-119.143_35.411.fasta
+W407,09-375,Culex quinquefasciatus,Pooled mosquitos,100,5328.27,2009-07-28,USA,CA,Kern,35.391,-118.956,coding-complete,W407_2009-07-28_USA_CA_Kern_-118.956_35.391.fasta
+W408,09-381,Culex quinquefasciatus,Pooled mosquitos,100,3651.02,2009-07-29,USA,CA,Kern,35.392,-119.115,coding-complete,W408_2009-07-29_USA_CA_Kern_-119.115_35.392.fasta
+W409,09-400,Culex quinquefasciatus,Pooled mosquitos,100,4830.64,2009-07-30,USA,CA,Kern,35.21,-118.833,coding-complete,W409_2009-07-30_USA_CA_Kern_-118.833_35.210.fasta
+W410,09-527,Culex quinquefasciatus,Pooled mosquitos,100,4176.51,2009-09-04,USA,CA,Kern,35.502,-119.254,coding-complete,W410_2009-09-04_USA_CA_Kern_-119.254_35.502.fasta
+W411,09-530,Culex tarsalis,Pooled mosquitos,100,4305.46,2009-09-04,USA,CA,Kern,35.532,-119.477,coding-complete,W411_2009-09-04_USA_CA_Kern_-119.477_35.532.fasta
+W412,10-280,Culex quinquefasciatus,Pooled mosquitos,99.32,921.996,2010-06-15,USA,CA,Kern,35.399,-118.928,coding-complete,W412_2010-06-15_USA_CA_Kern_-118.928_35.399.fasta
+W413,10-406,Culex quinquefasciatus,Pooled mosquitos,100,4534.34,2010-06-25,USA,CA,Kern,35.317,-119.06,coding-complete,W413_2010-06-25_USA_CA_Kern_-119.060_35.317.fasta
+W414,10-414,Culex quinquefasciatus,Pooled mosquitos,100,4512.28,2010-06-29,USA,CA,Kern,35.399,-118.928,coding-complete,W414_2010-06-29_USA_CA_Kern_-118.928_35.399.fasta
+W415,10-457,Culex tarsalis,Pooled mosquitos,100,2931.46,2010-07-01,USA,CA,Kern,35.313,-119.026,coding-complete,W415_2010-07-01_USA_CA_Kern_-119.026_35.313.fasta
+W416,10-458,Culex tarsalis,Pooled mosquitos,100,891.154,2010-07-01,USA,CA,Kern,35.336,-119.025,coding-complete,W416_2010-07-01_USA_CA_Kern_-119.025_35.336.fasta
+W417,10-500,Culex quinquefasciatus,Pooled mosquitos,100,3771.93,2010-07-08,USA,CA,Kern,35.36,-119.021,coding-complete,W417_2010-07-08_USA_CA_Kern_-119.021_35.360.fasta
+W418,10-501,Culex quinquefasciatus,Pooled mosquitos,100,2634.04,2010-07-08,USA,CA,Kern,35.36,-119.021,coding-complete,W418_2010-07-08_USA_CA_Kern_-119.021_35.360.fasta
+W419,10-541,Culex quinquefasciatus,Pooled mosquitos,100,1939.28,2010-07-09,USA,CA,Kern,35.317,-119.06,coding-complete,W419_2010-07-09_USA_CA_Kern_-119.060_35.317.fasta
+W420,10-547,Culex quinquefasciatus,Pooled mosquitos,100,2700.35,2010-07-09,USA,CA,Kern,35.326,-119.075,coding-complete,W420_2010-07-09_USA_CA_Kern_-119.075_35.326.fasta
+W421,10-738,Culex quinquefasciatus,Pooled mosquitos,100,5870.08,2010-07-28,USA,CA,Kern,35.36,-119.021,coding-complete,W421_2010-07-28_USA_CA_Kern_-119.021_35.360.fasta
+W422,10-941,Culex tarsalis,Pooled mosquitos,100,4691.79,2010-08-18,USA,CA,Kern,35.158,-118.815,coding-complete,W422_2010-08-18_USA_CA_Kern_-118.815_35.158.fasta
+W423,10-1014,Culex tarsalis,Pooled mosquitos,100,2651.47,2010-08-25,USA,CA,Kern,35.158,-118.815,coding-complete,W423_2010-08-25_USA_CA_Kern_-118.815_35.158.fasta
+W424,10-1090,Culex quinquefasciatus,Pooled mosquitos,100,2634.53,2010-09-02,USA,CA,Kern,35.493,-119.272,coding-complete,W424_2010-09-02_USA_CA_Kern_-119.272_35.493.fasta
+W425,10-1357,Culex quinquefasciatus,Pooled mosquitos,100,655.886,2010-09-30,USA,CA,Kern,35.507,-119.265,coding-complete,W425_2010-09-30_USA_CA_Kern_-119.265_35.507.fasta
+W426,10-1377,Culex quinquefasciatus,Pooled mosquitos,100,4272.09,2010-10-05,USA,CA,Kern,35.436,-119.406,coding-complete,W426_2010-10-05_USA_CA_Kern_-119.406_35.436.fasta
+W427,11-468,Culex tarsalis,Pooled mosquitos,97.53,895.181,2011-06-08,USA,CA,Kern,35.346,-119.164,coding-complete,W427_2011-06-08_USA_CA_Kern_-119.164_35.346.fasta
+W428,11-1028,Culex tarsalis,Pooled mosquitos,100,610.622,2011-07-07,USA,CA,Kern,35.333,-119.181,coding-complete,W428_2011-07-07_USA_CA_Kern_-119.181_35.333.fasta
+W429,11-1103,Culex tarsalis,Pooled mosquitos,100,4486.52,2011-07-08,USA,CA,Kern,35.502,-119.254,coding-complete,W429_2011-07-08_USA_CA_Kern_-119.254_35.502.fasta
+W430,11-1135,Culex tarsalis,Pooled mosquitos,100,2013.54,2011-07-13,USA,CA,Kern,35.333,-119.181,coding-complete,W430_2011-07-13_USA_CA_Kern_-119.181_35.333.fasta
+W431,11-1137,Culex tarsalis,Pooled mosquitos,100,1422.22,2011-07-13,USA,CA,Kern,35.346,-119.164,coding-complete,W431_2011-07-13_USA_CA_Kern_-119.164_35.346.fasta
+W432,11-1138,Culex tarsalis,Pooled mosquitos,100,1443.59,2011-07-13,USA,CA,Kern,35.346,-119.164,coding-complete,W432_2011-07-13_USA_CA_Kern_-119.164_35.346.fasta
+W433,11-1139,Culex tarsalis,Pooled mosquitos,100,962.094,2011-07-13,USA,CA,Kern,35.346,-119.172,coding-complete,W433_2011-07-13_USA_CA_Kern_-119.172_35.346.fasta
+W434,11-1140,Culex tarsalis,Pooled mosquitos,100,84.2945,2011-07-13,USA,CA,Kern,35.346,-119.172,coding-complete,W434_2011-07-13_USA_CA_Kern_-119.172_35.346.fasta
+W435,11-1194,Culex quinquefasciatus,Pooled mosquitos,98.97,2053.26,2011-07-15,USA,CA,Kern,35.346,-119.1,coding-complete,W435_2011-07-15_USA_CA_Kern_-119.100_35.346.fasta
+W436,11-1339,Culex quinquefasciatus,Pooled mosquitos,100,991.363,2011-07-27,USA,CA,Kern,35.342,-119.125,coding-complete,W436_2011-07-27_USA_CA_Kern_-119.125_35.342.fasta
+W437,11-1498,Culex tarsalis,Pooled mosquitos,100,1198.5,2011-08-04,USA,CA,Kern,35.166,-118.825,coding-complete,W437_2011-08-04_USA_CA_Kern_-118.825_35.166.fasta
+W438,11-1502,Culex tarsalis,Pooled mosquitos,100,183.702,2011-08-04,USA,CA,Kern,35.158,-118.815,coding-complete,W438_2011-08-04_USA_CA_Kern_-118.815_35.158.fasta
+W440,11-1730,Culex tarsalis,Pooled mosquitos,94.69,42.0173,2011-08-18,USA,CA,Kern,35.166,-118.825,coding-complete,W440_2011-08-18_USA_CA_Kern_-118.825_35.166.fasta
+W446,12-685,Culex quinquefasciatus,Pooled mosquitos,99.96,313.976,2012-06-19,USA,CA,Kern,35.36,-119.021,coding-complete,W446_2012-06-19_USA_CA_Kern_-119.021_35.360.fasta
+W450,12-830,Culex quinquefasciatus,Pooled mosquitos,95.31,38.3068,2012-07-02,USA,CA,Kern,35.36,-119.021,coding-complete,W450_2012-07-02_USA_CA_Kern_-119.021_35.360.fasta
+W453,12-1054,Culex tarsalis,Pooled mosquitos,80.87,46.8719,2012-07-18,USA,CA,Kern,35.283,-118.932,coding-complete,W453_2012-07-18_USA_CA_Kern_-118.932_35.283.fasta
+W454,12-1087,Culex quinquefasciatus,Pooled mosquitos,86.11,53.3768,2012-07-19,USA,CA,Kern,35.353,-119.078,coding-complete,W454_2012-07-19_USA_CA_Kern_-119.078_35.353.fasta
+W455,12-1093,Culex quinquefasciatus,Pooled mosquitos,95.84,66.0859,2012-07-19,USA,CA,Kern,35.38,-119.111,coding-complete,W455_2012-07-19_USA_CA_Kern_-119.111_35.380.fasta
+W462,13-383,Culex tarsalis,Pooled mosquitos,99.59,51.6409,2013-08-21,USA,CA,Kern,35.501,-119.478,coding-complete,W462_2013-08-21_USA_CA_Kern_-119.478_35.501.fasta
+W470,14-274,Culex quinquefasciatus,Pooled mosquitos,95.76,48.7915,2014-07-18,USA,CA,Kern,35.411,-119.143,coding-complete,W470_2014-07-18_USA_CA_Kern_-119.143_35.411.fasta
+W478,15-394,Culex tarsalis,Pooled mosquitos,100,845.505,2015-07-28,USA,CA,Kern,35.166,-118.825,coding-complete,W478_2015-07-28_USA_CA_Kern_-118.825_35.166.fasta
+W481,15-486,Culex quinquefasciatus,Pooled mosquitos,97.5,46.4919,2015-08-28,USA,CA,Kern,35.53,-119.196,coding-complete,W481_2015-08-28_USA_CA_Kern_-119.196_35.530.fasta
+W485,16-372,Culex tarsalis,Pooled mosquitos,100,2899.19,2016-07-26,USA,CA,Kern,35.428,-119.406,coding-complete,W485_2016-07-26_USA_CA_Kern_-119.406_35.428.fasta
+W486,16-376,Culex quinquefasciatus,Pooled mosquitos,100,2125.62,2016-07-28,USA,CA,Kern,35.598,-119.213,coding-complete,W486_2016-07-28_USA_CA_Kern_-119.213_35.598.fasta
+W493,17-376,Culex quinquefasciatus,Pooled mosquitos,99.95,3344.7,2017-06-28,USA,CA,Kern,35.377,-119.009,coding-complete,W493_2017-06-28_USA_CA_Kern_-119.009_35.377.fasta
+W494,17-377,Culex tarsalis,Pooled mosquitos,100,394.443,2017-06-28,USA,CA,Kern,35.501,-119.478,coding-complete,W494_2017-06-28_USA_CA_Kern_-119.478_35.501.fasta
+W502,208-2252,American Crow,Tissue,100,484.059,2008-02-06,USA,CA,San Diego,32.855,-117.004,coding-complete,W502_2008-02-06_USA_CA_SanDiego_-117.004_32.855.fasta
+W503,208-2284,American Crow,Tissue,88.88,123.463,2008-03-12,USA,CA,San Diego,33.105,-117.067,coding-complete,W503_2008-03-12_USA_CA_SanDiego_-117.067_33.105.fasta
+W505,208-2874,American Crow,Tissue,100,445.014,2008-05-22,USA,CA,San Diego,32.827,-117.101,coding-complete,W505_2008-05-22_USA_CA_SanDiego_-117.101_32.827.fasta
+W506,208-3044,American Crow,Tissue,100,705.717,2008-06-02,USA,CA,San Diego,32.953,-117.229,coding-complete,W506_2008-06-02_USA_CA_SanDiego_-117.229_32.953.fasta
+W507,208-3292,American Crow,Tissue,100,2882.47,2008-06-18,USA,CA,San Diego,32.792,-117.236,coding-complete,W507_2008-06-18_USA_CA_SanDiego_-117.236_32.792.fasta
+W508,208-3296,American Crow,Tissue,100,3662.7,2008-06-18,USA,CA,San Diego,32.792,-117.236,coding-complete,W508_2008-06-18_USA_CA_SanDiego_-117.236_32.792.fasta
+W509,208-3298,American Crow,Tissue,100,346.258,2008-06-18,USA,CA,San Diego,32.792,-117.236,coding-complete,W509_2008-06-18_USA_CA_SanDiego_-117.236_32.792.fasta
+W510,208-3371,American Crow,Tissue,100,3809.15,2008-07-28,USA,CA,San Diego,32.895,-117.24,coding-complete,W510_2008-07-28_USA_CA_SanDiego_-117.240_32.895.fasta
+W511,209-0511,American Crow,Tissue,100,322.397,2008-08-06,USA,CA,San Diego,32.773,-117.167,coding-complete,W511_2008-08-06_USA_CA_SanDiego_-117.167_32.773.fasta
+W512,209-0569,American Crow,Tissue,100,2954.86,2008-08-11,USA,CA,San Diego,32.948,-117.223,coding-complete,W512_2008-08-11_USA_CA_SanDiego_-117.223_32.948.fasta
+W513,209-0731,American Crow,Tissue,100,728.226,2008-08-25,USA,CA,San Diego,32.796,-117.228,coding-complete,W513_2008-08-25_USA_CA_SanDiego_-117.228_32.796.fasta
+W514,209-0841,American Crow,Tissue,100,1646.61,2008-09-04,USA,CA,San Diego,32.925,-117.143,coding-complete,W514_2008-09-04_USA_CA_SanDiego_-117.143_32.925.fasta
+W515,209-0889,American Crow,Tissue,100,1484.7,2008-09-10,USA,CA,San Diego,32.897,-117.242,coding-complete,W515_2008-09-10_USA_CA_SanDiego_-117.242_32.897.fasta
+W516,209-0904,American Crow,Tissue,100,1999.6,2008-09-12,USA,CA,San Diego,32.788,-117.198,coding-complete,W516_2008-09-12_USA_CA_SanDiego_-117.198_32.788.fasta
+W517,209-0968,American Crow,Tissue,100,453.653,2008-09-19,USA,CA,San Diego,32.796,-117.228,coding-complete,W517_2008-09-19_USA_CA_SanDiego_-117.228_32.796.fasta
+W518,209-1003,American Crow,Tissue,100,1571.91,2008-09-23,USA,CA,San Diego,32.796,-117.228,coding-complete,W518_2008-09-23_USA_CA_SanDiego_-117.228_32.796.fasta
+W519,209-1022,American Crow,Tissue,100,460.968,2008-09-24,USA,CA,San Diego,33.028,-117.06,coding-complete,W519_2008-09-24_USA_CA_SanDiego_-117.060_33.028.fasta
+W520,209-1023,American Crow,Tissue,100,446.134,2008-09-24,USA,CA,San Diego,32.733,-117.078,coding-complete,W520_2008-09-24_USA_CA_SanDiego_-117.078_32.733.fasta
+W521,209-1050,American Crow,Tissue,100,1783.26,2008-09-25,USA,CA,San Diego,32.861,-117.226,coding-complete,W521_2008-09-25_USA_CA_SanDiego_-117.226_32.861.fasta
+W522,209-1064,American Crow,Tissue,100,229.217,2009-09-26,USA,CA,San Diego,32.751,-117.053,coding-complete,W522_2009-09-26_USA_CA_SanDiego_-117.053_32.751.fasta
+W523,209-1378,American Crow,Tissue,100,889.073,2008-11-05,USA,CA,San Diego,32.913,-117.223,coding-complete,W523_2008-11-05_USA_CA_SanDiego_-117.223_32.913.fasta
+W524,209-1464,American Crow,Tissue,100,1564.66,2008-11-10,USA,CA,San Diego,32.783,-117.236,coding-complete,W524_2008-11-10_USA_CA_SanDiego_-117.236_32.783.fasta
+W525,209-1513,Coopers Hawk,Tissue,100,4787.04,2008-11-17,USA,CA,San Diego,32.886,-117.196,coding-complete,W525_2008-11-17_USA_CA_SanDiego_-117.196_32.886.fasta
+W526,209-1603,American Crow,Tissue,100,4407.38,2008-12-01,USA,CA,San Diego,32.928,-117.139,coding-complete,W526_2008-12-01_USA_CA_SanDiego_-117.139_32.928.fasta
+W527,209-1616,Sharp-shinned hawk,Tissue,100,4593.93,2008-12-08,USA,CA,San Diego,33.016,-116.802,coding-complete,W527_2008-12-08_USA_CA_SanDiego_-116.802_33.016.fasta
+W528,209-1619,American Crow,Tissue,100,1460.63,2008-12-08,USA,CA,San Diego,32.951,-117.058,coding-complete,W528_2008-12-08_USA_CA_SanDiego_-117.058_32.951.fasta
+W529,209-1755,Sharp-shinned hawk,Tissue,100,5349.35,2008-12-22,USA,CA,San Diego,32.78,-116.924,coding-complete,W529_2008-12-22_USA_CA_SanDiego_-116.924_32.780.fasta
+W530,209-1879,American Crow,Tissue,100,512.784,2009-01-16,USA,CA,San Diego,32.906,-117.23,coding-complete,W530_2009-01-16_USA_CA_SanDiego_-117.230_32.906.fasta
+W531,209-1944,American Crow,Tissue,100,3749.97,2009-01-26,USA,CA,San Diego,32.905,-117.23,coding-complete,W531_2009-01-26_USA_CA_SanDiego_-117.230_32.905.fasta
+W532,209-2042,American Crow,Tissue,100,4875.2,2009-02-05,USA,CA,San Diego,32.751,-117.051,coding-complete,W532_2009-02-05_USA_CA_SanDiego_-117.051_32.751.fasta
+W533,209-2866,American Crow,Tissue,100,1100.96,2009-06-18,USA,CA,San Diego,32.904,-117.153,coding-complete,W533_2009-06-18_USA_CA_SanDiego_-117.153_32.904.fasta
+W534,209-2896,American Crow,Tissue,100,1574.3,2009-06-23,USA,CA,San Diego,33.256,-116.983,coding-complete,W534_2009-06-23_USA_CA_SanDiego_-116.983_33.256.fasta
+W535,210-0334,American Crow,Tissue,99.78,425.46,2009-09-08,USA,CA,San Diego,32.913,-117.222,coding-complete,W535_2009-09-08_USA_CA_SanDiego_-117.222_32.913.fasta
+W536,210-0404,American Crow,Tissue,100,1674.93,2009-09-30,USA,CA,San Diego,32.913,-117.224,coding-complete,W536_2009-09-30_USA_CA_SanDiego_-117.224_32.913.fasta
+W537,210-0554,American Crow,Tissue,100,1674.93,2009-10-22,USA,CA,San Diego,32.805,-117.179,coding-complete,W537_2009-10-22_USA_CA_SanDiego_-117.179_32.805.fasta
+W538,W14-0051,American Crow,Tissue,100,4965.27,2014-07-14,USA,CA,San Diego,32.741,-117.125,coding-complete,W538_2014-07-14_USA_CA_SanDiego_-117.125_32.741.fasta
+W539,W14-0065,American Crow,Tissue,100,549.081,2014-08-13,USA,CA,San Diego,32.797,-117.02,coding-complete,W539_2014-08-13_USA_CA_SanDiego_-117.020_32.797.fasta
+W540,W14-0095,American Crow,Tissue,100,807.878,2014-09-23,USA,CA,San Diego,32.803,-117.008,coding-complete,W540_2014-09-23_USA_CA_SanDiego_-117.008_32.803.fasta
+W541,W14-0102,American Crow,Tissue,100,516.88,2014-09-29,USA,CA,San Diego,32.775,-117.205,coding-complete,W541_2014-09-29_USA_CA_SanDiego_-117.205_32.775.fasta
+W542,W14-0106,American Crow,Tissue,100,1679.98,2014-10-02,USA,CA,San Diego,32.763,-117.2,coding-complete,W542_2014-10-02_USA_CA_SanDiego_-117.200_32.763.fasta
+W543,W14-0136,American Crow,Tissue,100,486.111,2014-11-10,USA,CA,San Diego,32.795,-117.031,coding-complete,W543_2014-11-10_USA_CA_SanDiego_-117.031_32.795.fasta
+W544,W14-0140,American Crow,Tissue,100,329.038,2014-11-13,USA,CA,San Diego,33.011,-116.813,coding-complete,W544_2014-11-13_USA_CA_SanDiego_-116.813_33.011.fasta
+W545,W14-0142,American Crow,Tissue,100,218.665,2014-11-17,USA,CA,San Diego,33.029,-117.084,coding-complete,W545_2014-11-17_USA_CA_SanDiego_-117.084_33.029.fasta
+W546,W14-0152,Hawk,Tissue,100,356.815,2014-12-18,USA,CA,San Diego,32.84,-117.101,coding-complete,W546_2014-12-18_USA_CA_SanDiego_-117.101_32.840.fasta
+W547,W14-0154,Raven,Tissue,100,356.815,2014-12-18,USA,CA,San Diego,32.797,-117.018,coding-complete,W547_2014-12-18_USA_CA_SanDiego_-117.018_32.797.fasta
+W548,W14-0155,Raven,Tissue,100,4614.07,2014-12-16,USA,CA,San Diego,32.736,-117.081,coding-complete,W548_2014-12-16_USA_CA_SanDiego_-117.081_32.736.fasta
+W549,15-B-00055-B,American Crow,Tissue,100,314.29,2015-04-16,USA,CA,San Diego,32.835,-117.153,coding-complete,W549_2015-04-16_USA_CA_SanDiego_-117.153_32.835.fasta
+W550,15-B-00058-B,American Crow,Tissue,100,1625.56,2015-04-28,USA,CA,San Diego,32.84,-117.229,coding-complete,W550_2015-04-28_USA_CA_SanDiego_-117.229_32.840.fasta
+W551,15-B-00074-B,American Crow,Tissue,100,325.746,2015-05-11,USA,CA,San Diego,32.721,-117.036,coding-complete,W551_2015-05-11_USA_CA_SanDiego_-117.036_32.721.fasta
+W552,15-B-00136-B,American Crow,Tissue,100,194.921,2015-06-05,USA,CA,San Diego,32.736,-117.149,coding-complete,W552_2015-06-05_USA_CA_SanDiego_-117.149_32.736.fasta
+W553,15-B-00168-B,American Crow,Tissue,100,3176.34,2015-07-02,USA,CA,San Diego,32.948,-117.218,coding-complete,W553_2015-07-02_USA_CA_SanDiego_-117.218_32.948.fasta
+W554,15-B-00175-B,American Crow,Tissue,100,4793.17,2015-07-02,USA,CA,San Diego,32.729,-117.096,coding-complete,W554_2015-07-02_USA_CA_SanDiego_-117.096_32.729.fasta
+W555,15-B-00193-B,Western Scrub Jay,Tissue,100,3509.97,2015-07-09,USA,CA,San Diego,32.983,-117.094,coding-complete,W555_2015-07-09_USA_CA_SanDiego_-117.094_32.983.fasta
+W556,15-B-00204-B,American Crow,Tissue,100,4466.22,2015-07-21,USA,CA,San Diego,32.927,-117.136,coding-complete,W556_2015-07-21_USA_CA_SanDiego_-117.136_32.927.fasta
+W557,15-B-00209-B,Western Scrub Jay,Tissue,100,4211.52,2015-07-28,USA,CA,San Diego,32.728,-117.247,coding-complete,W557_2015-07-28_USA_CA_SanDiego_-117.247_32.728.fasta
+W558,15-B-00214-B,American Crow,Tissue,100,3001.67,2015-08-03,USA,CA,San Diego,32.972,-117.167,coding-complete,W558_2015-08-03_USA_CA_SanDiego_-117.167_32.972.fasta
+W559,15-B-00218-B,American Crow,Tissue,100,1802.56,2015-08-04,USA,CA,San Diego,32.828,-117.097,coding-complete,W559_2015-08-04_USA_CA_SanDiego_-117.097_32.828.fasta
+W560,15-B-00240-B,American Crow,Tissue,100,3874.7,2015-08-17,USA,CA,San Diego,32.795,-117.083,coding-complete,W560_2015-08-17_USA_CA_SanDiego_-117.083_32.795.fasta
+W561,15-B-00242-B,American Crow,Tissue,100,133.176,2015-08-19,USA,CA,San Diego,32.908,-117.187,coding-complete,W561_2015-08-19_USA_CA_SanDiego_-117.187_32.908.fasta
+W562,15-B-00262-B,American Crow,Tissue,97.41,2332.21,2015-08-24,USA,CA,San Diego,32.701,-117.135,coding-complete,W562_2015-08-24_USA_CA_SanDiego_-117.135_32.701.fasta
+W563,15-B-00264-B,American Crow,Tissue,100,3227.66,2015-08-25,USA,CA,San Diego,32.824,-117.186,coding-complete,W563_2015-08-25_USA_CA_SanDiego_-117.186_32.824.fasta
+W564,15-B-00283-B,American Crow,Tissue,100,1898.17,2015-09-01,USA,CA,San Diego,32.796,-117.225,coding-complete,W564_2015-09-01_USA_CA_SanDiego_-117.225_32.796.fasta
+W565,15-B-00294-B,American Crow,Tissue,100,352.925,2015-09-03,USA,CA,San Diego,32.749,-117.159,coding-complete,W565_2015-09-03_USA_CA_SanDiego_-117.159_32.749.fasta
+W566,15-B-00308-B,American Crow,Tissue,100,1157.05,2015-09-08,USA,CA,San Diego,32.904,-117.092,coding-complete,W566_2015-09-08_USA_CA_SanDiego_-117.092_32.904.fasta
+W567,15-B-00313-B,American Crow,Tissue,99.89,695.271,2015-09-10,USA,CA,San Diego,32.897,-117.242,coding-complete,W567_2015-09-10_USA_CA_SanDiego_-117.242_32.897.fasta
+W568,15-B-00315-B,American Crow,Tissue,100,2419.28,2015-09-10,USA,CA,San Diego,32.8,-117.031,coding-complete,W568_2015-09-10_USA_CA_SanDiego_-117.031_32.800.fasta
+W569,15-B-00369-B,American Crow,Tissue,100,4572.91,2015-09-22,USA,CA,San Diego,32.756,-117.064,coding-complete,W569_2015-09-22_USA_CA_SanDiego_-117.064_32.756.fasta
+W570,15-B-00370-B,American Crow,Tissue,100,4780.35,2015-09-22,USA,CA,San Diego,32.729,-117.226,coding-complete,W570_2015-09-22_USA_CA_SanDiego_-117.226_32.729.fasta
+W571,15-B-00371-B,American Crow,Tissue,100,4897.04,2015-09-22,USA,CA,San Diego,32.766,-117.194,coding-complete,W571_2015-09-22_USA_CA_SanDiego_-117.194_32.766.fasta
+W572,15-B-00397-B,American Crow,Tissue,100,4911.56,2015-09-28,USA,CA,San Diego,33.014,-117.116,coding-complete,W572_2015-09-28_USA_CA_SanDiego_-117.116_33.014.fasta
+W573,15-B-00413-B,American Crow,Tissue,100,1286.24,2015-10-01,USA,CA,San Diego,32.837,-117.086,coding-complete,W573_2015-10-01_USA_CA_SanDiego_-117.086_32.837.fasta
+W574,15-B-00420-B,American Crow,Tissue,100,2191.97,2015-10-02,USA,CA,San Diego,32.795,-117.165,coding-complete,W574_2015-10-02_USA_CA_SanDiego_-117.165_32.795.fasta
+W575,15-B-00433-B,American Crow,Tissue,100,4498.27,2015-10-06,USA,CA,San Diego,32.668,-117.058,coding-complete,W575_2015-10-06_USA_CA_SanDiego_-117.058_32.668.fasta
+W576,15-B-00441-B,American Crow,Tissue,100,3808.1,2015-10-07,USA,CA,San Diego,32.757,-117.123,coding-complete,W576_2015-10-07_USA_CA_SanDiego_-117.123_32.757.fasta
+W577,15-B-00451-B,American Crow,Tissue,100,5239.05,2015-10-10,USA,CA,San Diego,33.023,-117.059,coding-complete,W577_2015-10-10_USA_CA_SanDiego_-117.059_33.023.fasta
+W578,15-B-00470-B,American Crow,Tissue,100,5239.05,2015-10-16,USA,CA,San Diego,32.834,-117.226,coding-complete,W578_2015-10-16_USA_CA_SanDiego_-117.226_32.834.fasta
+W579,15-B-00518-B,American Crow,Tissue,100,2696.89,2015-11-02,USA,CA,San Diego,32.747,-117.212,coding-complete,W579_2015-11-02_USA_CA_SanDiego_-117.212_32.747.fasta
+W580,15-B-00551-B,American Crow,Tissue,100,2696.89,2015-11-16,USA,CA,San Diego,32.741,-117.241,coding-complete,W580_2015-11-16_USA_CA_SanDiego_-117.241_32.741.fasta
+W581,15-B-00552-B,American Crow,Tissue,100,77.5129,2015-11-17,USA,CA,San Diego,33.029,-117.085,coding-complete,W581_2015-11-17_USA_CA_SanDiego_-117.085_33.029.fasta
+W582,15-B-00585-B,Sharp-shinned Hawk,Tissue,100,624.417,2015-12-11,USA,CA,San Diego,32.767,-117.052,coding-complete,W582_2015-12-11_USA_CA_SanDiego_-117.052_32.767.fasta
+W583,15-B-00598-B,Red-shouldered Hawk,Tissue,99.18,1047.4,2015-12-28,USA,CA,San Diego,33.044,-117.065,coding-complete,W583_2015-12-28_USA_CA_SanDiego_-117.065_33.044.fasta
+W584,16-B-00643-B,American Crow,Tissue,100,944.052,2016-02-27,USA,CA,San Diego,32.946,-117.245,coding-complete,W584_2016-02-27_USA_CA_SanDiego_-117.245_32.946.fasta
+W585,16-B-00644-B,American Crow,Tissue,100,817.839,2016-02-28,USA,CA,San Diego,32.946,-117.245,coding-complete,W585_2016-02-28_USA_CA_SanDiego_-117.245_32.946.fasta
+W586,16-B-00652-B,American Crow,Tissue,100,2289.03,2016-03-16,USA,CA,San Diego,33.147,-117.054,coding-complete,W586_2016-03-16_USA_CA_SanDiego_-117.054_33.147.fasta
+W587,16-B-00660-B,American Crow,Tissue,100,2260.39,2016-04-11,USA,CA,San Diego,32.809,-117.2,coding-complete,W587_2016-04-11_USA_CA_SanDiego_-117.200_32.809.fasta
+W588,16-B-00664-B,American Crow,Tissue,84.14,342.754,2016-04-28,USA,CA,San Diego,32.965,-117.054,coding-complete,W588_2016-04-28_USA_CA_SanDiego_-117.054_32.965.fasta
+W589,16-B-00669-B,American Crow,Tissue,100,1453.41,2016-04-21,USA,CA,San Diego,32.772,-117.073,coding-complete,W589_2016-04-21_USA_CA_SanDiego_-117.073_32.772.fasta
+W590,17-B-01057-B,American Crow,Tissue,100,62.6109,2017-06-09,USA,CA,San Diego,33.235,-117.216,coding-complete,W590_2017-06-09_USA_CA_SanDiego_-117.216_33.235.fasta
+W591,17-B-01064-B,American Crow,Tissue,100,1153.46,2017-07-06,USA,CA,San Diego,32.814,-117.045,coding-complete,W591_2017-07-06_USA_CA_SanDiego_-117.045_32.814.fasta
+W592,17-B-01073-B,American Crow,Tissue,100,2323.41,2017-08-04,USA,CA,San Diego,32.552,-116.936,coding-complete,W592_2017-08-04_USA_CA_SanDiego_-116.936_32.552.fasta
+W593,17-B-01078-T,American Crow,Tissue,100,125.25,2017-08-15,USA,CA,San Diego,33.094,-117.001,coding-complete,W593_2017-08-15_USA_CA_SanDiego_-117.001_33.094.fasta
+W594,17-B-01085-B,American Crow,Tissue,100,3182.85,2017-08-24,USA,CA,San Diego,33.03,-117.084,coding-complete,W594_2017-08-24_USA_CA_SanDiego_-117.084_33.030.fasta
+W595,17-B-01093-T,American Crow,Tissue,100,289.77,2017-09-11,USA,CA,San Diego,33.091,-116.999,coding-complete,W595_2017-09-11_USA_CA_SanDiego_-116.999_33.091.fasta
+W715,16-4064,Culex tarsalis,Pooled mosquitos,100,3307.97,2016-07-26,USA,CA,Sacramento,38.51,-121.354,coding-complete,W715_2016-07-26_USA_CA_Sacramento_-121.354_38.510.fasta
+W716,16-4421,Culex tarsalis,Pooled mosquitos,100,4403.61,2016-07-29,USA,CA,Sacramento,38.698,-121.621,coding-complete,W716_2016-07-29_USA_CA_Sacramento_-121.621_38.698.fasta
+W717,16-4896,Culex tarsalis,Pooled mosquitos,100,3748.06,2016-08-05,USA,CA,Yolo,38.61,-121.712,coding-complete,W717_2016-08-05_USA_CA_Yolo_-121.712_38.610.fasta
+W718,16-4984,Culex tarsalis,Pooled mosquitos,100,4571.54,2016-08-09,USA,CA,Sacramento,38.423,-121.214,coding-complete,W718_2016-08-09_USA_CA_Sacramento_-121.214_38.423.fasta
+W719,17-3142,Culex pipiens,Pooled mosquitos,100,3391.66,2017-07-18,USA,CA,Sacramento,38.425,-121.383,coding-complete,W719_2017-07-18_USA_CA_Sacramento_-121.383_38.425.fasta
+W720,17-3717,Culex tarsalis,Pooled mosquitos,100,4706.35,2017-08-01,USA,CA,Sacramento,38.51,-121.354,coding-complete,W720_2017-08-01_USA_CA_Sacramento_-121.354_38.510.fasta
+W721,17-3921,Culex tarsalis,Pooled mosquitos,100,2869.3,2017-08-03,USA,CA,Sacramento,38.334,-121.444,coding-complete,W721_2017-08-03_USA_CA_Sacramento_-121.444_38.334.fasta
+W722,17-4230,Culex tarsalis,Pooled mosquitos,100,3275.37,2017-08-08,USA,CA,Yolo,38.551,-121.689,coding-complete,W722_2017-08-08_USA_CA_Yolo_-121.689_38.551.fasta
+W723,17-4809,Culex pipiens,Pooled mosquitos,100,3815.47,2017-08-22,USA,CA,Sacramento,38.489,-121.395,coding-complete,W723_2017-08-22_USA_CA_Sacramento_-121.395_38.489.fasta
+W724,17-5589,Culex pipiens,Pooled mosquitos,100,3563.11,2017-09-06,USA,CA,Sacramento,38.361,-121.414,coding-complete,W724_2017-09-06_USA_CA_Sacramento_-121.414_38.361.fasta
+W725,17-5884-1,Culex pipiens,Pooled mosquitos,100,4553.18,2017-09-12,USA,CA,Yolo,38.543,-121.55,coding-complete,W725_2017-09-12_USA_CA_Yolo_-121.550_38.543.fasta
+W726,17-5884-2,Culex pipiens,Pooled mosquitos,100,4944.08,2017-09-12,USA,CA,Yolo,38.543,-121.55,coding-complete,W726_2017-09-12_USA_CA_Yolo_-121.550_38.543.fasta
+W727,10-1274,American Crow,Tissue,100,2761.62,2010-07-02,USA,CA,Sacramento,38.43,-121.313,coding-complete,W727_2010-07-02_USA_CA_Sacramento_-121.313_38.430.fasta
+W728,10-1381,American Crow,Tissue,100,4179.35,2010-07-09,USA,CA,Sacramento,38.702,-121.341,coding-complete,W728_2010-07-09_USA_CA_Sacramento_-121.341_38.702.fasta
+W729,10-1396,Yellow-billed Magpie,Tissue,100,5563.21,2010-07-09,USA,CA,Sacramento,38.535,-121.358,coding-complete,W729_2010-07-09_USA_CA_Sacramento_-121.358_38.535.fasta
+W730,10-1871,American Crow,Tissue,100,4130.54,2010-08-02,USA,CA,Sacramento,38.631,-121.336,coding-complete,W730_2010-08-02_USA_CA_Sacramento_-121.336_38.631.fasta
+W731,10-2406,California Scrub-Jay,Tissue,100,5705.13,2010-09-12,USA,CA,Sacramento,38.584,-121.449,coding-complete,W731_2010-09-12_USA_CA_Sacramento_-121.449_38.584.fasta
+W732,10-2478,American Crow,Tissue,100,3611.03,2010-09-17,USA,CA,Sacramento,38.419,-121.379,coding-complete,W732_2010-09-17_USA_CA_Sacramento_-121.379_38.419.fasta
+W733,10-2515,American Crow,Tissue,100,966.669,2010-09-22,USA,CA,Sacramento,38.575,-121.478,coding-complete,W733_2010-09-22_USA_CA_Sacramento_-121.478_38.575.fasta
+W734,11-2008,American Crow,Tissue,100,3698.16,2011-08-18,USA,CA,Sacramento,38.42,-121.375,coding-complete,W734_2011-08-18_USA_CA_Sacramento_-121.375_38.420.fasta
+W735,11-2041,American Crow,Tissue,100,572.07,2011-08-20,USA,CA,Sacramento,38.426,-121.326,coding-complete,W735_2011-08-20_USA_CA_Sacramento_-121.326_38.426.fasta
+W736,11-2130,American Crow,Tissue,100,5558.13,2011-08-24,USA,CA,Sacramento,38.418,-121.388,coding-complete,W736_2011-08-24_USA_CA_Sacramento_-121.388_38.418.fasta
+W737,11-2136,Northern Mockingbird,Tissue,100,5773.12,2011-08-23,USA,CA,Sacramento,38.284,-121.292,coding-complete,W737_2011-08-23_USA_CA_Sacramento_-121.292_38.284.fasta
+W738,11-2217,American Crow,Tissue,100,3544.11,2011-08-29,USA,CA,Sacramento,38.571,-121.498,coding-complete,W738_2011-08-29_USA_CA_Sacramento_-121.498_38.571.fasta
+W739,11-2337,American Crow,Tissue,100,5705.13,2011-09-02,USA,CA,Sacramento,38.431,-121.328,coding-complete,W739_2011-09-02_USA_CA_Sacramento_-121.328_38.431.fasta
+W740,11-2342,American Crow,Tissue,100,5051.13,2011-09-06,USA,CA,Sacramento,38.42,-121.426,coding-complete,W740_2011-09-06_USA_CA_Sacramento_-121.426_38.420.fasta
+W741,12-1098,American Crow,Tissue,100,557.06,2012-05-28,USA,CA,Sacramento,38.429,-121.374,coding-complete,W741_2012-05-28_USA_CA_Sacramento_-121.374_38.429.fasta
+W742,12-1385,California Scrub-Jay,Tissue,100,1912.14,2012-06-07,USA,CA,Sacramento,38.459,-121.32,coding-complete,W742_2012-06-07_USA_CA_Sacramento_-121.320_38.459.fasta
+W743,12-1603,American Crow,Tissue,100,3466.77,2012-06-13,USA,CA,Sacramento,38.407,-121.377,coding-complete,W743_2012-06-13_USA_CA_Sacramento_-121.377_38.407.fasta
+W744,12-1689,Yellow-billed Magpie,Tissue,100,514.729,2012-06-15,USA,CA,Sacramento,38.544,-121.357,coding-complete,W744_2012-06-15_USA_CA_Sacramento_-121.357_38.544.fasta
+W745,12-1995,American Crow,Tissue,100,4957.99,2012-06-23,USA,CA,Sacramento,38.384,-121.26,coding-complete,W745_2012-06-23_USA_CA_Sacramento_-121.260_38.384.fasta
+W746,12-2236,California Scrub-Jay,Tissue,100,2045.41,2012-06-28,USA,CA,Sacramento,38.436,-121.377,coding-complete,W746_2012-06-28_USA_CA_Sacramento_-121.377_38.436.fasta
+W747,12-2483,Yellow-billed Magpie,Tissue,100,2001.06,2012-07-02,USA,CA,Sacramento,38.605,-121.394,coding-complete,W747_2012-07-02_USA_CA_Sacramento_-121.394_38.605.fasta
+W748,13-1076,American Crow,Tissue,100,4919.84,2013-05-31,USA,CA,Sacramento,38.394,-121.263,coding-complete,W748_2013-05-31_USA_CA_Sacramento_-121.263_38.394.fasta
+W749,13-1802,American Crow,Tissue,100,4789.03,2013-07-02,USA,CA,Sacramento,38.501,-121.51,coding-complete,W749_2013-07-02_USA_CA_Sacramento_-121.510_38.501.fasta
+W750,13-2182,California Scrub-Jay,Tissue,100,2095.66,2013-07-16,USA,CA,Yolo,38.674,-121.769,coding-complete,W750_2013-07-16_USA_CA_Yolo_-121.769_38.674.fasta
+W751,13-2488,Yellow-billed Magpie,Tissue,100,4279.96,2013-07-24,USA,CA,Sacramento,38.688,-121.207,coding-complete,W751_2013-07-24_USA_CA_Sacramento_-121.207_38.688.fasta
+W752,13-2762,American Crow,Tissue,100,3802.08,2013-07-30,USA,CA,Sacramento,38.561,-121.495,coding-complete,W752_2013-07-30_USA_CA_Sacramento_-121.495_38.561.fasta
+W753,13-3454,House Finch,Tissue,100,1707.17,2013-08-19,USA,CA,Yolo,38.547,-121.702,coding-complete,W753_2013-08-19_USA_CA_Yolo_-121.702_38.547.fasta
+W754,13-3965,American Crow,Tissue,100,2352.94,2013-09-18,USA,CA,Sacramento,38.606,-121.36,coding-complete,W754_2013-09-18_USA_CA_Sacramento_-121.360_38.606.fasta
+W755,14-1032,California Scrub-Jay,Tissue,100,2218.85,2014-06-15,USA,CA,Sacramento,38.592,-121.354,coding-complete,W755_2014-06-15_USA_CA_Sacramento_-121.354_38.592.fasta
+W756,14-1931,American Crow,Tissue,100,3497.05,2014-07-10,USA,CA,Sacramento,38.431,-121.329,coding-complete,W756_2014-07-10_USA_CA_Sacramento_-121.329_38.431.fasta
+W757,14-3236,California Scrub-Jay,Tissue,100,1956.57,2014-08-12,USA,CA,Sacramento,38.438,-121.293,coding-complete,W757_2014-08-12_USA_CA_Sacramento_-121.293_38.438.fasta
+W758,14-3960,American Crow,Tissue,100,4115.66,2014-09-04,USA,CA,Sacramento,38.701,-121.291,coding-complete,W758_2014-09-04_USA_CA_Sacramento_-121.291_38.701.fasta
+W759,14-4042,American Crow,Tissue,100,1526.84,2014-09-07,USA,CA,Sacramento,38.649,-121.255,coding-complete,W759_2014-09-07_USA_CA_Sacramento_-121.255_38.649.fasta
+W760,14-4162,Yellow-billed Magpie,Tissue,100,2677.75,2014-09-11,USA,CA,Sacramento,38.64,-121.29,coding-complete,W760_2014-09-11_USA_CA_Sacramento_-121.290_38.640.fasta
+W761,14-4470,American Crow,Tissue,100,602.536,2014-09-26,USA,CA,Yolo,38.696,-121.748,coding-complete,W761_2014-09-26_USA_CA_Yolo_-121.748_38.696.fasta
+W762,15-1072,American Crow,Tissue,100,2352.42,2015-06-11,USA,CA,Yolo,38.563,-121.769,coding-complete,W762_2015-06-11_USA_CA_Yolo_-121.769_38.563.fasta
+W763,15-1611,Barn Swallow,Tissue,100,880.289,2015-07-12,USA,CA,Yolo,38.544,-121.797,coding-complete,W763_2015-07-12_USA_CA_Yolo_-121.797_38.544.fasta
+W764,15-1902,Yellow-billed Magpie,Tissue,100,4564.09,2015-07-26,USA,CA,Yolo,38.557,-121.721,coding-complete,W764_2015-07-26_USA_CA_Yolo_-121.721_38.557.fasta
+W765,15-2120,California Scrub-Jay,Tissue,100,2195.71,2015-08-06,USA,CA,Sacramento,38.442,-121.369,coding-complete,W765_2015-08-06_USA_CA_Sacramento_-121.369_38.442.fasta
+W766,15-2268,American Crow,Tissue,100,1755.83,2015-08-12,USA,CA,Yolo,38.564,-121.745,coding-complete,W766_2015-08-12_USA_CA_Yolo_-121.745_38.564.fasta
+W767,15-3233,Red-tailed Hawk,Tissue,100,484.52,2015-09-24,USA,CA,Sacramento,38.546,-121.224,coding-complete,W767_2015-09-24_USA_CA_Sacramento_-121.224_38.546.fasta
+W768,15-3418,American Crow,Tissue,100,1972.61,2015-10-04,USA,CA,Sacramento,38.588,-121.393,coding-complete,W768_2015-10-04_USA_CA_Sacramento_-121.393_38.588.fasta
+W769,16-517,Yellow-billed Magpie,Tissue,100,482.745,2016-05-19,USA,CA,Sacramento,38.564,-121.363,coding-complete,W769_2016-05-19_USA_CA_Sacramento_-121.363_38.564.fasta
+W770,16-1009,California Scrub-Jay,Tissue,100,1316.59,2016-06-15,USA,CA,Sacramento,38.644,-121.324,coding-complete,W770_2016-06-15_USA_CA_Sacramento_-121.324_38.644.fasta
+W771,16-1128,American Crow,Tissue,100,1689.71,2016-06-20,USA,CA,Sacramento,38.578,-121.385,coding-complete,W771_2016-06-20_USA_CA_Sacramento_-121.385_38.578.fasta
+W772,16-1191,Brewer's Blackbird,Tissue,100,1528,2016-06-22,USA,CA,Sacramento,38.653,-121.218,coding-complete,W772_2016-06-22_USA_CA_Sacramento_-121.218_38.653.fasta
+W773,16-1454,Yellow-billed Magpie,Tissue,100,3022.37,2016-06-30,USA,CA,Sacramento,38.543,-121.366,coding-complete,W773_2016-06-30_USA_CA_Sacramento_-121.366_38.543.fasta
+W774,16-1668,American Crow,Tissue,100,1535.82,2016-07-10,USA,CA,Sacramento,38.553,-121.347,coding-complete,W774_2016-07-10_USA_CA_Sacramento_-121.347_38.553.fasta
+W775,16-2190,American Crow,Tissue,100,2919.21,2016-07-28,USA,CA,Yolo,38.669,-121.771,coding-complete,W775_2016-07-28_USA_CA_Yolo_-121.771_38.669.fasta
+W776,17-431,American Crow,Tissue,100,4468.66,2017-05-23,USA,CA,Sacramento,38.55,-121.369,coding-complete,W776_2017-05-23_USA_CA_Sacramento_-121.369_38.550.fasta
+W777,17-669,California Scrub-Jay,Tissue,100,835.483,2017-06-07,USA,CA,Sacramento,38.553,-121.37,coding-complete,W777_2017-06-07_USA_CA_Sacramento_-121.370_38.553.fasta
+W778,17-1001,Yellow-billed Magpie,Tissue,100,1925.28,2017-06-29,USA,CA,Sacramento,38.609,-121.39,coding-complete,W778_2017-06-29_USA_CA_Sacramento_-121.390_38.609.fasta
+W779,17-1062,Yellow-billed Magpie,Tissue,100,1925.28,2017-07-05,USA,CA,Sacramento,38.567,-121.4,coding-complete,W779_2017-07-05_USA_CA_Sacramento_-121.400_38.567.fasta
+W780,17-1425,Western Bluebird,Tissue,100,5421.57,2017-08-03,USA,CA,Sacramento,38.594,-121.275,coding-complete,W780_2017-08-03_USA_CA_Sacramento_-121.275_38.594.fasta
+W781,17-1836,American Crow,Tissue,100,5645.46,2017-09-08,USA,CA,Sacramento,38.306,-121.403,coding-complete,W781_2017-09-08_USA_CA_Sacramento_-121.403_38.306.fasta
+W782,17-1977,California Scrub-Jay,Tissue,100,4496.9,2017-09-17,USA,CA,Yolo,38.557,-121.79,coding-complete,W782_2017-09-17_USA_CA_Yolo_-121.790_38.557.fasta
+W784,04-5862,Western Scrub-Jay,Tissue,100,4496.9,2004-08-30,USA,CA,Sacramento,38.577,-121.299,coding-complete,W784_2004-08-30_USA_CA_Sacramento_-121.299_38.577.fasta
+W785,04-4914,Yellow-billed Magpie,Tissue,100,1992.61,2004-08-12,USA,CA,Sacramento,38.422,-121.202,coding-complete,W785_2004-08-12_USA_CA_Sacramento_-121.202_38.422.fasta
+W786,04-5690,Western Scrub-Jay,Tissue,99.54,944.365,2004-08-26,USA,CA,Sacramento,38.459,-121.312,coding-complete,W786_2004-08-26_USA_CA_Sacramento_-121.312_38.459.fasta
+W787,05-4223,Western Scrub-Jay,Tissue,100,416.492,2005-06-21,USA,CA,Yolo,38.538,-121.762,coding-complete,W787_2005-06-21_USA_CA_Yolo_-121.762_38.538.fasta
+W788,05-4969,Yellow-billed Magpie,Tissue,100,439.373,2005-07-06,USA,CA,Sacramento,38.607,-121.394,coding-complete,W788_2005-07-06_USA_CA_Sacramento_-121.394_38.607.fasta
+W789,05-6056,Northern Mockingbird,Tissue,100,679.732,2005-07-21,USA,CA,Sacramento,38.414,-121.406,coding-complete,W789_2005-07-21_USA_CA_Sacramento_-121.406_38.414.fasta
+W790,05-6060,Yellow-billed Magpie,Tissue,96.23,2182.52,2005-07-21,USA,CA,Sacramento,38.397,-121.371,coding-complete,W790_2005-07-21_USA_CA_Sacramento_-121.371_38.397.fasta
+W792,05-6879,American Crow,Tissue,99.92,2849.85,2005-08-03,USA,CA,Yolo,38.539,-121.714,coding-complete,W792_2005-08-03_USA_CA_Yolo_-121.714_38.539.fasta
+W793,05-6898,Black-crowned Night Heron,Tissue,95.96,1941.87,2005-08-03,USA,CA,Yolo,38.531,-121.777,coding-complete,W793_2005-08-03_USA_CA_Yolo_-121.777_38.531.fasta
+W794,05-6120,Yellow-billed Magpie,Tissue,100,1927.88,2005-07-24,USA,CA,Sacramento,38.61,-121.389,coding-complete,W794_2005-07-24_USA_CA_Sacramento_-121.389_38.610.fasta
+W795,05-6143,Yellow-billed Magpie,Tissue,100,917.961,2005-07-25,USA,CA,Sacramento,38.61,-121.404,coding-complete,W795_2005-07-25_USA_CA_Sacramento_-121.404_38.610.fasta
+W796,05-6521,Western Scrub-Jay,Tissue,100,1675.46,2005-07-28,USA,CA,Sacramento,38.433,-121.328,coding-complete,W796_2005-07-28_USA_CA_Sacramento_-121.328_38.433.fasta
+W797,06-6890,Yellow-billed Magpie,Tissue,100,729.339,2006-09-13,USA,CA,Sacramento,38.635,-121.466,coding-complete,W797_2006-09-13_USA_CA_Sacramento_-121.466_38.635.fasta
+W798,06-6958,Barn Owl,Tissue,96.64,2070.39,2006-09-14,USA,CA,Yolo,38.73,-121.956,coding-complete,W798_2006-09-14_USA_CA_Yolo_-121.956_38.730.fasta
+W799,06-3046,Yellow-billed Magpie,Tissue,100,1006.17,2006-06-21,USA,CA,Sacramento,38.723,-121.45,coding-complete,W799_2006-06-21_USA_CA_Sacramento_-121.450_38.723.fasta
+W800,06-3905,California Scrub-Jay,Tissue,99.64,640.908,2006-07-11,USA,CA,Sacramento,38.705,-121.373,coding-complete,W800_2006-07-11_USA_CA_Sacramento_-121.373_38.705.fasta
+W801,06-3541,Yellow-billed Magpie,Tissue,99.09,1075.9,2006-07-04,USA,CA,Sacramento,38.718,-121.406,coding-complete,W801_2006-07-04_USA_CA_Sacramento_-121.406_38.718.fasta
+W802,07-3619,California Scrub-Jay,Tissue,98.83,1207.68,2007-07-09,USA,CA,Yolo,38.56,-121.703,coding-complete,W802_2007-07-09_USA_CA_Yolo_-121.703_38.560.fasta
+W803,07-3886,Yellow-billed Magpie,Tissue,99.93,789.894,2007-07-13,USA,CA,Sacramento,38.442,-121.197,coding-complete,W803_2007-07-13_USA_CA_Sacramento_-121.197_38.442.fasta
+W806,07-4453,California Scrub-Jay,Tissue,88.01,2041.81,2007-07-24,USA,CA,Sacramento,38.698,-121.334,coding-complete,W806_2007-07-24_USA_CA_Sacramento_-121.334_38.698.fasta
+W807,07-4413,Yellow-billed Magpie,Tissue,100,2723.46,2007-07-24,USA,CA,Sacramento,38.652,-121.258,coding-complete,W807_2007-07-24_USA_CA_Sacramento_-121.258_38.652.fasta
+W808,07-4454,House Finch,Tissue,100,1371.09,2007-07-24,USA,CA,Sacramento,38.693,-121.309,coding-complete,W808_2007-07-24_USA_CA_Sacramento_-121.309_38.693.fasta
+W809,07-4412,California Scrub-Jay,Tissue,96.88,2317.32,2007-07-24,USA,CA,Sacramento,38.532,-121.513,coding-complete,W809_2007-07-24_USA_CA_Sacramento_-121.513_38.532.fasta
+W810,08-216,American Crow,Tissue,100,2898.99,2008-03-05,USA,CA,Sacramento,38.314,-121.166,coding-complete,W810_2008-03-05_USA_CA_Sacramento_-121.166_38.314.fasta
+W811,08-2500,Common Raven,Tissue,100,628.276,2008-06-17,USA,CA,Sacramento,38.485,-121.51,coding-complete,W811_2008-06-17_USA_CA_Sacramento_-121.510_38.485.fasta
+W812,08-3245,California Scrub-Jay,Tissue,100,1377.31,2008-07-06,USA,CA,Sacramento,38.72,-121.362,coding-complete,W812_2008-07-06_USA_CA_Sacramento_-121.362_38.720.fasta
+W814,08-3322,American Robin,Tissue,96.15,2112.66,2008-07-08,USA,CA,Sacramento,38.504,-121.508,coding-complete,W814_2008-07-08_USA_CA_Sacramento_-121.508_38.504.fasta
+W815,08-6296,American Crow,Tissue,87.1,1546.88,2008-09-08,USA,CA,Sacramento,38.607,-121.302,coding-complete,W815_2008-09-08_USA_CA_Sacramento_-121.302_38.607.fasta
+W816,08-6119,Yellow-billed Magpie,Tissue,100,2973.21,2008-09-02,USA,CA,Yolo,38.562,-121.714,coding-complete,W816_2008-09-02_USA_CA_Yolo_-121.714_38.562.fasta
+W817,09-2532,Yellow-billed Magpie,Tissue,100,568.02,2009-07-29,USA,CA,Sacramento,38.464,-121.502,coding-complete,W817_2009-07-29_USA_CA_Sacramento_-121.502_38.464.fasta
+W818,09-2847,California Scrub-Jay,Tissue,100,971.551,2009-08-18,USA,CA,Sacramento,38.662,-121.311,coding-complete,W818_2009-08-18_USA_CA_Sacramento_-121.311_38.662.fasta
+W819,09-2879,Yellow-billed Magpie,Tissue,100,645.281,2009-08-20,USA,CA,Yolo,38.55,-121.793,coding-complete,W819_2009-08-20_USA_CA_Yolo_-121.793_38.550.fasta
+W820,09-3131,American Robin,Tissue,100,2389.08,2009-09-04,USA,CA,Sacramento,38.723,-121.391,coding-complete,W820_2009-09-04_USA_CA_Sacramento_-121.391_38.723.fasta
+W821,09-3373,California Scrub-Jay,Tissue,100,1454.62,2009-09-27,USA,CA,Sacramento,38.436,-121.224,coding-complete,W821_2009-09-27_USA_CA_Sacramento_-121.224_38.436.fasta
+W822,09-3437,California Scrub-Jay,Tissue,98.09,1014.88,2009-10-02,USA,CA,Sacramento,38.407,-121.383,coding-complete,W822_2009-10-02_USA_CA_Sacramento_-121.383_38.407.fasta
+W823,09-3439,California Scrub-Jay,Tissue,98.21,2680.66,2009-10-02,USA,CA,Yolo,38.659,-121.798,coding-complete,W823_2009-10-02_USA_CA_Yolo_-121.798_38.659.fasta
