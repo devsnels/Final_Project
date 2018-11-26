@@ -19,11 +19,13 @@ library(knitr)
 
 ## Uploading California weather datasets 
 
-Datasets were downloaded from CDC wonder for the years 2006 to 2011 (from January 1st to December 31st)
+Datasets were downloaded from CDC Wonder for the years 2006 to 2011 (from January 1st to December 31st)
 
 [CDC Wonder](https://wonder.cdc.gov/)
 
 #Temperature and precipitation data: 
+
+1. Uploading datasets
 
 ```{r, uploading datasets}
 temp_2006 <- read_csv("Datasets/temp/temp_2006.csv")
@@ -41,7 +43,8 @@ precip_2011 <- read_csv("Datasets/precip/precip_2011.csv")
 
 ```
 
-##
+2. Creating an object with air temperature (°F) information of California for the years 2006 to 2011.
+
 ```{r, binding temperature datasets (2006-2011)}
 
 temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
@@ -60,6 +63,8 @@ head(temp)
 tail(temp)
 ```
 
+3. Creating an object with the precipitation (mm) information of California for the years 2006 to 2011.
+
 ```{r, binding precipitation datasets (2006-2011)}
 
 precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
@@ -75,6 +80,8 @@ precip <- precip %>%
 head(precip)
 tail(precip)
 ```
+
+4. Merging temperature and precipitation by date and county to have just one main dataset with weather conditions for the years 2006 to 2011.
 
 ```{r, merging precipitations and temperature}
 
