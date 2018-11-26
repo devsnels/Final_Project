@@ -60,4 +60,16 @@ head(temp)
 tail(temp)
 ```
 
+```{r, binding precipitation datasets (2006-2011)}
+
+precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
+              precip_2010, precip_2011)
+
+precip <- precip %>%
+   select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
+  rename(county = County,
+         date = "Month Day, Year Code",
+         avg_precip = "Avg Daily Precipitation (mm)") %>% 
+  mutate(date = mdy(date))
+```
 
