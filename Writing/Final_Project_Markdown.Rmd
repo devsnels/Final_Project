@@ -32,6 +32,12 @@ temp_2008 <- read_csv("Datasets/temp/temp_2008.csv")
 temp_2009 <- read_csv("Datasets/temp/temp_2009.csv")
 temp_2010 <- read_csv("Datasets/temp/temp_2010.csv")
 temp_2011 <- read_csv("Datasets/temp/temp_2011.csv")
+precip_2006 <- read_csv("Datasets/precip/precip_2006.csv")
+precip_2007 <- read_csv("Datasets/precip/precip_2007.csv")
+precip_2008 <- read_csv("Datasets/precip/precip_2008.csv")
+precip_2009 <- read_csv("Datasets/precip/precip_2009.csv")
+precip_2010 <- read_csv("Datasets/precip/precip_2010.csv")
+precip_2011 <- read_csv("Datasets/precip/precip_2011.csv")
 
 ```
 
