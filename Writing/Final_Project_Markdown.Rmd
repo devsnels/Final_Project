@@ -6,6 +6,22 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
+
+## Packages used in the final project
+```{r, Packages needed}
+library(readr)
+library(dplyr)
+library(lubridate)
+library(knitr)
+```
+
+## Uploading California weather datasets 
+
+Datasets were downloaded from CDC wonder for the years 2006 to 2011 (from January 1st to December 31st)
+
+[CDC Wonder](https://wonder.cdc.gov/)
+
+
 
