@@ -23,5 +23,15 @@ Datasets were downloaded from CDC wonder for the years 2006 to 2011 (from Januar
 
 [CDC Wonder](https://wonder.cdc.gov/)
 
+#Temperature and precipitation data: 
 
+```{r, uploading datasets}
+temp_2006 <- read_csv("Datasets/temp/temp_2006.csv")
+temp_2007 <- read_csv("Datasets/temp/temp_2007.csv")
+temp_2008 <- read_csv("Datasets/temp/temp_2008.csv")
+temp_2009 <- read_csv("Datasets/temp/temp_2009.csv")
+temp_2010 <- read_csv("Datasets/temp/temp_2010.csv")
+temp_2011 <- read_csv("Datasets/temp/temp_2011.csv")
+
+```
 
