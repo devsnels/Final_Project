@@ -35,3 +35,23 @@ temp_2011 <- read_csv("Datasets/temp/temp_2011.csv")
 
 ```
 
+##
+```{r, binding temperature datasets (2006-2011)}
+
+temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
+              temp_2010, temp_2011)
+
+temp <- temp %>% 
+  select(County, "County Code", "Month Day, Year Code", "Day of Year", "Avg Daily Max Air Temperature (F)", "Avg Daily Min Air Temperature (F)") %>% 
+  rename(county = County,
+         fip = "County Code",
+         date = "Month Day, Year Code",
+         day_year = "Day of Year",
+         max_temp_f = "Avg Daily Max Air Temperature (F)",
+         min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
+  mutate(date = mdy(date))
+head(temp)
+tail(temp)
+```
+
+
