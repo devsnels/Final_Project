@@ -71,5 +71,16 @@ precip <- precip %>%
          date = "Month Day, Year Code",
          avg_precip = "Avg Daily Precipitation (mm)") %>% 
   mutate(date = mdy(date))
+
+head(precip)
+tail(precip)
+```
+
+```{r, merging precipitations and temperature}
+
+ca_weather <- merge(temp, precip, by = c("county", "date"))
+head(ca_weather)
+tail(ca_weather)
+
 ```
 
