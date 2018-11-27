@@ -6,6 +6,90 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Packages used in the final project
+```{r, Packages needed}
+library(readr)
+library(dplyr)
+library(lubridate)
+library(knitr)
+```
+
+## Uploading California weather datasets 
+
+Datasets were downloaded from CDC Wonder for the years 2006 to 2011 (from January 1st to December 31st)
+
+[CDC Wonder](https://wonder.cdc.gov/)
+
+#Temperature and precipitation data: 
+
+1. Uploading datasets
+
+```{r, uploading datasets}
+temp_2006 <- read_csv("Datasets/temp/temp_2006.csv")
+temp_2007 <- read_csv("Datasets/temp/temp_2007.csv")
+temp_2008 <- read_csv("Datasets/temp/temp_2008.csv")
+temp_2009 <- read_csv("Datasets/temp/temp_2009.csv")
+temp_2010 <- read_csv("Datasets/temp/temp_2010.csv")
+temp_2011 <- read_csv("Datasets/temp/temp_2011.csv")
+precip_2006 <- read_csv("Datasets/precip/precip_2006.csv")
+precip_2007 <- read_csv("Datasets/precip/precip_2007.csv")
+precip_2008 <- read_csv("Datasets/precip/precip_2008.csv")
+precip_2009 <- read_csv("Datasets/precip/precip_2009.csv")
+precip_2010 <- read_csv("Datasets/precip/precip_2010.csv")
+precip_2011 <- read_csv("Datasets/precip/precip_2011.csv")
+
+```
+
+2. Creating a dataframe with air temperature (°F) information of California for the years 2006 to 2011.
+
+```{r, binding temperature datasets (2006-2011)}
+
+temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
+              temp_2010, temp_2011)
+
+temp <- temp %>% 
+  select(County, "County Code", "Month Day, Year Code", "Day of Year", 
+         "Avg Daily Max Air Temperature (F)", 
+         "Avg Daily Min Air Temperature (F)") %>% 
+  rename(county = County,
+         fip = "County Code",
+         date = "Month Day, Year Code",
+         day_year = "Day of Year",
+         max_temp_f = "Avg Daily Max Air Temperature (F)",
+         min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
+  mutate(date = mdy(date))
+head(temp)
+tail(temp)
+```
+
+3. Creating a dataframe with the precipitation (mm) information of California for the years 2006 to 2011.
+
+```{r, binding precipitation datasets (2006-2011)}
+
+precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
+              precip_2010, precip_2011)
+
+precip <- precip %>%
+  select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
+  rename(county = County,
+         date = "Month Day, Year Code",
+         avg_precip = "Avg Daily Precipitation (mm)") %>% 
+  mutate(date = mdy(date))
+
+head(precip)
+tail(precip)
+```
+
+4. Merging temperature and precipitation of CA by date and county to have just one main dataframe with weather conditions for the years 2006 to 2011.
+
+```{r, merging precipitations and temperature}
+
+ca_weather <- merge(temp, precip, by = c("county", "date"))
+head(ca_weather)
+tail(ca_weather)
+
 ```
 
