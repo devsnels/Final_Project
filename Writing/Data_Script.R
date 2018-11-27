@@ -40,6 +40,7 @@ d <- d %>%
 
 e <- report %>%
   filter(Year == "2010")
+
 e < e %>% 
   mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
 
@@ -47,11 +48,18 @@ ab <- merge(a,b, all = TRUE)
 abc <- merge(ab, c, all = TRUE)
 abcd <- merge(abc, d, all = TRUE)
 abcde <- merge(abcd, e, all = TRUE)
-  
 
-abcde  
-  
+cases <- abcde %>% 
+  mutate(month = month(Date)) %>% 
+  select(year = Year, 
+         county = County, 
+         positive_cases = "Positive Cases",
+         month) %>% 
+  group_by(year, county, month) %>% 
+  summarize(positive_cases = sum(positive_cases)) %>% 
+  ungroup
 
+cases 
   
   
   
