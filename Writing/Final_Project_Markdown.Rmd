@@ -11,10 +11,24 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 ## Packages used in the final project
 ```{r, Packages needed}
-library(readr)
 library(dplyr)
-library(lubridate)
+library(stringr)
+library(tidyselect)
+library(ggplot2)
+library(rmarkdown)
+library(RColorBrewer)
 library(knitr)
+library(forcats)
+library(readr)
+library(tidyr)
+library(broom)
+library(purrr)
+library(scales)
+library(lubridate)
+library(viridis)
+library(RColorBrewer)
+library(scales)
+library(tidyverse)
 ```
 
 ## Uploading California weather datasets 
@@ -93,3 +107,19 @@ tail(ca_weather)
 
 ```
 
+```{r clean precipitation data}
+
+ca_precip <- ca_weather %>% 
+  select(county, date, fip, avg_precip) %>% 
+  separate(county, c("county", "state"), sep = " County, CA") %>% 
+  select(county, date, fip, avg_precip) %>% 
+  mutate(month = month(date)) %>% 
+  mutate(year = year(date)) %>% 
+  group_by(county, fip, month, year) %>% 
+  summarise(avg_precip = mean(avg_precip)) %>% 
+  ungroup %>% 
+  arrange(year)
+
+head(ca_precip) 
+
+```
