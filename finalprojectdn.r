@@ -72,7 +72,8 @@ ca_precip <- ca_weather %>%
   mutate(year = year(date)) %>% 
   group_by(county, fip, month, year) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
-  ungroup
+  ungroup %>% 
+  arrange(year)
 
-head(ca_precip)   
+ca_precip
     
