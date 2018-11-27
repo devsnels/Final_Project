@@ -10,15 +10,52 @@ library(readr)
 library(ggplot2)
 library(leaflet)
 
-#looking at temperature and pricipitaiton 
-# some kinda map 
-#selecitng particular counties
-# making a map with layering(possibly) 
-#total number of counties per week per year
 
 report <-  read_csv( "/Users/anastasiaratcliff/Desktop/R- Programing /Final_Project/Data/wnv_human_cases.csv")
 
+#filtering dates to match CDC Data 2006- 2010 
+#year objects and merging 
+
 a <- report %>%
-  filter(Year == "2006":"2010")
+  filter(Year == "2006")%>%
+  mutate(Date = lubridate::ymd( "2006-01-01" ) + lubridate::weeks(a$`Week Reported` - 1 ))
+  
+b <- report %>%
+  filter(Year == "2007")%>%
+  mutate(Date = lubridate::ymd( "2007-01-01" ) + lubridate::weeks(b$`Week Reported` - 1 ))
 
+c <- report %>%
+  filter(Year == "2008")%>%
+  mutate(Date = lubridate::ymd( "2008-01-01" ) + lubridate::weeks(c$`Week Reported` - 1 ))
 
+d <- report %>%
+  filter(Year == "2009")%>%
+  mutate(Date = lubridate::ymd( "2009-01-01" ) + lubridate::weeks(d$`Week Reported` - 1 ))
+
+e <- report %>%
+  filter(Year == "2010")%>%
+  mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
+
+ab <- merge(a,b, all = TRUE)
+abc <- merge(ab, c, all = TRUE)
+abcd <- merge(abc, d, all = TRUE)
+abcde <- merge(abcd, e, all = TRUE)
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
