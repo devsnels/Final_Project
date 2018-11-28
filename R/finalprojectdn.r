@@ -86,4 +86,4 @@ ca_precip_cases <- ca_precip_cases %>%
 
 View(ca_precip_cases)
 
-    
+?arrange  
