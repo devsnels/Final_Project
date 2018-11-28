@@ -31,6 +31,7 @@ library(scales)
 library(tidyverse)
 library(sf)
 library(tigris)
+library(shiny)
 ```
 
 ## Uploading California weather datasets 
@@ -198,3 +199,4 @@ ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
 ggplot() + 
   geom_sf(data = ca_counties)
 ```
+
