@@ -37,23 +37,74 @@ Datasets were downloaded from CDC Wonder for the years 2006 to 2011 (from Januar
 
 [CDC Wonder](https://wonder.cdc.gov/)
 
+#West Niles Data:
+
+```{r upload WNV data}
+report <-  read_csv( "../Data/wnv_human_cases.csv")
+```
+
+Change week to date
+
+```{r clean WNV data}
+
+a <- report %>%
+  filter(Year == "2006") 
+a <- a %>% 
+  mutate(Date = lubridate::ymd( "2006-01-01" ) + lubridate::weeks(a$`Week Reported` - 1 ))
+b <- report %>%
+  filter(Year == "2007")
+b <- b %>% 
+  mutate(Date = lubridate::ymd( "2007-01-01" ) + lubridate::weeks(b$`Week Reported` - 1 ))
+c <- report %>%
+  filter(Year == "2008")
+c <- c %>% 
+  mutate(Date = lubridate::ymd( "2008-01-01" ) + lubridate::weeks(c$`Week Reported` - 1 ))
+d <- report %>%
+  filter(Year == "2009")
+d <- d %>% 
+  mutate(Date = lubridate::ymd( "2009-01-01" ) + lubridate::weeks(d$`Week Reported` - 1 ))
+e <- report %>%
+  filter(Year == "2010")
+e <- e %>% 
+  mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
+
+ab <- merge(a,b, all = TRUE)
+abc <- merge(ab, c, all = TRUE)
+abcd <- merge(abc, d, all = TRUE)
+abcde <- merge(abcd, e, all = TRUE)
+```
+
+```{r Collapse WNV data by month}
+cases <- abcde %>% 
+  mutate(month = month(Date)) %>% 
+  select(year = Year, 
+         county = County, 
+         positive_cases = "Positive Cases",
+         month) %>% 
+  group_by(year, county, month) %>% 
+  summarize(positive_cases = sum(positive_cases)) %>% 
+  ungroup
+
+cases  
+```
+
 #Temperature and precipitation data: 
 
 1. Uploading datasets
 
 ```{r uploading datasets}
-temp_2006 <- read_csv("Data/temp/temp_2006.csv")
-temp_2007 <- read_csv("Datatemp/temp_2007.csv")
-temp_2008 <- read_csv("Data/temp/temp_2008.csv")
-temp_2009 <- read_csv("Data/temp/temp_2009.csv")
-temp_2010 <- read_csv("Data/temp/temp_2010.csv")
-temp_2011 <- read_csv("Data/temp/temp_2011.csv")
-precip_2006 <- read_csv("Data/precip/precip_2006.csv")
-precip_2007 <- read_csv("Data/precip/precip_2007.csv")
-precip_2008 <- read_csv("Data/precip/precip_2008.csv")
-precip_2009 <- read_csv("Data/precip/precip_2009.csv")
-precip_2010 <- read_csv("Data/precip/precip_2010.csv")
-precip_2011 <- read_csv("Data/precip/precip_2011.csv")
+temp_2006 <- read_csv("../Data/temp/temp_2006.csv")
+temp_2007 <- read_csv("../Data/temp/temp_2007.csv")
+temp_2008 <- read_csv("../Data/temp/temp_2008.csv")
+temp_2009 <- read_csv("../Data/temp/temp_2009.csv")
+temp_2010 <- read_csv("../Data/temp/temp_2010.csv")
+temp_2011 <- read_csv("../Data/temp/temp_2011.csv")
+precip_2006 <- read_csv("../Data/precip/precip_2006.csv")
+precip_2007 <- read_csv("../Data/precip/precip_2007.csv")
+precip_2008 <- read_csv("../Data/precip/precip_2008.csv")
+precip_2009 <- read_csv("../Data/precip/precip_2009.csv")
+precip_2010 <- read_csv("../Data/precip/precip_2010.csv")
+precip_2011 <- read_csv("../Data/precip/precip_2011.csv")
 
 ```
 
@@ -122,4 +173,18 @@ ca_precip <- ca_weather %>%
 
 head(ca_precip) 
 
+```
+
+#Merge datasets
+
+```{r merge datasets}
+
+ca_precip_cases <- full_join(ca_precip, cases, by = c('month', 'year', 'county'))
+
+ca_precip_cases$positive_cases[is.na(ca_precip_cases$positive_cases)] <- 0
+
+ca_precip_cases <- ca_precip_cases %>% 
+  arrange(desc(positive_cases))
+
+head(ca_precip_cases)
 ```
