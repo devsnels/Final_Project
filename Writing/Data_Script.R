@@ -7,6 +7,8 @@ library(stringr)
 library(readr)
 library(ggplot2)
 library(leaflet)
+install.packages("shiny")
+library(shiny)
 
 
 report <-  read_csv( "Data/wnv_human_cases.csv")
@@ -61,7 +63,8 @@ cases <- abcde %>%
 
 cases  
 
-
+system.file("examples", package = "shiny")
+runExample("01_hello")
   
   
   
