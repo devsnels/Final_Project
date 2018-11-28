@@ -41,7 +41,7 @@ d <- d %>%
 e <- report %>%
   filter(Year == "2010")
 
-e < e %>% 
+e <- e %>% 
   mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
 
 ab <- merge(a,b, all = TRUE)
@@ -60,7 +60,8 @@ cases <- abcde %>%
   ungroup
 
 cases 
-  
+
+
   
   
   
