@@ -17,18 +17,18 @@ library(RColorBrewer)
 library(scales)
 library(tidyverse)
 
-temp_2006 <- read_csv("Writing/Datasets/temp/temp_2006.csv")
-temp_2007 <- read_csv("Writing/Datasets/temp/temp_2007.csv")
-temp_2008 <- read_csv("Writing/Datasets/temp/temp_2008.csv")
-temp_2009 <- read_csv("Writing/Datasets/temp/temp_2009.csv")
-temp_2010 <- read_csv("Writing/Datasets/temp/temp_2010.csv")
-temp_2011 <- read_csv("Writing/Datasets/temp/temp_2011.csv")
-precip_2006 <- read_csv("Writing/Datasets/precip/precip_2006.csv")
-precip_2007 <- read_csv("Writing/Datasets/precip/precip_2007.csv")
-precip_2008 <- read_csv("Writing/Datasets/precip/precip_2008.csv")
-precip_2009 <- read_csv("Writing/Datasets/precip/precip_2009.csv")
-precip_2010 <- read_csv("Writing/Datasets/precip/precip_2010.csv")
-precip_2011 <- read_csv("Writing/Datasets/precip/precip_2011.csv")
+temp_2006 <- read_csv("Data/temp/temp_2006.csv")
+temp_2007 <- read_csv("Data/temp/temp_2007.csv")
+temp_2008 <- read_csv("Data/temp/temp_2008.csv")
+temp_2009 <- read_csv("Data/temp/temp_2009.csv")
+temp_2010 <- read_csv("Data/temp/temp_2010.csv")
+temp_2011 <- read_csv("Data/temp/temp_2011.csv")
+precip_2006 <- read_csv("Data/precip/precip_2006.csv")
+precip_2007 <- read_csv("Data/precip/precip_2007.csv")
+precip_2008 <- read_csv("Data/precip/precip_2008.csv")
+precip_2009 <- read_csv("Data/precip/precip_2009.csv")
+precip_2010 <- read_csv("Data/precip/precip_2010.csv")
+precip_2011 <- read_csv("Data/precip/precip_2011.csv")
 
 temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
               temp_2010, temp_2011)
@@ -76,4 +76,14 @@ ca_precip <- ca_weather %>%
   arrange(year)
 
 ca_precip
+
+ca_precip_cases <- full_join(ca_precip, cases, by = c('month', 'year', 'county'))
+
+ca_precip_cases$positive_cases[is.na(ca_precip_cases$positive_cases)] <- 0
+
+ca_precip_cases <- ca_precip_cases %>% 
+  arrange(positive_cases)
+
+View(ca_precip_cases)
+
     

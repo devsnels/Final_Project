@@ -59,16 +59,9 @@ cases <- abcde %>%
   summarize(positive_cases = sum(positive_cases)) %>% 
   ungroup
 
-cases 
+cases  
 
 
-x <- data.frame(month = c(1,2,3,4,5,6,7,8,9,10,11,12)) 
-
-p <- full_join(cases, x)
-
-
-  
-all_dates <-  merge(data.frame(month = month, month))
   
   
   
