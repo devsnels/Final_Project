@@ -41,19 +41,19 @@ Datasets were downloaded from CDC Wonder for the years 2006 to 2011 (from Januar
 
 1. Uploading datasets
 
-```{r, uploading datasets}
-temp_2006 <- read_csv("Datasets/temp/temp_2006.csv")
-temp_2007 <- read_csv("Datasets/temp/temp_2007.csv")
-temp_2008 <- read_csv("Datasets/temp/temp_2008.csv")
-temp_2009 <- read_csv("Datasets/temp/temp_2009.csv")
-temp_2010 <- read_csv("Datasets/temp/temp_2010.csv")
-temp_2011 <- read_csv("Datasets/temp/temp_2011.csv")
-precip_2006 <- read_csv("Datasets/precip/precip_2006.csv")
-precip_2007 <- read_csv("Datasets/precip/precip_2007.csv")
-precip_2008 <- read_csv("Datasets/precip/precip_2008.csv")
-precip_2009 <- read_csv("Datasets/precip/precip_2009.csv")
-precip_2010 <- read_csv("Datasets/precip/precip_2010.csv")
-precip_2011 <- read_csv("Datasets/precip/precip_2011.csv")
+```{r uploading datasets}
+temp_2006 <- read_csv("Data/temp/temp_2006.csv")
+temp_2007 <- read_csv("Datatemp/temp_2007.csv")
+temp_2008 <- read_csv("Data/temp/temp_2008.csv")
+temp_2009 <- read_csv("Data/temp/temp_2009.csv")
+temp_2010 <- read_csv("Data/temp/temp_2010.csv")
+temp_2011 <- read_csv("Data/temp/temp_2011.csv")
+precip_2006 <- read_csv("Data/precip/precip_2006.csv")
+precip_2007 <- read_csv("Data/precip/precip_2007.csv")
+precip_2008 <- read_csv("Data/precip/precip_2008.csv")
+precip_2009 <- read_csv("Data/precip/precip_2009.csv")
+precip_2010 <- read_csv("Data/precip/precip_2010.csv")
+precip_2011 <- read_csv("Data/precip/precip_2011.csv")
 
 ```
 
