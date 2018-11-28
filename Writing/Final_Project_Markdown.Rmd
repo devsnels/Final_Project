@@ -107,16 +107,15 @@ precip_2007 <- read_csv("../Data/precip/precip_2007.csv")
 precip_2008 <- read_csv("../Data/precip/precip_2008.csv")
 precip_2009 <- read_csv("../Data/precip/precip_2009.csv")
 precip_2010 <- read_csv("../Data/precip/precip_2010.csv")
-precip_2011 <- read_csv("../Data/precip/precip_2011.csv")
 
 ```
 
 2. Creating a dataframe with air temperature (°F) information of California for the years 2006 to 2011.
 
-```{r, binding temperature datasets (2006-2011)}
+```{r, binding temperature datasets (2006-2010)}
 
 temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
-              temp_2010, temp_2011)
+              temp_2010)
 
 temp <- temp %>% 
   select(County, "County Code", "Month Day, Year Code", "Day of Year", 
@@ -133,12 +132,12 @@ head(temp)
 tail(temp)
 ```
 
-3. Creating a dataframe with the precipitation (mm) information of California for the years 2006 to 2011.
+3. Creating a dataframe with the precipitation (mm) information of California for the years 2006 to 2010.
 
 ```{r, binding precipitation datasets (2006-2011)}
 
 precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
-              precip_2010, precip_2011)
+              precip_2010)
 
 precip <- precip %>%
   select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
