@@ -16,22 +16,24 @@ library(viridis)
 library(RColorBrewer)
 library(scales)
 library(tidyverse)
+library(tigris)
+library(sf)
+library(cowplot)
+library(gridExtra)
 
 temp_2006 <- read_csv("Data/temp/temp_2006.csv")
 temp_2007 <- read_csv("Data/temp/temp_2007.csv")
 temp_2008 <- read_csv("Data/temp/temp_2008.csv")
 temp_2009 <- read_csv("Data/temp/temp_2009.csv")
 temp_2010 <- read_csv("Data/temp/temp_2010.csv")
-temp_2011 <- read_csv("Data/temp/temp_2011.csv")
 precip_2006 <- read_csv("Data/precip/precip_2006.csv")
 precip_2007 <- read_csv("Data/precip/precip_2007.csv")
 precip_2008 <- read_csv("Data/precip/precip_2008.csv")
 precip_2009 <- read_csv("Data/precip/precip_2009.csv")
 precip_2010 <- read_csv("Data/precip/precip_2010.csv")
-precip_2011 <- read_csv("Data/precip/precip_2011.csv")
 
 temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
-              temp_2010, temp_2011)
+              temp_2010)
 
 temp <- temp %>% 
   select(County, "County Code", "Month Day, Year Code", "Day of Year", 
@@ -48,7 +50,7 @@ head(temp)
 tail(temp)
 
 precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
-                precip_2010, precip_2011)
+                precip_2010)
 
 precip <- precip %>%
   select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
@@ -68,20 +70,67 @@ ca_precip <- ca_weather %>%
   select(county, date, fip, avg_precip) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
   select(county, date, fip, avg_precip) %>% 
-  mutate(month = month(date)) %>% 
-  mutate(year = year(date)) %>% 
-  group_by(county, fip, month, year) %>% 
+  mutate(date = floor_date(date, unit = "month")) %>% 
+  group_by(county, fip, date) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
   ungroup %>% 
-  arrange(year)
+  arrange(date)
 
 ca_precip
 
-ca_precip_cases <- full_join(ca_precip, cases, by = c('month', 'year', 'county'))
-
-ca_precip_cases$positive_cases[is.na(ca_precip_cases$positive_cases)] <- 0
+ca_precip_cases <- full_join(ca_precip, cases, by = c('date', 'county')) 
 
 ca_precip_cases <- ca_precip_cases %>% 
-  arrange(positive_cases)
+  mutate(positive_cases = ifelse(!is.na(positive_cases), positive_cases, 0))
 
-View(ca_precip_cases)
+ca_precip_cases <- ca_precip_cases %>% 
+  arrange(positive_cases) %>% 
+  rename(fips = fip)
+
+ca_precip_cases
+
+ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
+
+ca_county_cases <- ca_counties %>% 
+  mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
+  full_join(ca_precip_cases, by = "fips")
+
+#Create plots and arrange them in a single plot grid 
+#Practice for functions
+
+cases_plot <- ca_county_cases %>% 
+  filter(date == '2008-08-01') %>% 
+  ggplot() + 
+  geom_sf(aes(fill = positive_cases)) + 
+  scale_fill_viridis(name = "Number of cases")
+
+precip_plot <- ca_county_cases %>% 
+  filter(date == '2008-08-01') %>% 
+  ggplot() + 
+  geom_sf(aes(fill = avg_precip)) + 
+  scale_fill_viridis(name = "Average Precipitation")
+
+grid.arrange(cases_plot, precip_plot, nrow = 1)
+
+#Attempt to create function
+
+plot_map <- function(month = "all", df = ca_county_cases){
+  
+
+cases_plot <- ca_county_cases %>% 
+  filter(month == "8" & year == "2008") %>% 
+  ggplot() + 
+  geom_sf(aes(fill = positive_cases)) + 
+  scale_fill_viridis(name = "Number of cases")
+
+precip_plot <- ca_county_cases %>% 
+  filter(month == "8" & year == "2008") %>% 
+  ggplot() + 
+  geom_sf(aes(fill = avg_precip)) + 
+  scale_fill_viridis(name = "Average Precipitation")
+
+grid.arrange(cases_plot, precip_plot, nrow = 1)
+
+
+
+

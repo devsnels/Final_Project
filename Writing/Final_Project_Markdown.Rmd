@@ -53,23 +53,23 @@ Change week to date
 a <- report %>%
   filter(Year == "2006") 
 a <- a %>% 
-  mutate(Date = lubridate::ymd( "2006-01-01" ) + lubridate::weeks(a$`Week Reported` - 1 ))
+  mutate(date = lubridate::ymd( "2006-01-01" ) + lubridate::weeks(a$`Week Reported` - 1 ))
 b <- report %>%
   filter(Year == "2007")
 b <- b %>% 
-  mutate(Date = lubridate::ymd( "2007-01-01" ) + lubridate::weeks(b$`Week Reported` - 1 ))
+  mutate(date = lubridate::ymd( "2007-01-01" ) + lubridate::weeks(b$`Week Reported` - 1 ))
 c <- report %>%
   filter(Year == "2008")
 c <- c %>% 
-  mutate(Date = lubridate::ymd( "2008-01-01" ) + lubridate::weeks(c$`Week Reported` - 1 ))
+  mutate(date = lubridate::ymd( "2008-01-01" ) + lubridate::weeks(c$`Week Reported` - 1 ))
 d <- report %>%
   filter(Year == "2009")
 d <- d %>% 
-  mutate(Date = lubridate::ymd( "2009-01-01" ) + lubridate::weeks(d$`Week Reported` - 1 ))
+  mutate(date = lubridate::ymd( "2009-01-01" ) + lubridate::weeks(d$`Week Reported` - 1 ))
 e <- report %>%
   filter(Year == "2010")
 e <- e %>% 
-  mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
+  mutate(date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
 
 ab <- merge(a,b, all = TRUE)
 abc <- merge(ab, c, all = TRUE)
@@ -79,16 +79,16 @@ abcde <- merge(abcd, e, all = TRUE)
 
 ```{r Collapse WNV data by month}
 cases <- abcde %>% 
-  mutate(month = month(Date)) %>% 
-  select(year = Year, 
+  select(date, 
          county = County, 
-         positive_cases = "Positive Cases",
-         month) %>% 
-  group_by(year, county, month) %>% 
+         positive_cases = "Positive Cases") %>% 
+  mutate(date = ymd(date)) %>% 
+  mutate(date = floor_date(date, unit = "month")) %>% 
+  group_by(date, county) %>% 
   summarize(positive_cases = sum(positive_cases)) %>% 
   ungroup
 
-cases  
+cases   
 ```
 
 #Temperature and precipitation data: 
@@ -166,14 +166,13 @@ ca_precip <- ca_weather %>%
   select(county, date, fip, avg_precip) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
   select(county, date, fip, avg_precip) %>% 
-  mutate(month = month(date)) %>% 
-  mutate(year = year(date)) %>% 
-  group_by(county, fip, month, year) %>% 
+  mutate(date = floor_date(date, unit = "month")) %>% 
+  group_by(county, fip, date) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
   ungroup %>% 
-  arrange(year)
+  arrange(date)
 
-head(ca_precip) 
+head(ca_precip)
 
 ```
 
@@ -181,22 +180,16 @@ head(ca_precip)
 
 ```{r merge datasets}
 
-ca_precip_cases <- full_join(ca_precip, cases, by = c('month', 'year', 'county'))
-
-ca_precip_cases$positive_cases[is.na(ca_precip_cases$positive_cases)] <- 0
+ca_precip_cases <- full_join(ca_precip, cases, by = c('date', 'county')) 
 
 ca_precip_cases <- ca_precip_cases %>% 
-  arrange(desc(positive_cases))
+  mutate(positive_cases = ifelse(!is.na(positive_cases), positive_cases, 0))
+
+ca_precip_cases <- ca_precip_cases %>% 
+  arrange(positive_cases) %>% 
+  rename(fips = fip)
 
 head(ca_precip_cases)
 ```
 
-```{r create CA county map}
-
-ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
-
-ggplot() + 
-  geom_sf(data = ca_counties)
-
-```
 
