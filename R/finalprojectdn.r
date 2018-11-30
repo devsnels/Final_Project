@@ -112,25 +112,28 @@ precip_plot <- ca_county_cases %>%
 
 grid.arrange(cases_plot, precip_plot, nrow = 1)
 
-#Attempt to create function
+ca_county_cases
 
-plot_map <- function(month = "all", df = ca_county_cases){
+#Function!!!!!!!!!!!!!!!!
+
+plot_map <- function(datafr = ca_county_cases, date = "all"){
   
+  to_plot <- filter(datafr, !is.na(date))
+  if(date != "all"){to_plot <- to_plot[to_plot$date == date, ]}
 
-cases_plot <- ca_county_cases %>% 
-  filter(month == "8" & year == "2008") %>% 
-  ggplot() + 
-  geom_sf(aes(fill = positive_cases)) + 
-  scale_fill_viridis(name = "Number of cases")
+  cases_plot <- ggplot(data = to_plot) + 
+    geom_sf(data = to_plot, aes(fill = positive_cases))  +
+    viridis::scale_fill_viridis(aes(name = "Number of cases"))
+    
 
-precip_plot <- ca_county_cases %>% 
-  filter(month == "8" & year == "2008") %>% 
-  ggplot() + 
-  geom_sf(aes(fill = avg_precip)) + 
-  scale_fill_viridis(name = "Average Precipitation")
+  precip_plot <- ggplot(data = to_plot) + 
+    geom_sf(data = to_plot, aes(fill = avg_precip)) +
+    viridis::scale_fill_viridis(aes(name = "Average Precipitation"))
+    
 
-grid.arrange(cases_plot, precip_plot, nrow = 1)
+  final_plot <- grid.arrange(cases_plot, precip_plot, nrow = 1)
 
+}
 
-
+plot_map(date = "2008-08-01")
 
