@@ -29,6 +29,9 @@ library(viridis)
 library(RColorBrewer)
 library(scales)
 library(tidyverse)
+library(sf)
+library(tigris)
+library(shiny)
 ```
 
 ## Uploading California weather datasets 
@@ -188,3 +191,13 @@ ca_precip_cases <- ca_precip_cases %>%
 
 head(ca_precip_cases)
 ```
+
+```{r create CA county map}
+
+ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
+
+ggplot() + 
+  geom_sf(data = ca_counties)
+
+```
+
