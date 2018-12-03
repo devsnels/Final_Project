@@ -123,7 +123,7 @@ temp <- temp %>%
          "Avg Daily Max Air Temperature (F)", 
          "Avg Daily Min Air Temperature (F)") %>% 
   rename(county = County,
-         fip = "County Code",
+         fips = "County Code",
          date = "Month Day, Year Code",
          day_year = "Day of Year",
          max_temp_f = "Avg Daily Max Air Temperature (F)",
@@ -164,12 +164,12 @@ tail(ca_weather)
 ```{r clean precipitation data}
 
 ca_precip <- ca_weather %>% 
-  select(county, date, fip, avg_precip) %>% 
+  select(county, date, fips, avg_precip) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
-  select(county, date, fip, avg_precip) %>% 
+  select(county, date, fips, avg_precip) %>% 
   mutate(month = month(date)) %>% 
   mutate(year = year(date)) %>% 
-  group_by(county, fip, month, year) %>% 
+  group_by(county, fips, month, year) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
   ungroup %>% 
   arrange(year)
@@ -192,12 +192,40 @@ ca_precip_cases <- ca_precip_cases %>%
 head(ca_precip_cases)
 ```
 
-```{r create CA county map}
-
+```{r, create CA county map}
 ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
 
 ggplot() + 
   geom_sf(data = ca_counties)
+
+```
+
+```{r, joining geogrph with ca_county_cases }
+#With the last changes our variables changed. this would be the code for the "new" data set
+
+ca_county_cases <- ca_counties %>% 
+ mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
+ full_join(ca_precip_cases, by = "fips") %>% 
+   arrange(desc(positive_cases))
+head(ca_county_cases)
+```
+
+```{r, map of an specific date, fig.width=20, fig.height=10}
+#With the last changes our variables changed. this would be the code for the "new" map
+cases_plot <- ca_county_cases %>% 
+  filter(month == "8" & year == "2008") %>% 
+  ggplot() + 
+  geom_sf(aes(fill = positive_cases)) + 
+  scale_fill_viridis(name = "Number of cases")
+
+precip_plot <- ca_county_cases %>% 
+  filter(month == "8" & year == "2008")  %>% 
+  ggplot() + 
+  geom_sf(aes(fill = avg_precip)) + 
+  scale_fill_viridis(name = "Average Precipitation")
+
+grid.arrange(cases_plot, precip_plot, nrow = 1)
+
 
 ```
 
