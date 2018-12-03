@@ -10,7 +10,8 @@ shinyUI(fluidPage(
                                                    as.POSIXct("2010-12-31")),
                                          min = as.POSIXct("2006-01-01"),
                                          max = as.POSIXct("2010-12-31"))),
-                mainPanel("Map of California")
+                mainPanel("Map of California",
+                plotOutput("california_map"))                
   )
 ))
 

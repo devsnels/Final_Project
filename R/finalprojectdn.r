@@ -112,7 +112,9 @@ precip_plot <- ca_county_cases %>%
 
 grid.arrange(cases_plot, precip_plot, nrow = 1)
 
-ca_county_cases
+ca_county_cases$geometry
+
+saveRDS(ca_county_cases, file = "ca_county_cases_final.rds")
 
 #Function!!!!!!!!!!!!!!!!
 
@@ -135,5 +137,5 @@ plot_map <- function(datafr = ca_county_cases, date = "all"){
 
 }
 
-plot_map(date = "2008-08-01")
+
 

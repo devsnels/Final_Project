@@ -7,7 +7,6 @@ library(stringr)
 library(readr)
 library(ggplot2)
 library(leaflet)
-install.packages("shiny")
 library(shiny)
 
 

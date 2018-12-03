@@ -15,4 +15,6 @@ plot_map <- function(datafr = ca_county_cases, date = "all"){
   
   final_plot <- grid.arrange(cases_plot, precip_plot, nrow = 1)
   
+return(final_plot)
+  
 }
