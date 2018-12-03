@@ -11,7 +11,7 @@ shinyUI(fluidPage(
                                                            timeFormat="%m %Y")),
                                          min = as.Date("2006-01-01", tz = "America/Los_Angeles"),
                                          max = as.Date("2010-12-01", tz = "America/Los_Angeles"),
-                                         step = 31)),
+                                         step = 1)),
                 mainPanel("Map of California",
                           plotOutput("california_map"))
   )
