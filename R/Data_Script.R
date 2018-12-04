@@ -50,7 +50,7 @@ abc <- merge(ab, c, all = TRUE)
 abcd <- merge(abc, d, all = TRUE)
 abcde <- merge(abcd, e, all = TRUE)
 
-cases <- abcde %>% 
+cases <- a %>% 
   select(date, 
          county = County, 
          positive_cases = "Positive Cases") %>% 
@@ -59,11 +59,9 @@ cases <- abcde %>%
   summarize(positive_cases = sum(positive_cases)) %>% 
   ungroup
 
-cases  
+cases %>% arrange(date)
 
-system.file("examples", package = "shiny")
-runExample("01_hello")
-  
+
   
   
   

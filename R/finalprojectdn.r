@@ -32,8 +32,7 @@ precip_2008 <- read_csv("Data/precip/precip_2008.csv")
 precip_2009 <- read_csv("Data/precip/precip_2009.csv")
 precip_2010 <- read_csv("Data/precip/precip_2010.csv")
 
-temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
-              temp_2010)
+temp <- rbind(temp_2006), temp_2007, temp_2008, temp_2009, temp_2010)
 
 temp <- temp %>% 
   select(County, "County Code", "Month Day, Year Code", "Day of Year", 
@@ -49,8 +48,7 @@ temp <- temp %>%
 head(temp)
 tail(temp)
 
-precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
-                precip_2010)
+precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, precip_2010)
 
 precip <- precip %>%
   select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
@@ -76,7 +74,7 @@ ca_precip <- ca_weather %>%
   ungroup %>% 
   arrange(date)
 
-ca_precip
+View(ca_precip)
 
 ca_precip_cases <- full_join(ca_precip, cases, by = c('date', 'county')) 
 
