@@ -32,7 +32,7 @@ precip_2008 <- read_csv("Data/precip/precip_2008.csv")
 precip_2009 <- read_csv("Data/precip/precip_2009.csv")
 precip_2010 <- read_csv("Data/precip/precip_2010.csv")
 
-temp <- rbind(temp_2006), temp_2007, temp_2008, temp_2009, temp_2010)
+temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, temp_2010)
 
 temp <- temp %>% 
   select(County, "County Code", "Month Day, Year Code", "Day of Year", 
@@ -44,7 +44,7 @@ temp <- temp %>%
          day_year = "Day of Year",
          max_temp_f = "Avg Daily Max Air Temperature (F)",
          min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
-  mutate(date = mdy(date))
+  mutate(date = mdy(date)) 
 head(temp)
 tail(temp)
 
@@ -68,11 +68,10 @@ ca_precip <- ca_weather %>%
   select(county, date, fip, avg_precip) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
   select(county, date, fip, avg_precip) %>% 
-  mutate(date = floor_date(date, "year")) %>% 
+  mutate(date = year(date)) %>% 
   group_by(county, fip, date) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
-  ungroup %>% 
-  arrange(date)
+  ungroup 
 
 View(ca_precip)
 
@@ -93,6 +92,8 @@ ca_county_cases <- ca_counties %>%
   mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
   full_join(ca_precip_cases, by = "fips")
 
+View(ca_county_cases)
+
 #Create plots and arrange them in a single plot grid 
 #Practice for functions
 
@@ -110,9 +111,7 @@ precip_plot <- ca_county_cases %>%
 
 grid.arrange(cases_plot, precip_plot, nrow = 1)
 
-ca_county_cases
 
-save(ca_county_cases, file = "ca_county_cases_final.RData")
 
 #Function!!!!!!!!!!!!!!!!
 
