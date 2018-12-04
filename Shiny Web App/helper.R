@@ -24,12 +24,14 @@ plot_map <- function(df = ca_county_cases, date = "all",
   
   cases_plot <- ggplot(data = to_plot, extent = "device") + 
     geom_sf(data = to_plot, aes(fill = positive_cases))  +
-    viridis::scale_fill_viridis(aes(name = "Number of cases"))
+    viridis::scale_fill_viridis(aes(name = "Number of cases")) +
+    ggpubr::rotate_x_text(angle = 60) 
   
   
   precip_plot <- ggplot(data = to_plot, extent = "device") + 
     geom_sf(data = to_plot, aes(fill = avg_precip)) +
-    viridis::scale_fill_viridis(aes(name = "Average Precipitation"))
+    viridis::scale_fill_viridis(aes(name = "Average Precipitation")) +
+    ggpubr::rotate_x_text(angle = 60) 
   
   
   final_plot <- grid.arrange(cases_plot, precip_plot, nrow = 1)
@@ -37,5 +39,4 @@ plot_map <- function(df = ca_county_cases, date = "all",
   return(final_plot)
   
 }
-
 

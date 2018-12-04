@@ -9,7 +9,7 @@ shinyServer(function(input, output) {
   output$california_map <- renderPlot({
     plot_map(start.date = input$year[1],
              end.date = input$year[2])
-    }, width = 1000, height = 2000)
+    }, width = 750, height = 1600)
 })
   
   
