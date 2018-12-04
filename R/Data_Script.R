@@ -54,8 +54,7 @@ cases <- abcde %>%
   select(date, 
          county = County, 
          positive_cases = "Positive Cases") %>% 
-  mutate(date = ymd(date)) %>% 
-  mutate(date = floor_date(date, unit = "month")) %>% 
+  mutate(date = floor_date(date, "year")) %>% 
   group_by(date, county) %>% 
   summarize(positive_cases = sum(positive_cases)) %>% 
   ungroup

@@ -1,16 +1,15 @@
 library(shiny)
 library(dplyr)
 library(lubridate)
+library(ggplot2)
 library(BH)
 source("helper.R")
 
-california_counties <- readRDS("../ca_county_cases_final.RDS") 
-california_counties$date <- ymd(california_counties$date, tz = "America/Los_Angeles")
-
 shinyServer(function(input, output) {
-  output$california_map <- renderPlot({plot_map(start.time = input$time_range[1],
-                                                end.time = input$time_range[2])
-    })
+  output$california_map <- renderPlot({
+    plot_map(start.date = input$year[1],
+             end.date = input$year[2])
+    }, width = 1000, height = 2000)
 })
   
   

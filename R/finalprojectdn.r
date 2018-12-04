@@ -70,7 +70,7 @@ ca_precip <- ca_weather %>%
   select(county, date, fip, avg_precip) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
   select(county, date, fip, avg_precip) %>% 
-  mutate(date = floor_date(date, unit = "month")) %>% 
+  mutate(date = floor_date(date, "year")) %>% 
   group_by(county, fip, date) %>% 
   summarise(avg_precip = mean(avg_precip)) %>% 
   ungroup %>% 
@@ -99,22 +99,22 @@ ca_county_cases <- ca_counties %>%
 #Practice for functions
 
 cases_plot <- ca_county_cases %>% 
-  filter(date == '2008-08-01') %>% 
+  filter(date == '2008-01-01') %>% 
   ggplot() + 
   geom_sf(aes(fill = positive_cases)) + 
   scale_fill_viridis(name = "Number of cases")
 
 precip_plot <- ca_county_cases %>% 
-  filter(date == '2008-08-01') %>% 
+  filter(date == '2008-01-01') %>% 
   ggplot() + 
   geom_sf(aes(fill = avg_precip)) + 
   scale_fill_viridis(name = "Average Precipitation")
 
 grid.arrange(cases_plot, precip_plot, nrow = 1)
 
-ca_county_cases$geometry
+ca_county_cases
 
-saveRDS(ca_county_cases, file = "ca_county_cases_final.rds")
+save(ca_county_cases, file = "ca_county_cases_final.RData")
 
 #Function!!!!!!!!!!!!!!!!
 
