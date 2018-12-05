@@ -43,11 +43,13 @@ cases <- report %>%
          county = County, 
          positive_cases = "Positive Cases") %>% 
   mutate(date = Year) %>% 
-  #mutate(date = year(date)) %>% 
+  filter(date %in% c("2006", "2007", "2008", "2009", "2010")) %>% 
   group_by(date, county) %>% 
   summarize(positive_cases = sum(positive_cases)) %>% 
   ungroup %>% 
   arrange(date)
+
+unique(cases$date)
 
 # cleaning weather data
 
@@ -109,13 +111,14 @@ ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
 
 ca_county_cases <- ca_counties %>% 
   mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
-  full_join(ca_precip_cases, by = "fips")
+  full_join(ca_precip_cases, by = "fips") %>% 
+  filter(county %in% c("Imperial" , "Kern", "Los Angeles", "Orange",
+                       "Riverside", "San Bernardino", "San Diego", 
+                       "San Luis Obispo", "Santa Barbara", "Ventura"))
 
-View(ca_county_cases)
-
-
-
-
+head(ca_county_cases)
+tail(ca_county_cases)
+unique(ca_county_cases$county)
 
 
 
