@@ -90,7 +90,7 @@ ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
 
 ca_county_cases <- ca_counties %>% 
   mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
-  full_join(ca_precip_cases, by = "fips")
+  full_join(ca_precip_cases, by = "fips") 
 
 
 
