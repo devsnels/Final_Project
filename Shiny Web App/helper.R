@@ -6,6 +6,7 @@ plot_map <- function(df = ca_county_cases,
   library(ggplot2)
   library(dplyr)
   library(sf)
+  library(RColorBrewer)
     
     start.date <- as.numeric(start.date)
     end.date <- as.numeric(end.date)
@@ -24,6 +25,7 @@ plot_map <- function(df = ca_county_cases,
    geom_sf(data = df, aes(fill = avg_precip)) +
    viridis::scale_fill_viridis(aes(name = "Average Precipitation")) +
     ggpubr::rotate_x_text(angle = 60) 
+  
   
   
   final_plot <- grid.arrange(cases_plot, precip_plot, nrow = 1)
