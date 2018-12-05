@@ -1,6 +1,6 @@
 ---
-title: "Final_Project_Markdown"
-author: "Human Epi 2"
+title: "ERHS 535 Final Project: Prediction of West Niles Virus Human Cases in Southern California by Precipitation and Temperature from 2006-2010"
+author: "Devin, Anastasia, Grant, Ana"
 date: "11/7/2018"
 output: pdf_document
 ---
