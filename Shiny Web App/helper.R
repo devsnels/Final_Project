@@ -1,4 +1,4 @@
-load("/Users/anastasiaratcliff/Desktop/R- Programing /Final_Project/Data/ca_county_cases_final.RData")
+load("../Data/ca_county_cases_final.RData")
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
@@ -16,18 +16,18 @@ plot_map <- function(df = ca_county_cases,
     
   cases_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = positive_cases))  +
-    viridis::scale_fill_viridis(aes(name = "Number of Cases")) +
+    viridis::scale_fill_viridis(aes(name = "Number of Cases"), limits = c(0, 150)) +
     ggpubr::rotate_x_text(angle = 60) 
   
   
   precip_plot <- ggplot(data = df) + 
    geom_sf(data = df, aes(fill = avg_precip)) +
-   viridis::scale_fill_viridis(aes(name = "Average Precipitation")) +
+   viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,8)) +
     ggpubr::rotate_x_text(angle = 60) 
 
   temp_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = avg_max_temp)) +
-    viridis::scale_fill_viridis(aes(name = "Average High Temp")) +
+    viridis::scale_fill_viridis(aes(name = "Average High Temp"), limits = c(0,80)) +
     ggpubr::rotate_x_text(angle = 60) 
   
   
