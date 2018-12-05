@@ -92,47 +92,10 @@ ca_county_cases <- ca_counties %>%
   mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
   full_join(ca_precip_cases, by = "fips")
 
-View(ca_county_cases)
-
-#Create plots and arrange them in a single plot grid 
-#Practice for functions
-
-cases_plot <- ca_county_cases %>% 
-  filter(date == '2008-01-01') %>% 
-  ggplot() + 
-  geom_sf(aes(fill = positive_cases)) + 
-  scale_fill_viridis(name = "Number of cases")
-
-precip_plot <- ca_county_cases %>% 
-  filter(date == '2008-01-01') %>% 
-  ggplot() + 
-  geom_sf(aes(fill = avg_precip)) + 
-  scale_fill_viridis(name = "Average Precipitation")
-
-grid.arrange(cases_plot, precip_plot, nrow = 1)
 
 
 
-#Function!!!!!!!!!!!!!!!!
 
-plot_map <- function(datafr = ca_county_cases, date = "all"){
-  
-  to_plot <- filter(datafr, !is.na(date))
-  if(date != "all"){to_plot <- to_plot[to_plot$date == date, ]}
-
-  cases_plot <- ggplot(data = to_plot) + 
-    geom_sf(data = to_plot, aes(fill = positive_cases))  +
-    viridis::scale_fill_viridis(aes(name = "Number of cases"))
-    
-
-  precip_plot <- ggplot(data = to_plot) + 
-    geom_sf(data = to_plot, aes(fill = avg_precip)) +
-    viridis::scale_fill_viridis(aes(name = "Average Precipitation"))
-    
-
-  final_plot <- grid.arrange(cases_plot, precip_plot, nrow = 1)
-
-}
 
 
 
