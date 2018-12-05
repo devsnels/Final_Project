@@ -9,7 +9,8 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-## Packages used in the final project
+## 1. Packages used in the final project
+
 ```{r, Packages needed}
 library(dplyr)
 library(stringr)
@@ -29,95 +30,65 @@ library(viridis)
 library(RColorBrewer)
 library(scales)
 library(tidyverse)
-library(sf)
 library(tigris)
-library(shiny)
+library(sf)
+library(cowplot)
 library(gridExtra)
 ```
 
-## Uploading California weather datasets 
+## 2. Datasets description
 
-Datasets were downloaded from CDC Wonder for the years 2006 to 2011 (from January 1st to December 31st)
+Different data sets were collected from CHHS and CDC Wonder. The report of human cases for California had data arrange by week and county for the years 2006 to 2018. The data is available in:
+
+[CHHS](https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06)
+
+Daily precipitation and temperature in California were downloaded from CDC Wonder website. Every year was pulled independently. The request form might be found in the following website.
 
 [CDC Wonder](https://wonder.cdc.gov/)
 
-#West Niles Data:
-
-```{r upload WNV data}
+```{r, uploading data sets used, human cases and weather data}
 report <-  read_csv( "../Data/wnv_human_cases.csv")
-```
-
-Change week to date
-
-```{r clean WNV data}
-
-a <- report %>%
-  filter(Year == "2006") 
-a <- a %>% 
-  mutate(Date = lubridate::ymd( "2006-01-01" ) + lubridate::weeks(a$`Week Reported` - 1 ))
-b <- report %>%
-  filter(Year == "2007")
-b <- b %>% 
-  mutate(Date = lubridate::ymd( "2007-01-01" ) + lubridate::weeks(b$`Week Reported` - 1 ))
-c <- report %>%
-  filter(Year == "2008")
-c <- c %>% 
-  mutate(Date = lubridate::ymd( "2008-01-01" ) + lubridate::weeks(c$`Week Reported` - 1 ))
-d <- report %>%
-  filter(Year == "2009")
-d <- d %>% 
-  mutate(Date = lubridate::ymd( "2009-01-01" ) + lubridate::weeks(d$`Week Reported` - 1 ))
-e <- report %>%
-  filter(Year == "2010")
-e <- e %>% 
-  mutate(Date = lubridate::ymd( "2010-01-01" ) + lubridate::weeks(e$`Week Reported` - 1 ))
-
-ab <- merge(a,b, all = TRUE)
-abc <- merge(ab, c, all = TRUE)
-abcd <- merge(abc, d, all = TRUE)
-abcde <- merge(abcd, e, all = TRUE)
-```
-
-```{r Collapse WNV data by month}
-cases <- abcde %>% 
-  mutate(month = month(Date)) %>% 
-  select(year = Year, 
-         county = County, 
-         positive_cases = "Positive Cases",
-         month) %>% 
-  group_by(year, county, month) %>% 
-  summarize(positive_cases = sum(positive_cases)) %>% 
-  ungroup
-
-cases  
-```
-
-#Temperature and precipitation data: 
-
-1. Uploading datasets
-
-```{r uploading datasets}
 temp_2006 <- read_csv("../Data/temp/temp_2006.csv")
 temp_2007 <- read_csv("../Data/temp/temp_2007.csv")
 temp_2008 <- read_csv("../Data/temp/temp_2008.csv")
 temp_2009 <- read_csv("../Data/temp/temp_2009.csv")
 temp_2010 <- read_csv("../Data/temp/temp_2010.csv")
-temp_2011 <- read_csv("../Data/temp/temp_2011.csv")
 precip_2006 <- read_csv("../Data/precip/precip_2006.csv")
 precip_2007 <- read_csv("../Data/precip/precip_2007.csv")
 precip_2008 <- read_csv("../Data/precip/precip_2008.csv")
 precip_2009 <- read_csv("../Data/precip/precip_2009.csv")
 precip_2010 <- read_csv("../Data/precip/precip_2010.csv")
-precip_2011 <- read_csv("../Data/precip/precip_2011.csv")
 
 ```
+## 3. Tyding and organizing the original data sets
 
-2. Creating a dataframe with air temperature (°F) information of California for the years 2006 to 2011.
+#3.1. Human cases dataset
 
-```{r, binding temperature datasets (2006-2011)}
+The main objective was change the *weekly* report to a *year* report for the number of cases by county
 
-temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, 
-              temp_2010, temp_2011)
+```{r, cleaning human cases dataset}
+cases <- report %>% 
+  select(Year, 
+         county = County, 
+         positive_cases = "Positive Cases") %>% 
+  mutate(date = Year) %>% 
+  filter(date %in% c("2006", "2007", "2008", "2009", "2010")) %>% 
+  group_by(date, county) %>% 
+  summarize(positive_cases = sum(positive_cases)) %>% 
+  ungroup %>% 
+  arrange(date)
+
+kable(head(cases))
+kable(tail(cases))
+
+```
+#3.2. Temperature dataset
+
+The main objective was join all the temperature data in one data set and select the relevant variables.
+
+```{r, joining all temperature files}
+
+temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, temp_2010)
 
 temp <- temp %>% 
   select(County, "County Code", "Month Day, Year Code", "Day of Year", 
@@ -127,19 +98,20 @@ temp <- temp %>%
          fips = "County Code",
          date = "Month Day, Year Code",
          day_year = "Day of Year",
-         max_temp_f = "Avg Daily Max Air Temperature (F)",
+         max_temp = "Avg Daily Max Air Temperature (F)",
          min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
-  mutate(date = mdy(date))
-head(temp)
-tail(temp)
+  mutate(date = mdy(date)) 
+kable(head(temp))
+
 ```
 
-3. Creating a dataframe with the precipitation (mm) information of California for the years 2006 to 2011.
+#3.3. Precipitation dataset
 
-```{r, binding precipitation datasets (2006-2011)}
+Same as the previous objective, precipitation datasets were joined and the relevant information was selected.
 
-precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, 
-              precip_2010, precip_2011)
+```{r, joining all precipitation files}
+
+precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, precip_2010)
 
 precip <- precip %>%
   select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
@@ -148,85 +120,50 @@ precip <- precip %>%
          avg_precip = "Avg Daily Precipitation (mm)") %>% 
   mutate(date = mdy(date))
 
-head(precip)
-tail(precip)
-```
-
-4. Merging temperature and precipitation of CA by date and county to have just one main dataframe with weather conditions for the years 2006 to 2011.
-
-```{r, merging precipitations and temperature}
-
-ca_weather <- merge(temp, precip, by = c("county", "date"))
-head(ca_weather)
-tail(ca_weather)
+kable(head(precip))
 
 ```
 
-```{r clean precipitation data}
+#3.4. Merging cleaned dataset 
 
-ca_precip <- ca_weather %>% 
-  select(county, date, fips, avg_precip) %>% 
+# 3.4.1. Weather data
+
+In this step, temperature and precipitation data sets were merged.
+
+```{r, merging precipitations and temperature and obtaining average precipitation and temperature by year}
+
+ca_weather <- merge(temp, precip, by = c("county", "date")) %>% 
+  select(county, date, fips, avg_precip, max_temp) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
-  select(county, date, fips, avg_precip) %>% 
-  mutate(month = month(date)) %>% 
-  mutate(year = year(date)) %>% 
-  group_by(county, fips, month, year) %>% 
-  summarise(avg_precip = mean(avg_precip)) %>% 
-  ungroup %>% 
-  arrange(year)
+  select(county, date, fips, avg_precip, max_temp) %>% 
+  mutate(date = year(date)) %>% 
+  group_by(county, fips, date) %>% 
+  summarise(avg_precip = mean(avg_precip), avg_max_temp = mean(max_temp)) %>% 
+  ungroup 
 
-head(ca_precip) 
+kable(tail(ca_weather))
 
 ```
 
-#Merge datasets
+#3.4.2. Cases and weather data
 
-```{r merge datasets}
+In this step cases and weather dataset were joined
 
-ca_precip_cases <- full_join(ca_precip, cases, by = c('month', 'year', 'county'))
+```{r, joining cases of west niles and california weather}
 
-ca_precip_cases$positive_cases[is.na(ca_precip_cases$positive_cases)] <- 0
+ca_weather_cases <- full_join(ca_weather, cases, by = c('date', 'county')) %>%
+  mutate(positive_cases = ifelse(!is.na(positive_cases), positive_cases, 0)) %>% 
+  arrange(positive_cases) 
 
-ca_precip_cases <- ca_precip_cases %>% 
-  arrange(desc(positive_cases))
-
-head(ca_precip_cases)
-```
-
-```{r, create CA county map}
-ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
-
-ggplot() + 
-  geom_sf(data = ca_counties)
+kable(head(ca_weather_cases))
 
 ```
 
-```{r, joining geogrph with ca_county_cases }
-#With the last changes our variables changed. this would be the code for the "new" data set
+#3.4.3. Creating the final data set
 
-ca_county_cases <- ca_counties %>% 
- mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
- full_join(ca_precip_cases, by = "fips") %>% 
-   arrange(desc(positive_cases))
-head(ca_county_cases)
-```
+To create the final dataset and in order to be able to create a Shinny App, geographical data from California counties was joined with human cases and weather data.
 
-```{r, map of an specific date, fig.width=20, fig.height=10}
-#With the last changes our variables changed. this would be the code for the "new" map
-cases_plot <- ca_county_cases %>% 
-  filter(month == "8" & year == "2008") %>% 
-  ggplot() + 
-  geom_sf(aes(fill = positive_cases)) + 
-  scale_fill_viridis(name = "Number of cases")
-
-precip_plot <- ca_county_cases %>% 
-  filter(month == "8" & year == "2008")  %>% 
-  ggplot() + 
-  geom_sf(aes(fill = avg_precip)) + 
-  scale_fill_viridis(name = "Average Precipitation")
-
-grid.arrange(cases_plot, precip_plot, nrow = 1)
-
+```{r, final data set, joining geographical data with cases and weather in California}
 
 ```
 
