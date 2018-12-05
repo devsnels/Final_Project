@@ -13,7 +13,6 @@ plot_map <- function(df = ca_county_cases,
     
     df <- dplyr::select(df, geometry, positive_cases, avg_precip, avg_max_temp, date) %>%
       filter(date >= start.date & date <= end.date)
-    #!is.na(geometry) & 
     
   cases_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = positive_cases))  +
@@ -32,8 +31,8 @@ plot_map <- function(df = ca_county_cases,
     ggpubr::rotate_x_text(angle = 60) 
   
   
-  final_plot <- grid.arrange(cases_plot, precip_plot, temp_plot, nrow = 2)
-  
+  final_plot <- grid.arrange(cases_plot, precip_plot, temp_plot, nrow = 1)
+
   return(final_plot)
   
 }
