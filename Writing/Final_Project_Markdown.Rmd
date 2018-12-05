@@ -124,9 +124,15 @@ kable(head(precip))
 
 ```
 
-#3.4. Merging cleaned dataset 
+# 4. Merging cleaned datasets
 
-# 3.4.1. Weather data
+Two approaches were considered. 
+
+- First, precipitation and temperature were merged and year averages for this two variables were calculated.
+
+- Second,the yearly human West Niles Virus cases dataset was joined with weather organize by year.
+
+# 4.1. Weather data
 
 In this step, temperature and precipitation data sets were merged.
 
@@ -145,7 +151,7 @@ kable(tail(ca_weather))
 
 ```
 
-#3.4.2. Cases and weather data
+# 4.2. Cases and weather data
 
 In this step cases and weather dataset were joined
 
@@ -159,11 +165,24 @@ kable(head(ca_weather_cases))
 
 ```
 
-#3.4.3. Creating the final data set
+# 5. Creating the final data set
 
-To create the final dataset and in order to be able to create a Shinny App, geographical data from California counties was joined with human cases and weather data.
+To create the final dataset and in order to be able to create a Shinny App, geographical data from California counties was joined with human cases and weather data (joined in part 4.2).
 
 ```{r, final data set, joining geographical data with cases and weather in California}
 
+ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
+
+ca_county_cases <- ca_counties %>% 
+  mutate(fips = paste(STATEFP, COUNTYFP, sep = "")) %>% 
+  full_join(ca_weather_cases, by = "fips") %>% 
+  filter(county %in% c("Imperial" , "Kern", "Los Angeles", "Orange",
+                       "Riverside", "San Bernardino", "San Diego", 
+                       "San Luis Obispo", "Santa Barbara", "Ventura"))
+
+kable(head(ca_county_cases))
+
+unique(ca_county_cases$county)
+unique(ca_county_cases$date)
 ```
 
