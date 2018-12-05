@@ -42,7 +42,7 @@ temp <- temp %>%
          fip = "County Code",
          date = "Month Day, Year Code",
          day_year = "Day of Year",
-         max_temp_f = "Avg Daily Max Air Temperature (F)",
+         max_temp = "Avg Daily Max Air Temperature (F)",
          min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
   mutate(date = mdy(date)) 
 head(temp)
@@ -65,15 +65,15 @@ head(ca_weather)
 tail(ca_weather)
 
 ca_precip <- ca_weather %>% 
-  select(county, date, fip, avg_precip) %>% 
+  select(county, date, fip, avg_precip, max_temp) %>% 
   separate(county, c("county", "state"), sep = " County, CA") %>% 
-  select(county, date, fip, avg_precip) %>% 
+  select(county, date, fip, avg_precip, max_temp) %>% 
   mutate(date = year(date)) %>% 
   group_by(county, fip, date) %>% 
-  summarise(avg_precip = mean(avg_precip)) %>% 
+  summarise(avg_precip = mean(avg_precip), avg_max_temp = mean(max_temp)) %>% 
   ungroup 
 
-View(ca_precip)
+ca_precip
 
 ca_precip_cases <- full_join(ca_precip, cases, by = c('date', 'county')) 
 
