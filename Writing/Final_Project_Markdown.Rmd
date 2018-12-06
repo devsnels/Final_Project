@@ -38,7 +38,7 @@ library(gridExtra)
 
 ## 2. Datasets description
 
-Different data sets were collected from CHHS and CDC Wonder. The report of human cases for California had data arrange by week and county for the years 2006 to 2018. The data is available in:
+Different data sets were collected from CHHS and CDC Wonder. The report of human cases for California, had data arrange by week and county for the years 2006 to 2018. The data is available in:
 
 [CHHS](https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06)
 
@@ -107,7 +107,7 @@ kable(head(temp))
 
 #3.3. Precipitation dataset
 
-Same as the previous objective, precipitation datasets were joined and the relevant information was selected.
+Same as the previous objecyive, precipitation datasets were joined and the relevant information was selected.
 
 ```{r, joining all precipitation files}
 
@@ -128,13 +128,13 @@ kable(head(precip))
 
 Two approaches were considered. 
 
-- First, precipitation and temperature were merged and year averages for this two variables were calculated.
+- First, precipitation and temperature datasets were merged. Right after that averages by year were calculated.
 
-- Second,the yearly human West Niles Virus cases dataset was joined with weather organize by year.
+- Second,the yearly human West Niles Virus cases dataset was joined with weather data.
 
 # 4.1. Weather data
 
-In this step, temperature and precipitation data sets were merged.
+In this step, temperature and precipitation data sets were merged.Addionally, calculation of yearly averages
 
 ```{r, merging precipitations and temperature and obtaining average precipitation and temperature by year}
 
