@@ -8,6 +8,7 @@ library(readr)
 library(ggplot2)
 library(leaflet)
 library(shiny)
+library(ggpubr)
 
 
 report <-  read_csv( "Data/wnv_human_cases.csv")

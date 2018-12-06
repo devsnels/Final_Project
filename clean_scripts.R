@@ -21,6 +21,9 @@ library(tigris)
 library(sf)
 library(cowplot)
 library(gridExtra)
+install.packages('rsconnect')
+library(rsconnect)
+
 
 #Loading data set 
 
@@ -113,9 +116,7 @@ ca_county_cases <- ca_counties %>%
 
 View(ca_county_cases)
 
-
-
-
+     
 
 
 
