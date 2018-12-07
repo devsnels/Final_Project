@@ -1,5 +1,4 @@
-setwd("/Users/devinnelson/Desktop/Final_Project")
-load("Data/ca_county_cases_final.RData")
+readRDS("ca_county_cases.RData")
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
@@ -8,6 +7,28 @@ plot_map <- function(df = ca_county_cases,
   library(dplyr)
   library(sf)
   library(RColorBrewer)
+  library(dplyr)
+  library(stringr)
+  library(tidyselect)
+  library(ggplot2)
+  library(rmarkdown)
+  library(RColorBrewer)
+  library(knitr)
+  library(forcats)
+  library(readr)
+  library(tidyr)
+  library(broom)
+  library(purrr)
+  library(scales)
+  library(lubridate)
+  library(viridis)
+  library(RColorBrewer)
+  library(scales)
+  library(tidyverse)
+  library(tigris)
+  library(sf)
+  library(cowplot)
+  library(gridExtra)
     
     start.date <- as.numeric(start.date)
     end.date <- as.numeric(end.date)
@@ -23,12 +44,12 @@ plot_map <- function(df = ca_county_cases,
   
   precip_plot <- ggplot(data = df) + 
    geom_sf(data = df, aes(fill = avg_precip)) +
-   viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,8)) +
+   viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,3)) +
     ggpubr::rotate_x_text(angle = 60) 
 
   temp_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = avg_max_temp)) +
-    viridis::scale_fill_viridis(aes(name = "Average High Temp"), limits = c(0,80)) +
+    viridis::scale_fill_viridis(aes(name = "Average High Temp"), limits = c(0,90)) +
     ggpubr::rotate_x_text(angle = 60) 
   
   

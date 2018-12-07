@@ -135,9 +135,9 @@ unique(ca_county_cases$county)
 unique(ca_county_cases$date) 
 
 
-write_tsv(ca_county_cases, path = "ca_county_cases.txt")
+saveRDS(ca_county_cases, file = "ca_county_cases.RData")
 
-read_tsv('ca_county_cases.txt')
+
 
 
 
