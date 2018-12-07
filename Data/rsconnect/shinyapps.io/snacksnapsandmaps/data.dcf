@@ -1,0 +1,10 @@
+name: data
+title:
+username:
+account: snacksnapsandmaps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 606319
+bundleId: 1744872
+url: https://snacksnapsandmaps.shinyapps.io/data/
+when: 1544075133.91262
