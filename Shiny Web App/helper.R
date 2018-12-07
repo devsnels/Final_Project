@@ -1,6 +1,5 @@
-load("~/Desktop/R- Programing /Final_Project/Data/ca_county_cases_final.RData")
 
-
+load("Data/ca_county_cases_final.RData")
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
@@ -9,6 +8,7 @@ plot_map <- function(df = ca_county_cases,
   library(dplyr)
   library(sf)
   library(RColorBrewer)
+
     
     start.date <- as.numeric(start.date)
     end.date <- as.numeric(end.date)
