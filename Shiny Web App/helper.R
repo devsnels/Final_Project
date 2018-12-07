@@ -23,12 +23,12 @@ plot_map <- function(df = ca_county_cases,
   
   precip_plot <- ggplot(data = df) + 
    geom_sf(data = df, aes(fill = avg_precip)) +
-   viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,8)) +
+   viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,4)) +
     ggpubr::rotate_x_text(angle = 60) 
 
   temp_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = avg_max_temp)) +
-    viridis::scale_fill_viridis(aes(name = "Average High Temp"), limits = c(0,80)) +
+    viridis::scale_fill_viridis(aes(name = "Average High Temp"), limits = c(0,90)) +
     ggpubr::rotate_x_text(angle = 60) 
   
   
