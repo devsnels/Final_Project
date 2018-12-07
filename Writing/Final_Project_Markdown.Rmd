@@ -169,7 +169,7 @@ kable(head(ca_weather_cases))
 
 To create the final dataset and in order to be able to create a Shinny App, geographical data from California counties was joined with human cases and weather data (joined in part 4.2).
 
-```{r, final data set, joining geographical data with cases and weather in California}
+```{r, final data set, joining geographical data with cases and weather in California, echo = FALSE, message = FALSE, results = "hide"}
 
 ca_counties <- counties(state = "CA", cb = TRUE, class = "sf")
 
@@ -180,7 +180,11 @@ ca_county_cases <- ca_counties %>%
                        "Riverside", "San Bernardino", "San Diego", 
                        "San Luis Obispo", "Santa Barbara", "Ventura"))
 
-kable(head(ca_county_cases))
+
+```
+
+```{r}
+kable(head(ca_county_cases, 1))
 
 unique(ca_county_cases$county)
 unique(ca_county_cases$date)
