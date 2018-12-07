@@ -5,9 +5,8 @@ account: devsnelson
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 607795
-bundleId: 1747266
+bundleId: 1748832
 url: https://devsnelson.shinyapps.io/CaliforniaWNVMaps/
-when: 1544156454.88985
+when: 1544225621.18326
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: ui.R~13748f13687391153d29c369976486012763a222

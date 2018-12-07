@@ -1,4 +1,4 @@
-readRDS("ca_county_cases.RData")
+ca_county_cases <- readRDS("ca_county_cases.RData")
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
