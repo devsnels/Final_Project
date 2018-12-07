@@ -119,6 +119,8 @@ head(ca_county_cases)
 tail(ca_county_cases)
 unique(ca_county_cases$county)
 
+write_tsv(ca_county_cases, path = "ca_county_cases.txt")
 
+read_tsv('ca_county_cases.txt')
 
 
