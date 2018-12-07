@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 load("../Data/ca_county_cases_final.RData")
 =======
 load("~/Desktop/R- Programing /Final_Project/Data/ca_county_cases_final.RData")
 
 >>>>>>> dc7b3dbadc8eb2d12d8cf128de1d2127bc3804dc
+=======
+load("/Users/anastasiaratcliff/Desktop/R- Programing /Final_Project/Data/ca_county_cases_final.RData")
+>>>>>>> b263afb867d6a65da30aaf4a8fde0a029e4bc355
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
