@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 readRDS("ca_county_cases.RData")
-=======
-load("ca_county_cases_final.RData")
->>>>>>> 569253ebaed3ba79f9df75f53648493a3b6b30fd
 
 plot_map <- function(df = ca_county_cases,
                      start.date = 2006,
@@ -11,7 +7,6 @@ plot_map <- function(df = ca_county_cases,
   library(dplyr)
   library(sf)
   library(RColorBrewer)
-<<<<<<< HEAD
   library(dplyr)
   library(stringr)
   library(tidyselect)
@@ -34,9 +29,6 @@ plot_map <- function(df = ca_county_cases,
   library(sf)
   library(cowplot)
   library(gridExtra)
-=======
-
->>>>>>> 569253ebaed3ba79f9df75f53648493a3b6b30fd
     
     start.date <- as.numeric(start.date)
     end.date <- as.numeric(end.date)
@@ -52,11 +44,9 @@ plot_map <- function(df = ca_county_cases,
   
   precip_plot <- ggplot(data = df) + 
    geom_sf(data = df, aes(fill = avg_precip)) +
-<<<<<<< HEAD
+
    viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,3)) +
-=======
    viridis::scale_fill_viridis(aes(name = "Average Precipitation"), limits = c(0,4)) +
->>>>>>> 569253ebaed3ba79f9df75f53648493a3b6b30fd
     ggpubr::rotate_x_text(angle = 60) 
 
   temp_plot <- ggplot(data = df) + 
