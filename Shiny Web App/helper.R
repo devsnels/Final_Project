@@ -1,4 +1,3 @@
-
 load("Data/ca_county_cases_final.RData")
 
 plot_map <- function(df = ca_county_cases,
