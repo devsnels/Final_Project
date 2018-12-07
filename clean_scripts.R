@@ -135,7 +135,9 @@ unique(ca_county_cases$county)
 unique(ca_county_cases$date) 
 
 
+write_tsv(ca_county_cases, path = "ca_county_cases.txt")
 
+read_tsv('ca_county_cases.txt')
 
 
 
