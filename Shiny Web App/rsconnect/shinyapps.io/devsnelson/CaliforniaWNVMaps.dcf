@@ -1,0 +1,12 @@
+name: CaliforniaWNVMaps
+title: CaliforniaWNVMaps
+username:
+account: devsnelson
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 607795
+bundleId: 1747213
+url: https://devsnelson.shinyapps.io/CaliforniaWNVMaps/
+when: 1544153928.10396
+asMultiple: FALSE
+asStatic: FALSE
