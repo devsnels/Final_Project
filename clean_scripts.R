@@ -20,7 +20,6 @@ library(tigris)
 library(sf)
 library(cowplot)
 library(gridExtra)
-library(rsconnect)
 
 
 
@@ -134,6 +133,8 @@ ca_county_cases <- ca_counties %>%
 
 unique(ca_county_cases$county)
 unique(ca_county_cases$date) 
+
+
 
 
 
