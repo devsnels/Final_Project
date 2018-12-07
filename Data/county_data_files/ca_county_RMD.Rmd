@@ -1,0 +1,14 @@
+---
+title: "County_Cases_MD"
+author: "Anastasia Ratcliff"
+date: "12/6/2018"
+output: html_document
+---
+```{r}
+
+CACASES <- load("/Users/anastasiaratcliff/Desktop/R- Programing /Final_Project/Data/ca_county_cases_final.RData")
+
+CACASES
+
+```
+
