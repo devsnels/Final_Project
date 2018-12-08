@@ -11,18 +11,31 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = 
 
 ## Project Aim.
 
-  The main focus of this project was to use R to add to the expanding epidemiolgical research on West Nile Virus in North America. Specifically, 
-we wanted to investigate the *relationships that exist between Nest Nile Virus incidence and weather*. Temperature and precipitation were the weather metrics that were selected and compared against West Nile Cases.  Due to the accessibility of weather and case data, the scope of analysis was narrowed to **Southern California**.  It was hypothesized that cases of West Nile Virus in California would be higher in counties with high temperatures and precipitation than in low temperature and precipitation counties.  In order to test this hypothesis a shiny app was developed to visualize how temperature and precipitation by county compared to county case data.  
+  The main focus of this project was to use R to add to the expanding
+epidemiolgical research on West Nile Virus in North America. Specifically, 
+we wanted to investigate the relationships that exist between Nest Nile Virus
+incidence and weather. Temperature and precipitation were the weather metrics
+that were selected and compared against West Nile Cases. Due to the
+accessibility of weather and case data, the scope of analysis was narrowed to
+**Southern California**.  It was hypothesized that cases of West Nile Virus in
+California would be higher in counties with high temperatures and precipitation
+than in low temperature and precipitation counties.  In order to test this
+hypothesis a shiny app was developed to visualize how temperature and
+precipitation by county compared to county case data.  
 	
 ## Data Sources
 
 	In order to generate the shiny web app, data on weather and West Nile cases
-by county was gathered and loaded into R. The first data set used was California West Nile cases by county and was downloaded from the California Department of Public Health website. 
+by county was gathered and loaded into R. The first data set used was
+California West Nile cases by county and was downloaded from the California
+Department of Public Health website. 
 
-[CHHS]<https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06>
+[CHHS]<https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/
+resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06>
 	
 	This data ranged from 2006 to present and included the year, week, 
-county, and the number of positive cases.  California temperature data was gathered from the Centers for Disease Control Wonder website (CDC Wonder). 
+county, and the number of positive cases.  California temperature data was
+gathered from the Centers for Disease Control Wonder website (CDC Wonder). 
 	
 [CDC Wonder]<https://wonder.cdc.gov/>
 	
@@ -78,8 +91,6 @@ cases <- report %>%
   ungroup %>% 
   arrange(date)
 
-kable(head(cases, 2))
-
 temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, temp_2010)
 
 temp <- temp %>% 
@@ -93,7 +104,6 @@ temp <- temp %>%
          max_temp = "Avg Daily Max Air Temperature (F)",
          min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
   mutate(date = mdy(date)) 
-kable(head(temp, 2))
 
 precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, precip_2010)
 
@@ -104,7 +114,20 @@ precip <- precip %>%
          avg_precip = "Avg Daily Precipitation (mm)") %>% 
   mutate(date = mdy(date))
 
-kable(head(precip, 2))
+ca_weather <- merge(temp, precip, by = c("county", "date")) %>% 
+  select(county, date, fips, avg_precip, max_temp) %>% 
+  separate(county, c("county", "state"), sep = " County, CA") %>% 
+  select(county, date, fips, avg_precip, max_temp) %>% 
+  mutate(date = year(date)) %>% 
+  group_by(county, fips, date) %>% 
+  summarise(avg_precip = mean(avg_precip), avg_max_temp = mean(max_temp)) %>% 
+  ungroup 
+
+ca_weather_cases <- full_join(ca_weather, cases, by = c('date', 'county')) %>%
+  mutate(positive_cases = ifelse(!is.na(positive_cases), positive_cases, 0)) %>% 
+  arrange(positive_cases) 
+
+kable(head(ca_weather_cases))
 
 ```
 
@@ -129,10 +152,13 @@ counties when the app works?**
 	
 ## Relevance to Current Research
 	
-	This project fits nicely into the broader study of West Nile Virus research by expanding upon previous findings in other areas.  Multiple studies have
-	investigated the influence of climate on West Nile Virus.  Each study takes a different approach and answers a slightly different question.  Some research
+	This project fits nicely into the broader study of West Nile Virus research
+by expanding upon previous findings in other areas.  Multiple studies have
+investigated the influence of climate on West Nile Virus.  Each study takes a
+different approach and answers a slightly different question.  Some research
 has taken a much broader approach than our project and investigated climate
-changes effect on West Nile (Epstein, 2001).  Other research has utilized historical temperature data to produce complex models that produce West Nile
+changes effect on West Nile (Epstein, 2001).  Other research has utilized
+historical temperature data to produce complex models that produce West Nile
 forecasts (DeFelice, 2018).  Finally, there have been studies directly looking
 at how temperature and precipitation relate to West Nile cases (Ruiz, 2010). 
 Our project fits most closely with this study as it looks at the same variables
@@ -160,7 +186,8 @@ effect climate on cases.
 
 ## Challenges
 	
-	There were a few particularly challenging aspects of this project that our group struggled with.  The first issue we encountered was that the shiny app
+	There were a few particularly challenging aspects of this project that our
+group struggled with.  The first issue we encountered was that the shiny app
 will only operate at the day or the year level instead month. This
 limitation of the app lead to us switching our data resolution to the year
 level which wasn’t ideal but would allow the app to run and still provide the
@@ -206,6 +233,3 @@ Ruiz, M. O., Chaves, L. F., Hamer, G. L., Sun, T., Brown, W. M., Walker, E. D.,
 ... & Kitron, U. D. (2010). Local impact of temperature and precipitation on
 West Nile virus infection in Culex species mosquitoes in northeast Illinois,
 USA. Parasites & vectors, 3(1), 19.
-
-
-
