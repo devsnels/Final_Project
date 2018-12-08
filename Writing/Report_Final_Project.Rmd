@@ -25,25 +25,28 @@ precipitation by county compared to county case data.
 	
 ## Data Sources
 
-	In order to generate the shiny web app, data on weather and West Nile cases
-by county was gathered and loaded into R. The first data set used was
-California West Nile cases by county and was downloaded from the California
-Department of Public Health website. 
+	In order to generate the shiny web app, data on weather and
+West Nile cases by county was gathered and loaded into R. The
+first data set used was California West Nile cases by county
+and was downloaded from the California Department of Public Health website. 
 
 [CHHS]<https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/
 resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06>
 	
-	This data ranged from 2006 to present and included the year, week, 
-county, and the number of positive cases.  California temperature data was
-gathered from the Centers for Disease Control Wonder website (CDC Wonder). 
+	This data ranged from 2006 to present and included the year,
+week, county, and the number of positive cases. California
+temperature data was gathered from the Centers for Disease
+Control Wonder website (CDC Wonder). 
 	
 [CDC Wonder]<https://wonder.cdc.gov/>
 	
-	Data was obtained for 2006 to 2011 and included the state, state code,
-county, county code, date, average max temp, and average min temp. California
-precipitation data was also obtained from the CDC Wonder website for the years
-2006 to 2011.  This data set included state, state code, county, county code,
-date, daily precipitation, and average daily precipitation.  
+	Data was obtained for 2006 to 2011 and included the state,
+state code, county, county code, date, average max temp, and
+average min temp. California precipitation data was also
+obtained from the CDC Wonder website for the years 2006 to
+2011. This data set included state, state code, county, county
+code, date, daily precipitation, and average daily
+precipitation.  
 
 ```{r, data sets}
 library(dplyr)
@@ -132,104 +135,123 @@ kable(head(ca_weather_cases))
 ```
 
 ## Findings
-	After generating and exploring the shiny web app, a few interesting
-observations were made.  First, it appears that there is a strong
-relationship between incidence of West Nile Virus and temperature as counties
-with the highest temperatures exhibit a higher number of cases.  Additionally,
-it seems precipitation has an effect on cases, albeit to a lesser extent as
-northern California experiences heavy rainfall but far fewer cases.  This heavy
-rainfall seemed to skew the scale and made it more difficult to observe
-differences in southern California rainfall.  To correct this skew and obtain
-more detailed observations, the data was filtered down to the 13 counties
-considered southern California.  Therefore the shiny app attached to this
-project only includes data from the southern counties.  Once the data set was
-narrowed down…**Can someone fill this with the findings of just the southern
-counties when the app works?**
+	After generating and exploring the shiny web app, a few
+interesting observations were made.  First, it appears that
+there is a strong relationship between incidence of West Nile
+Virus and temperature as counties with the highest temperatures
+exhibit a higher number of cases.  Additionally, it seems
+precipitation has an effect on cases, albeit to a lesser extent
+as northern California experiences heavy rainfall but far fewer
+cases.  This heavy rainfall seemed to skew the scale and made
+it more difficult to observe differences in southern California
+rainfall.  To correct this skew and obtain more detailed
+observations, the data was filtered down to the 13 counties
+considered southern California.  Therefore the shiny app 
+attached to this project only includes data from the southern
+counties. Once the data set was narrowed down…**Can someone
+fill this with the findings of just the southern counties when
+the app works?**
 	
-	The Shiny App can be viewed from:
+The Shiny App can be viewed from:
 	
-	[IO Shiny]<https://devsnelson.shinyapps.io/CaliforniaWNVMaps/>
+[IO Shiny]<https://devsnelson.shinyapps.io/CaliforniaWNVMaps/>
 	
 ## Relevance to Current Research
 	
-	This project fits nicely into the broader study of West Nile Virus research
-by expanding upon previous findings in other areas.  Multiple studies have
-investigated the influence of climate on West Nile Virus.  Each study takes a
-different approach and answers a slightly different question.  Some research
-has taken a much broader approach than our project and investigated climate
-changes effect on West Nile (Epstein, 2001).  Other research has utilized
-historical temperature data to produce complex models that produce West Nile
-forecasts (DeFelice, 2018).  Finally, there have been studies directly looking
-at how temperature and precipitation relate to West Nile cases (Ruiz, 2010). 
-Our project fits most closely with this study as it looks at the same variables
-as ours in a different part of the country, Illinois.  However, while it may be
-answering the same question, our project investigates an area with a
-significantly different climate, expanding the understanding of weathers impact
-on West Nile Virus.  
+	This project fits nicely into the broader study of West Nile
+Virus research by expanding upon previous findings in other
+areas.  Multiple studies have investigated the influence of
+climate on West Nile Virus.  Each study takes a different
+approach and answers a slightly different question.  Some
+research has taken a much broader approach than our project and
+investigated climate changes effect on West Nile
+(Epstein,2001).  Other research has utilized historical
+temperature data to produce complex models that produce West
+Nile forecasts (DeFelice, 2018).  Finally, there have been
+studies directly looking at how temperature and precipitation
+relate to West Nile cases (Ruiz, 2010). 
+Our project fits most closely with this study as it looks at
+the same variables as ours in a different part of the country,
+Illinois.  However, while it may be answering the same
+question, our project investigates an area with a significantly
+different climate, expanding the understanding of weathers
+impact on West Nile Virus.  
 
 
 ## How the Problem Was Tackled
-	The easiest way to determine the effect a variable has on something is to
-either test it statistically or create a way to visualize the effect. This
-project addresses the latter.  In order to create a visual that could
-illustrate the impact temperature and precipitation have on West Nile we
-created a shiny web app consisting of three different maps.  Each map detailed
-the county boundaries of California and utilized a viridis color scale. The
-first map consisted of the number of West Nile cases by county, the second
-being temperature by county, and the third being precipitation by county. The
-shiny app also included an interactive slide to adjust the year of data being
-represented on the maps.  This allows whoever is using the app to visualize 
-the changes in cases, average temperature, and average precipitation by year.
-This, in turn accomplishes the projects aim of creating a visualization of the
-effect climate on cases.
+	The easiest way to determine the effect a variable has on
+something is to either test it statistically or create a way to
+visualize the effect. This project addresses the latter.  In
+order to create a visual that could illustrate the impact
+temperature and precipitation have on West Nile we created a
+shiny web app consisting of three different maps.  Each map
+detailed the county boundaries of California and utilized a
+viridis color scale. The first map consisted of the number of
+West Nile cases by county, the second being temperature by
+county, and the third being precipitation by county. The
+shiny app also included an interactive slide to adjust the year
+of data being represented on the maps.  This allows whoever is
+using the app to visualize the changes in cases, average
+temperature, and average precipitation by year.
+This, in turn accomplishes the projects aim of creating a
+visualization of the effect climate on cases.
 
 
 ## Challenges
 	
-	There were a few particularly challenging aspects of this project that our
-group struggled with.  The first issue we encountered was that the shiny app
-will only operate at the day or the year level instead month. This
-limitation of the app lead to us switching our data resolution to the year
-level which wasn’t ideal but would allow the app to run and still provide the
-user with the visuals we wanted.  Another challenge we ran into was getting 
-the aesthetics on the app to look the way we preferred.  Initially the graphs
-were extremely small and the color scale would change each time the year was
-altered.  To address this we altered the app code to enlarge the maps and added
-to the scale code to set the scale across all years. Finally, arguably the 
-greatest challenge was creating the function that would run inside the shiny 
-app.  Devin can you explain how you tackled this problem.  These are just a 
-few of the challenges associated with a project such as this and collaboration
-in github.
+	There were a few particularly challenging aspects of this
+project that our group struggled with.  The first issue we
+encountered was that the shiny app will only operate at the day
+or the year level instead month. This limitation of the app
+lead to us switching our data resolution to the year level
+which wasn’t ideal but would allow the app to run and still
+provide the user with the visuals we wanted.  Another challenge
+we ran into was getting the aesthetics on the app to look the
+way we preferred.  Initially the graphs were extremely small
+and the color scale would change each time the year was
+altered.  To address this we altered the app code to enlarge
+the maps and added to the scale code to set the scale across
+all years. Finally, arguably the greatest challenge was
+creating the function that would run inside the shiny app.
+Devin can you explain how you tackled this problem. These are
+just a few of the challenges associated with a project such as
+this and collaboration in github.
+
 
 ## Fresh Start Ideas
 	 
-	 If given the opportunity to start the project again from the beginning,
-there are a few things we would have done differently.  First and foremost, 
-we would create a visual of the data at the month level.  This would give
-better resolution of the data and allow smaller differences to be observed.
-Additionally, we would add extreme weather and storm events to the visual as
-large rainfall and extreme weather like wild fires or drought can lead to an
-increase in West Nile cases.  This would allow the user to view the impact of
-extreme weather or storm events as well as the impact of temperature and
-precipitation.  Finally, we could incorporate average temperatures and
-precipitation across California into our project.  More specifically, we could
-compare precipitation and temperature at the county level to the entire state.
-This would give a better idea of whether the temperature/precipitation of a
-county was higher or lower than the state average and put levels into context.
-If given a fresh start, these changes would make for a more detailed, visually
-rich shiny app.  
-	 
+	 If given the opportunity to start the project again from the
+beginning, there are a few things we would have done
+differently.  First and foremost, we would create a visual of
+the data at the month level.  This would give better resolution
+of the data and allow smaller differences to be observed.
+Additionally, we would add extreme weather and storm events to
+the visual as large rainfall and extreme weather like wild
+fires or drought can lead to an increase in West Nile cases. 
+This would allow the user to view the impact of extreme weather
+or storm events as well as the impact of temperature and
+precipitation.  Finally, we could incorporate average
+temperatures and precipitation across California into our
+project.  More specifically, we could compare precipitation and
+temperature at the county level to the entire state. This would
+give a better idea of whether the temperature/precipitation of
+a county was higher or lower than the state average and put
+levels into context.
+If given a fresh start, these changes would make for a more
+detailed, visually rich shiny app. 
+
 ## References
 
-DeFelice, N. B., Schneider, Z. D., Little, E., Barker, C., Caillouet, K. A.,
-Campbell, S. R., ... & Shaman, J. (2018). Use of temperature to improve West
-Nile virus forecasts. PLoS computational biology, 14(3), e1006047.
+DeFelice, N. B., Schneider, Z. D., Little, E., Barker,
+C.,Caillouet, K. A., Campbell, S. R., ... & Shaman, J. (2018).
+Use of temperature to improve West Nile virus forecasts. PLoS
+computational biology, 14(3), e1006047.
 
+Epstein, P. R. (2001). West Nile virus and the climate. Journal
+of Urban Health, 78(2), 367-371.
 
-Epstein, P. R. (2001). West Nile virus and the climate. Journal of Urban
-Health, 78(2), 367-371.
-
-Ruiz, M. O., Chaves, L. F., Hamer, G. L., Sun, T., Brown, W. M., Walker, E. D.,
-... & Kitron, U. D. (2010). Local impact of temperature and precipitation on
-West Nile virus infection in Culex species mosquitoes in northeast Illinois,
-USA. Parasites & vectors, 3(1), 19.
+Ruiz, M. O., Chaves, L. F., Hamer, G. L., Sun, T., Brown, W.
+M., Walker, E. D., ... & Kitron, U. D. (2010). Local impact of
+temperature and precipitation on West Nile virus infection in
+Culex species mosquitoes in northeast Illinois, USA. Parasites
+& vectors, 3(1), 19.
