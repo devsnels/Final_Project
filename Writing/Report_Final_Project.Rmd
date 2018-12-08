@@ -25,18 +25,17 @@ precipitation by county compared to county case data.
 	
 ## Data Sources
 
-	In order to generate the shiny web app, data on weather and
-West Nile cases by county was gathered and loaded into R. The
-first data set used was California West Nile cases by county
-and was downloaded from the California Department of Public Health website. 
+	In order to generate the shiny web app, data on weather and West Nile cases by
+county was gathered and loaded into R. The first data set used was California
+West Nile cases by county and was downloaded from the California Department of
+Public Health website. 
 
 [CHHS]<https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/
 resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06>
 	
-	This data ranged from 2006 to present and included the year,
-week, county, and the number of positive cases. California
-temperature data was gathered from the Centers for Disease
-Control Wonder website (CDC Wonder). 
+	This data ranged from 2006 to present and included the year, week, county, and
+the number of positive cases. California temperature data was gathered from
+the Centers for Disease Control Wonder website (CDC Wonder). 
 	
 [CDC Wonder]<https://wonder.cdc.gov/>
 	
