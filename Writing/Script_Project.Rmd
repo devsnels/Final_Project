@@ -1,5 +1,5 @@
 ---
-title: "ERHS 535 Final Project: Prediction of West Niles Virus Human Cases in Southern California by Precipitation and Temperature from 2006-2010"
+title: "Script Final Project: Prediction of West Niles Virus Human Cases in Southern California by Precipitation and Temperature from 2006-2010"
 author: "Devin, Anastasia, Grant, Ana"
 date: "11/7/2018"
 output: pdf_document
@@ -40,11 +40,11 @@ library(gridExtra)
 
 Different data sets were collected from CHHS and CDC Wonder. The report of human cases for California had data arrange by week and county for the years 2006 to 2018. The data is available in:
 
-[CHHS](https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06)
+[CHHS]<https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06>
 
 Daily precipitation and temperature in California were downloaded from CDC Wonder website. Every year was pulled independently. The request form might be found in the following website.
 
-[CDC Wonder](https://wonder.cdc.gov/)
+[CDC Wonder]<https://wonder.cdc.gov/>
 
 ```{r, uploading data sets used, human cases and weather data}
 report <-  read_csv( "../Data/wnv_human_cases.csv")
