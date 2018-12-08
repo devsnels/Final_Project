@@ -1,0 +1,103 @@
+---
+title: 'Final Report: Prediction of West Niles Virus Human Cases in Southern California by Precipitation and Temperature from 2006-2010'
+author: "Devin, Anstasia, Grant, Ana"
+date: "December 7, 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = "markup")
+```
+
+## Project Aim.
+
+	The main focus of this project was to use R to add to the expanding epidemiological research on West Nile Virus in North America.  Specifically, we wanted to investigate the *relationships that exist between Nest Nile Virus incidence and weather*.  Temperature and precipitation were the weather metrics that were selected and compared against West Nile Cases.  Due to the accessibility of weather and case data, the scope of analysis was narrowed to **Southern California**.  It was hypothesized that cases of West Nile Virus in California would be higher in counties with high temperatures and precipitation than in low temperature and precipitation counties.  In order to test this hypothesis a shiny app was developed to visualize how temperature and precipitation by county compared to county case data.  
+	
+## Data Sources
+
+	In order to generate the shiny web app, data on weather and West Nile cases by county was gathered and loaded into R.  The first data set used was California West Nile cases by county and was downloaded from the California Department of Public Health website. 
+	
+	[CHHS](https://data.chhs.ca.gov/dataset/west-nile-virus-cases-2006-present/resource/6ef33c1b-9f54-49f2-a92e-51a1b78f0a06)
+	
+	This data ranged from 2006 to present and included the year, week, county, and the number of positive cases.  California temperature data was gathered from the Centers for Disease Control Wonder website (CDC Wonder). 
+	
+	[CDC Wonder](https://wonder.cdc.gov/)
+	
+	Data was obtained for 2006 to 2011 and included the state, state code, county, county code, date, average max temp, and average min temp.  California precipitation data was also obtained from the CDC Wonder website for the years 2006 to 2011.  This data set included state, state code, county, county code, date, daily precipitation, and average daily precipitation.  
+
+```{r, data sets}
+library(dplyr)
+library(stringr)
+library(tidyselect)
+library(ggplot2)
+library(rmarkdown)
+library(RColorBrewer)
+library(knitr)
+library(forcats)
+library(readr)
+library(tidyr)
+library(broom)
+library(purrr)
+library(scales)
+library(lubridate)
+library(viridis)
+library(RColorBrewer)
+library(scales)
+library(tidyverse)
+library(tigris)
+library(sf)
+library(cowplot)
+library(gridExtra)
+report <-  read_csv( "../Data/wnv_human_cases.csv")
+temp_2006 <- read_csv("../Data/temp/temp_2006.csv")
+temp_2007 <- read_csv("../Data/temp/temp_2007.csv")
+temp_2008 <- read_csv("../Data/temp/temp_2008.csv")
+temp_2009 <- read_csv("../Data/temp/temp_2009.csv")
+temp_2010 <- read_csv("../Data/temp/temp_2010.csv")
+precip_2006 <- read_csv("../Data/precip/precip_2006.csv")
+precip_2007 <- read_csv("../Data/precip/precip_2007.csv")
+precip_2008 <- read_csv("../Data/precip/precip_2008.csv")
+precip_2009 <- read_csv("../Data/precip/precip_2009.csv")
+precip_2010 <- read_csv("../Data/precip/precip_2010.csv")
+
+cases <- report %>% 
+  select(Year, 
+         county = County, 
+         positive_cases = "Positive Cases") %>% 
+  mutate(date = Year) %>% 
+  filter(date %in% c("2006", "2007", "2008", "2009", "2010")) %>% 
+  group_by(date, county) %>% 
+  summarize(positive_cases = sum(positive_cases)) %>% 
+  ungroup %>% 
+  arrange(date)
+
+kable(head(cases, 2))
+
+temp <- rbind(temp_2006, temp_2007, temp_2008, temp_2009, temp_2010)
+
+temp <- temp %>% 
+  select(County, "County Code", "Month Day, Year Code", "Day of Year", 
+         "Avg Daily Max Air Temperature (F)", 
+         "Avg Daily Min Air Temperature (F)") %>% 
+  rename(county = County,
+         fips = "County Code",
+         date = "Month Day, Year Code",
+         day_year = "Day of Year",
+         max_temp = "Avg Daily Max Air Temperature (F)",
+         min_temp_f = "Avg Daily Min Air Temperature (F)") %>% 
+  mutate(date = mdy(date)) 
+kable(head(temp, 2))
+
+precip <- rbind(precip_2006, precip_2007, precip_2008, precip_2009, precip_2010)
+
+precip <- precip %>%
+  select(County, "Month Day, Year Code", "Avg Daily Precipitation (mm)")%>%
+  rename(county = County,
+         date = "Month Day, Year Code",
+         avg_precip = "Avg Daily Precipitation (mm)") %>% 
+  mutate(date = mdy(date))
+
+kable(head(precip, 2))
+
+```
+
