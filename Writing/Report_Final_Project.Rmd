@@ -40,12 +40,11 @@ Control Wonder website (CDC Wonder).
 	
 [CDC Wonder]<https://wonder.cdc.gov/>
 	
-	Data was obtained for 2006 to 2011 and included the state,
-state code, county, county code, date, average max temp, and
-average min temp. California precipitation data was also
-obtained from the CDC Wonder website for the years 2006 to
-2011. This data set included state, state code, county, county
-code, date, daily precipitation, and average daily
+	Data was obtained for 2006 to 2011 and included the state, state code, county,
+county code, date, average max temp, and average min temp. California
+precipitation data was also obtained from the CDC Wonder website for the years
+2006 to 2011. This data set included state, state code, county, county code,
+date, daily precipitation, and average daily
 precipitation.  
 
 ```{r, data sets}
