@@ -55,7 +55,7 @@ plot_map <- function(df = ca_county_cases,
     ggpubr::rotate_x_text(angle = 60) 
   
   
-  final_plot <- grid.arrange(cases_plot, precip_plot, temp_plot, nrow = 1)
+  final_plot <- grid.arrange(cases_plot, precip_plot, temp_plot, ncol = 1, nrow = 3)
 
   return(final_plot)
   

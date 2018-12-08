@@ -2,9 +2,8 @@ shinyUI(fluidPage(
 
   titlePanel("California Maps"),
   
-  plotOutput("california_map"),
-  
-  hr(),
+  column(12, plotOutput("california_map")),
+
 
   fluidRow(
     column(12,
