@@ -44,7 +44,7 @@ plot_map <- function(df = ca_county_cases,
   
   precip_plot <- ggplot(data = df) + 
    geom_sf(data = df, aes(fill = avg_precip)) +
-   viridis::scale_fill_viridis(aes(name = "Average Precipitation (in)"), limits = c(0,2.5)) +
+   viridis::scale_fill_viridis(aes(name = "Average Precipitation (mm)"), limits = c(0,2.5)) +
     ggpubr::rotate_x_text(angle = 60) 
 
   temp_plot <- ggplot(data = df) + 
