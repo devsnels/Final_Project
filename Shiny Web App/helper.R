@@ -49,7 +49,7 @@ plot_map <- function(df = ca_county_cases,
 
   temp_plot <- ggplot(data = df) + 
     geom_sf(data = df, aes(fill = avg_max_temp)) +
-    viridis::scale_fill_viridis(aes(name = " Average Temperature (F)"), limits = c(0,100)) +
+    viridis::scale_fill_viridis(aes(name = " Average Temperature (F)"), limits = c(65,90)) +
     ggpubr::rotate_x_text(angle = 60) 
   
   
